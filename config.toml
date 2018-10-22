@@ -1,0 +1,32 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Relational Agents Group"
+theme = "rag-theme"
+
+[params]
+    description = "Relational Agents Group website"
+
+[[menu.main]]
+    url = "/"
+    name = "home"
+    weight = 1
+[[menu.main]]
+    url = "/projects"
+    name = "projects"
+    weight = 3
+[[menu.main]]
+    url = "/people"
+    name = "people"
+    weight = 2
+[[menu.main]]
+    url = "/publications"
+    name = "publications"
+    weight = 4
+[[menu.main]]
+    url = "/demoes"
+    name = "demoes"
+    weight = 5
+[[menu.main]]
+    url = "/press"
+    name = "press"
+    weight = 6

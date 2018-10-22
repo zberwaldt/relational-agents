@@ -1,0 +1,49 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    min-width: 80%;
+    padding: 0 16px;
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+}
+
+#gallery {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar, .container, .navbar ul {
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 16px;
+}
+

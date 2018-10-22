@@ -1,0 +1,8 @@
+{{ partial "header" . }}
+
+    {{ if eq .Section "pages"}}
+        {{ .Title }}
+        {{ .Content }}
+    {{ end }}
+
+{{ partial "footer" . }}
