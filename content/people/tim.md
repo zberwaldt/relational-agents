@@ -1,9 +1,8 @@
 ---
-name: Timothy Bickmore
-position: Professor
-education: MIT
-bio: Tell me about yourself.
-date: 2018-10-22T11:17:25-04:00
-image: images/bickmore.jpg
-draft: false
+name: "Tim"
+position: "Job position"
+bio:  "Tell me about yourself."
+image: "images/bickmore.jpg"
+date: 2018-10-22T15:16:16-04:00
+draft: true
 ---

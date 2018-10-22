@@ -1,11 +1,23 @@
 ---
-title: People
-position: Job position
+title: "People"
 date: 2018-10-22T11:10:42-04:00
+
 resources: 
-- name: Timothy Bickmore
-  src: images/bickmore.jpg
-- name: Zach Berwaldt
-  src: images/zach.jpg
-draft: false
+- src: 'bickmore.jpg'
+  name: Timothy Bickmore
+  role: 'Director' 
+- src: 'zach.jpg'
+  name: Zach Berwaldt
+  role: 'Digital Artist'
+- src: null
+  name: Dhaval Parmar
+  role: 'Research Scientist'
+- src: null
+  name: Dina Utami
+  role: 'CD PhD Student'
+- src: null
+  name: Amenah Shamekhi
+  role: 'CS PhD Student'
 ---
+
+These are our people.

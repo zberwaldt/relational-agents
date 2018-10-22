@@ -4,7 +4,17 @@
     {{ if eq .Section "pages"}}
         {{ .Title }}
         {{ .Content }}
+    {{ else }}
+        <h1>{{ .Title }}</h1>
+        {{ .Resources.GetMatch "main image" }}
+        {{ with .Resources.ByType "image" }}
+            {{ range . }}
+                <img src="{{ .Permalink }}" alt=""/>
+            {{ end }}
+        {{ end }}
+        <p>{{ .Content }}</p>
     {{ end }}
+
 </main>
 
 {{ partial "footer" . }}
