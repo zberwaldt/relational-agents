@@ -2,19 +2,19 @@
 
 <main>
     {{ if eq .Section "projects"}}
-        <h1>{{ .Title }}</h1>
-        {{ .Resources.GetMatch "main image" }}
-        {{ with .Resources.ByType "image" }}
-            {{ range . }}
-                <img src="{{ .Permalink }}" alt=""/>
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+            {{ with .Resources.GetMatch "main image" }}
+                <img class="main-image" src="{{ .Permalink }}" alt="{{ .Name }}"/>
             {{ end }}
-        {{ end }}
-        <p>{{ .Content }}</p>
+            <p>{{ .Content }}</p>
+        </div>
     {{ else }}
-        {{ .Title }}
-        {{ .Content }}
+        <div class="container">
+            {{ .Title }}
+            {{ .Content }}
+        </div>
     {{ end }}
-
 </main>
 
 {{ partial "footer" . }}

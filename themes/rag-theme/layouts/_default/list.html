@@ -21,11 +21,12 @@
     {{ if eq .Section "projects" }}
         <h1>Projects</h1>
         {{ range .Pages }}
-        <h2>{{ .Title }}</h2>
-        <a href="{{ lower .Params.url }}">Link</a>
+            <h2>{{ .Title }}</h2>
+            <a href="{{ lower .Params.url }}">Link</a>
+            {{ if .Params.categories }} categories: {{ range .Params.categories }} <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}
         {{ end }}
     {{ end }}
-
+  
     {{ if eq .Section "publications" }}
         {{ range .Pages }}
             <h3>{{ .Name }}</h3>

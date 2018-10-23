@@ -2,6 +2,7 @@
 title: "Aflit"
 description: "Tell me about this project"
 url: "/aflit/"
+categories: ["current"]
 resources:
 - name: main image
   src: images/bickmore.jpg
