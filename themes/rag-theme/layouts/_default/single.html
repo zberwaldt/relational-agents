@@ -7,7 +7,7 @@
             {{ with .Resources.GetMatch "main image" }}
                 <img class="main-image" src="{{ .Permalink }}" alt="{{ .Name }}"/>
             {{ end }}
-            <p>{{ .Content }}</p>
+            {{ .Content }}
         </div>
     {{ else }}
         <div class="container">

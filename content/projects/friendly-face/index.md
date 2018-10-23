@@ -7,7 +7,6 @@ resources:
 - src: image
   name: main image
 date: 2018-10-22T16:03:01-04:00
-draft: true
+draft: false
 ---
-
 A bunch of stuff about this project.

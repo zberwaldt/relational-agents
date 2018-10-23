@@ -19,32 +19,26 @@
     {{ end }}
 
     {{ if eq .Section "projects" }}
-        <h1>Projects</h1>
-        {{ range .Pages }}
-            <h2>{{ .Title }}</h2>
-            <a href="{{ lower .Params.url }}">Link</a>
-            {{ if .Params.categories }} categories: {{ range .Params.categories }} <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}
-        {{ end }}
-    {{ end }}
-  
-    {{ if eq .Section "publications" }}
-        {{ range .Pages }}
-            <h3>{{ .Name }}</h3>
-            <p>{{ .Description }}</p>
-            <p>{{ .Params.year  }}</p>
-            <ul>
-                {{ range .Params.authors }}
-                <li>{{ .name }}</li>
-                {{ end }}
-            </ul>
-            {{ if .Params.pdf }}
-                it has a pdf
-            {{ else if .Params.url }}
-                it has a source
-            {{ else }}
-                Move along.
+        <div class="container">
+            <h1>Projects</h1>
+            {{ range .Pages }}
+                <h2>{{ .Title }}</h2>
+                <a href="{{ lower .Params.url }}">Link</a>
+                {{ if .Params.categories }} categories: {{ range .Params.categories }} <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}
             {{ end }}
-        {{ end }}
+        </div>
+    {{ end }}
+    {{ if eq .Section "publications" }}
+        <div id="publications" class="container grid">
+            <h2>Publications</h2>
+            {{ range .Resources }}
+            <div class="publication">
+                <h3>{{ .Title }}</h3>
+                {{ .MediaType }}
+                <a href="{{ .RelPermalink }}" alt="" download>Download</a>
+            </div>
+            {{ end }}
+        </div>
     {{ end }}
     </main>
 

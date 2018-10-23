@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://relationalagents.com/"
 languageCode = "en-us"
 title = "Relational Agents Group"
 theme = "rag-theme"
@@ -26,3 +26,8 @@ theme = "rag-theme"
     url = "/press"
     name = "press"
     weight = 5
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+year = "years"

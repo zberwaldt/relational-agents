@@ -31,8 +31,16 @@ main {
     display: grid;
 }
 
-#gallery {
+#gallery, #publications {
     grid-template-columns: repeat(4, 1fr);
+}
+
+#publications h2 {
+    grid-column: span 4;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .flex {
@@ -61,4 +69,12 @@ main {
 .main-image {
     float: left;
     margin: 0 16px;
+}
+
+#footer {
+    align-items:center;
+    justify-content: center;
+    height: 75px;
+    color: hsla(0, 0%, 100%, .95);
+    background: hsl(0, 0%, 8%);
 }

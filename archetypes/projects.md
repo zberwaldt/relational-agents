@@ -6,5 +6,5 @@ resources:
 - src: image
   name: main image
 date: {{ .Date }}
-draft: true
+draft: false
 ---
