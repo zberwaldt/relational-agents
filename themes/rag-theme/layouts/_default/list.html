@@ -25,6 +25,26 @@
         <a href="{{ lower .Params.url }}">Link</a>
         {{ end }}
     {{ end }}
+
+    {{ if eq .Section "publications" }}
+        {{ range .Pages }}
+            <h3>{{ .Name }}</h3>
+            <p>{{ .Description }}</p>
+            <p>{{ .Params.year  }}</p>
+            <ul>
+                {{ range .Params.authors }}
+                <li>{{ .name }}</li>
+                {{ end }}
+            </ul>
+            {{ if .Params.pdf }}
+                it has a pdf
+            {{ else if .Params.url }}
+                it has a source
+            {{ else }}
+                Move along.
+            {{ end }}
+        {{ end }}
+    {{ end }}
     </main>
 
 {{ partial "footer" .}}
