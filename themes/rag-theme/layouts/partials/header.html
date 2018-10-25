@@ -1,27 +1,19 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {{ partial "css" . }}
-    <title>{{ .Title }}</title>
-</head>
 <body>
     <nav class="navbar flex">
         <div class="container flex">
             <div class="brand">
-                <img src="#" alt="relational agents logo" />
+                <img src="{{.Site.BaseURL}}rag-64.png" alt="relational agents logo" />
                 <a href="/" class="brand">{{ .Site.Title }}</a>
             </div>
-            <ul class="flex">
-                    {{ if .Site.Menus.main }}
-                        {{ range sort .Site.Menus.main }}
-                            <li>
-                                <a href="{{ .URL }}">{{ .Name }}</a>
-                            </li>
-                        {{ end }}
-                    {{ end}}
+            <ul class="pages flex">
+            {{ if .Site.Menus.main }}
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                    <li class="{{ if eq (lower $currentPage.Title) .Name }}active{{ end }}">
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                {{ end }}
+            {{ end}}
             </ul>
         </div>
     </nav>

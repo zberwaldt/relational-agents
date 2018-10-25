@@ -1,6 +1,4 @@
-{{ partial "header" . }}
-
-<main>
+{{ define "main" }}
     {{ if eq .Section "projects"}}
         <div class="container">
             <h1>{{ .Title }}</h1>
@@ -11,10 +9,8 @@
         </div>
     {{ else }}
         <div class="container">
-            {{ .Title }}
+            <h1>{{ .Title }}</h1>
             {{ .Content }}
         </div>
     {{ end }}
-</main>
-
-{{ partial "footer" . }}
+{{ end }}

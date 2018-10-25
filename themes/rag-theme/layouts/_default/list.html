@@ -1,45 +1,8 @@
-{{ partial "header" .}}
-
-    <main>
-    {{ if eq .Section "people" }}
-        <div id="gallery" class="container grid">
-        {{ range .Pages }}
-            <figure class="image" 
-                    data-name="{{ .Params.name }}" 
-                    data-bio="{{ .Params.bio }}" 
-                    data-position="{{ .Params.position }}"
-                    data-education="{{ .Params.education }}">
-                <h1>{{ .Params.name }}</h1>
-                <h2>{{ .Params.position }}</h2>
-                <img src="{{ .Params.image }}" alt="{{ .Params.name }}"/>
-                <p>{{ .Params.bio }}</p>
-            </figure>
-        {{ end }}
-        </div>
-    {{ end }}
-
-    {{ if eq .Section "projects" }}
-        <div class="container">
-            <h1>Projects</h1>
-            {{ range .Pages }}
-                <h2>{{ .Title }}</h2>
-                <a href="{{ lower .Params.url }}">Link</a>
-                {{ if .Params.categories }} categories: {{ range .Params.categories }} <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}
-            {{ end }}
-        </div>
-    {{ end }}
-    {{ if eq .Section "publications" }}
-        <div id="publications" class="container grid">
-            <h2>Publications</h2>
-            {{ range .Resources }}
-            <div class="publication">
-                <h3>{{ .Title }}</h3>
-                {{ .MediaType }}
-                <a href="{{ .RelPermalink }}" alt="" download>Download</a>
-            </div>
-            {{ end }}
-        </div>
-    {{ end }}
-    </main>
-
-{{ partial "footer" .}}
+{{ define "main" }}
+<div class="container">
+   <h1>{{ .Title }}</h1>
+   {{ range .Pages }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+   {{ end }}
+</div>
+{{ end }}

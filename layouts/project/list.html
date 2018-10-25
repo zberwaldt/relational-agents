@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+        {{ range (.Paginator 2).Pages }}
+            <h2>{{ .Title }}</h2>
+            <a href="{{ lower .Params.url }}">Link</a>
+            {{ if .Params.categories }} categories: {{ range .Params.categories }} <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}
+        {{ end }}
+        {{ template "_internal/pagination.html" . }}
+    </div>
+{{ end }}

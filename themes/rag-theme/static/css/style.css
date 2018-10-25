@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400, 500');
+
+:root {
+    --main-text-color: hsla(0, 0%, 0%, .8);
+    --inverse-text-color:  hsla(0, 0%, 100%, .8);
+    --primary-font: 'Roboto', sans-serif;
+}
+
 html {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: var(--primary-font);
 }
 
 html, body {
     width: 100vw;
     height: 100vh;
     padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
@@ -20,7 +32,33 @@ main {
     flex-grow: 2;
 }
 
+a {
+    display: inline-block;
+}
+
+i.fas, i.far {
+    margin: 4px;
+}
+
+.dl-link, 
+.view-link {
+    color: var(--main-text-color);
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity .2s ease-in-out,
+                transform .2s ease-in-out;
+}
+
+.dl-link:hover,
+.view-link:hover {
+    transition: opacity .2s ease-in-out,
+                transform .2s ease-in-out;
+    opacity: .8;
+    transform: scale(.95);
+}
+
 .container {
+    margin: 0 auto;
     max-width: 1100px;
     min-width: 80%;
     padding: 0 16px;
@@ -29,6 +67,17 @@ main {
 
 .grid {
     display: grid;
+}
+
+.pagination {
+    margin: auto;
+    justify-content: center;
+    list-style:none;
+    padding: 0;
+}
+
+.pagination .page-item {
+    margin: 8px;
 }
 
 #gallery, #publications {
@@ -43,14 +92,45 @@ main {
     text-align: center;
 }
 
-.flex {
+.flex,
+.pagination {
     display: flex;
 }
 
 .navbar {
     width: 100%;
     justify-content: center;
+    flex-shrink: 0;
     height: 64px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    transform: scale(1);
+    transition: transform .2s ease-in-out, color .2s ease-in-out;
+}
+
+.navbar a:hover {
+    color: blue;
+    transform: scale(.95);
+    transition: transform .2s ease-in-out, color .2s ease-in-out;
+}
+.active a{
+    color: blue;
+}
+
+div.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    width: 32px;
+    height: 32px;
+    margin: 8px;
 }
 
 .navbar, .container, .navbar ul {
@@ -72,9 +152,10 @@ main {
 }
 
 #footer {
+    flex-shrink: 0;
     align-items:center;
     justify-content: center;
-    height: 75px;
-    color: hsla(0, 0%, 100%, .95);
+    height: 155px;
+    color: var(--inverse-text-color);
     background: hsl(0, 0%, 8%);
 }

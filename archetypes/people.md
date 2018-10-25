@@ -4,5 +4,5 @@ position: "Job position"
 bio:  "Tell me about yourself."
 image: images/image-name.ext
 date: {{ .Date }}
-draft: true
+draft: false
 ---

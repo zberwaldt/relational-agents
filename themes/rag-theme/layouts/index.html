@@ -1,34 +1,30 @@
-{{ partial "header" .}}
+{{ define "main" }}
+<section class="jumbotron">
+    <div class="container">
+        <div class="section-content half-width">
+            <h2 class="subtitle"></h2>
+            <h1 class="description">Designing Conversational Agents</h1>
+            <h3 class=""></h3>
+        </div>
+    </div>
+</section>
+<section id="explore">
+    <div class="container">
+        <div class="section-content half-width">
+            <h2 class="subtitle"></h2>
+            <h2 class="description">Explore our projects</h2>
+            <p class="exposition"></p>
+        </div>  
+    </div>
+</section>
+<section id="news">
+    <div class="container">
+        <h2></h2>
+    </div>
+</section>
+<section id="team">
+    <div class="container">
 
-<main>
-    <section class="jumbotron">
-        <div class="container">
-            <div class="section-content half-width">
-                <h2 class="subtitle"></h2>
-                <h1 class="description">Designing Conversational Agents</h1>
-                <h3 class=""></h3>
-            </div>
-        </div>
-    </section>
-    <section id="explore">
-        <div class="container">
-            <div class="section-content half-width">
-                <h2 class="subtitle"></h2>
-                <h2 class="description">Explore our projects</h2>
-                <p class="exposition"></p>
-            </div>  
-        </div>
-    </section>
-    <section id="news">
-        <div class="container">
-            <h2></h2>
-        </div>
-    </section>
-    <section id="team">
-        <div class="container">
-
-        </div>
-    </section>
-</main>
-
-{{ partial "footer" .}}
+    </div>
+</section>
+{{ end }}

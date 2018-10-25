@@ -7,7 +7,7 @@ theme = "rag-theme"
     description = "Relational Agents Group website"
 
 [[menu.main]]
-    url = "/projects"
+    url = "/project"
     name = "projects"
     weight = 2
 [[menu.main]]
@@ -15,11 +15,11 @@ theme = "rag-theme"
     name = "people"
     weight = 1
 [[menu.main]]
-    url = "/publications"
+    url = "/publication"
     name = "publications"
     weight = 3
 [[menu.main]]
-    url = "/demoes"
+    url = "/demo"
     name = "demoes"
     weight = 4
 [[menu.main]]

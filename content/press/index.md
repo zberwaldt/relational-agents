@@ -1,4 +1,3 @@
 ---
-name: press
-title: press
+title: "Press"
 ---

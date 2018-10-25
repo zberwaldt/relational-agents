@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <div id="gallery" class="container grid">
+    {{ range .Pages }}
+        <figure class="image" 
+                data-name="{{ .Params.name }}" 
+                data-bio="{{ .Params.bio }}" 
+                data-position="{{ .Params.position }}"
+                data-education="{{ .Params.education }}">
+            <h1>{{ .Params.name }}</h1>
+            <h2>{{ .Params.position }}</h2>
+            <img src="{{ .Params.image }}" alt="{{ .Params.name }}"/>
+            <p>{{ .Params.bio }}</p>
+        </figure>
+    {{ end }}
+    </div>
+{{ end }}
