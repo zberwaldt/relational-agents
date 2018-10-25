@@ -1,0 +1,32 @@
+{{ define "main" }}
+    {{ $title := .Title }}
+    <div class="container">
+            <h1>{{ .Title }}</h1>
+            <a class="back-link" href="/project/">Go back</a>
+            {{ with .Resources.GetMatch "main image" }}
+                <img class="main-image" src="{{ .Permalink }}" alt="{{ .Name }}"/>
+            {{ end }}
+            {{ .Content }}
+            <section class="related-publications">
+                <h2> Publications </h2>
+                <ul>
+                {{ range .Site.Pages}}
+                    {{ if (and (eq .Type "publication") (eq .Params.project $title))}}
+                    <li>
+                        <p>{{ .Title }}</p>
+                        <p>{{ .Params.year }}</p>
+                        {{ if .Resources }}
+                            {{ with .Resources.GetMatch "*" }}
+                                <a class="dl-link" href="{{ .RelPermalink }}" download >download <i class="far fa-download"></i><i class="far fa-file-pdf"></i></a>
+                            {{ end }}
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                {{ end }}
+                </ul>
+            </section>
+            <section class="demo">
+
+            </section>
+    </div>
+{{ end }}

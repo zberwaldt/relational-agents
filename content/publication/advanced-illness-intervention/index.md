@@ -2,6 +2,7 @@
 name: "Advanced Illness Intervention"
 title: "Embodied conversational agents for patients with advanced illnesses intervention description and trial design "
 event: "Society for General Internal Medicine Annual Conference"
+project: "Palliative Care Agent"
 authors: 
 - name: "Waite, K."
 - name: "Henault, L."

@@ -40,6 +40,11 @@ i.fas, i.far {
     margin: 4px;
 }
 
+.back-link {
+    clear: left;
+}
+
+.back-link,
 .dl-link, 
 .view-link {
     color: var(--main-text-color);
@@ -49,6 +54,7 @@ i.fas, i.far {
                 transform .2s ease-in-out;
 }
 
+.back-link:hover,
 .dl-link:hover,
 .view-link:hover {
     transition: opacity .2s ease-in-out,
@@ -110,13 +116,15 @@ i.fas, i.far {
     text-transform: uppercase;
     color: var(--main-text-color);
     transform: scale(1);
-    transition: transform .2s ease-in-out, color .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+                color .2s ease-in-out;
 }
 
 .navbar a:hover {
     color: blue;
     transform: scale(.95);
-    transition: transform .2s ease-in-out, color .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+                color .2s ease-in-out;
 }
 .active a{
     color: blue;
@@ -147,8 +155,10 @@ div.brand {
 }
 
 .main-image {
+    height: auto;
+    width: 50%;
     float: left;
-    margin: 0 16px;
+    margin: 0 16px 0 0;
 }
 
 #footer {

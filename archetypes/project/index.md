@@ -3,8 +3,10 @@ title: "{{ replace .Name "-" " " | title }}"
 description: "Tell me about this project"
 url: "/{{ lower .Name }}/"
 resources:
-- src: image
-  name: main image
+- name: main image
+  src: image.jpg
+- name: demo video
+  src: demo.mov
 date: {{ .Date }}
 draft: false
 ---

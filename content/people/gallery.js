@@ -1,5 +1,4 @@
 (function gallery(document) {
-    
     let $ = document;
     
     $.addEventListener('click', (e) => {
