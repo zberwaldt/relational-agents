@@ -14,5 +14,5 @@ year: 2018
 resources: null
 external_url: "http://www.jmir.org/2018/2/e48/"
 date: 2018-10-25T09:09:25-04:00
-draft: true
+draft: false
 ---

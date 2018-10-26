@@ -86,7 +86,7 @@ i.fas, i.far {
     margin: 8px;
 }
 
-#gallery, #publications {
+#gallery {
     grid-template-columns: repeat(4, 1fr);
 }
 
@@ -94,13 +94,51 @@ i.fas, i.far {
     grid-column: span 4;
 }
 
+.publication-list {
+    margin: 32px 0;
+}
+
+.publication {
+    padding: 8px;
+}
+
+.publication:nth-child(odd) {
+    background: rgba(102, 199, 255, 0.856);
+}
+
+.years {
+    flex-basis: 33%;
+    background-color: hsla(0,0%, 0%, .9);
+    position: sticky;
+    align-self: flex-start;
+    top: 16px;
+    margin-top: 32px;
+    margin-left: 24px;
+    padding: 16px;
+}
+
+.years h4 {
+    color: white;
+}
+
+.years a {
+    color: white;
+}
+
 .text-center {
     text-align: center;
 }
 
-.flex,
-.pagination {
+.flex {
     display: flex;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.f-column {
+    flex-direction: column;
 }
 
 .navbar {

@@ -1,7 +1,7 @@
 ---
 name: "Agents Improving Human Social Interactions"
 title: "Agents that Improve Human Social Interactions: Towards a Robotic Couples Counselor"
-project: "Put the name of the project that served as the basis for this publication (e.g. Atrial Fibulation)"
+project: null
 event: "International Conference on Virtual Social Interaction"
 authors: 
 - name: "Bickmore, T."

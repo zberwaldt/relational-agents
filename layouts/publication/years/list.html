@@ -1,0 +1,36 @@
+{{ define "main" }}
+    <div id="publications" class="container flex f-row">
+        <div class="publication-list">
+        {{ range (.Pages.GroupByParam "year").Reverse }}
+            <h1>{{ .Key }}</h1>
+            {{ range .Pages }}
+            <div class="publication">
+                <h3>{{ .Title }}</h3>
+                <ul class="authors">
+                {{ range .Params.authors }}
+                    <li class="author">
+                        {{ .name }} {{ if .appearing }}(to appear){{ end }}
+                    </li>
+                {{ end }}
+                </ul>
+                <p>{{ .Params.year }}</p>
+                {{ if .Resources }}
+                    {{ with .Resources.GetMatch "*" }}
+                        <a class="dl-link" href="{{ .RelPermalink }}" download >download <i class="far fa-download"></i><i class="far fa-file-pdf"></i></a>
+                    {{ end }}
+                {{ end }}
+                {{ if .Params.external_url }}
+                    <a class="view-link" rel="noopener noreferrer" href="{{ .Params.external_url }}" target="_blank">view <i class="far fa-external-link"></i></a>
+                {{ end }}
+            </div>
+            {{ end }}
+        {{ end }}
+        </div>
+        <aside class="years flex f-column">
+            <h4>Publications by year:</h4>
+            {{ range sort .Parent.Sections "Title" "desc" }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ end }}
+        </aside>
+    </div>
+{{ end }}

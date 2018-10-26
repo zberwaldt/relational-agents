@@ -1,26 +1,7 @@
 {{ define "main" }}
-    <div id="publications" class="container">
-        <h2>{{ .Title }}</h2>
-        {{ range .Pages }}
-        <div class="publication">
-            <h3>{{ .Title }}</h3>
-            <ul class="authors">
-            {{ range .Params.authors }}
-                <li class="author">
-                    {{ .name }} {{ if .appearing }}(to appear){{ end }}
-                </li>
-            {{ end }}
-            </ul>
-            <p>{{ .Params.year }}</p>
-            {{ if .Resources }}
-                {{ with .Resources.GetMatch "*" }}
-                    <a class="dl-link" href="{{ .RelPermalink }}" download >download <i class="far fa-download"></i><i class="far fa-file-pdf"></i></a>
-                {{ end }}
-            {{ end }}
-            {{ if .Params.external_url }}
-                <a class="view-link" rel="noopener noreferrer" href="{{ .Params.external_url }}" target="_blank">view <i class="far fa-external-link"></i></a>
-            {{ end }}
-        </div>
+    <div id="publications" class="container flex f-column">
+        {{ range .Sections }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
     </div>
 {{ end }}
