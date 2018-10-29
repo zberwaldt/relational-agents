@@ -4,9 +4,9 @@ title: "Health Document Explanation by Virtual Agents"
 project: null
 event: "Intelligent Virtual Agents '07, Paris."
 authors:
-- name: "Bickmore, T.."
-- name: "Pfeifer, L.."
-- name: "Orlow, M.."
+- name: "Bickmore, T."
+- name: "Pfeifer, L."
+- name: "Orlow, M."
 year: 2007
 resources:
 - name: "IVA07-DocEx"

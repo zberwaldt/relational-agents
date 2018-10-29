@@ -4,8 +4,8 @@ title: "Towards Plan-based Health Behavior Change Counseling Systems."
 project: null
 event: "AAAI Spring Symposium on Argumentation for Consumers of Healthcare, Stanford, CA."
 authors:
-- name: "Bickmore, T.."
-- name: "Sidner, C.."
+- name: "Bickmore, T."
+- name: "Sidner, C."
 year: 2006
 resources:
 - name: "AAAI06"

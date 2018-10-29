@@ -4,9 +4,9 @@ title: "The Role of Gesture in Document Explanation by Embodied Conversational A
 project: null
 event: "International Journal of Semantic Computing, Vol. 2, No. 1, 47-70"
 authors:
-- name: "Bickmore, T.."
-- name: "Pfeifer, L.."
-- name: "Yin, L.."
+- name: "Bickmore, T."
+- name: "Pfeifer, L."
+- name: "Yin, L."
 year: 2008
 resources:
 - name: "SemanticComputing"

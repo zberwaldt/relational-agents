@@ -4,10 +4,10 @@ title: "Negotiating Task Interruptions with Virtual Agents for Health Behavior C
 project: null
 event: "Autonomous Agents and Multi-Agent Systems (AAMAS) '08."
 authors:
-- name: "Bickmore, T.."
-- name: "Mauer, D.."
-- name: "Crespo, F.."
-- name: "Brown, T.."
+- name: "Bickmore, T."
+- name: "Mauer, D."
+- name: "Crespo, F."
+- name: "Brown, T."
 year: 2008
 resources:
 - name: "aamas08"
