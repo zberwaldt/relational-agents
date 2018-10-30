@@ -35,8 +35,6 @@ for item in link_list_items:
         if not os.path.exists(processed_link):
             os.makedirs(processed_link)
             os.chdir(processed_link)
-        
-        print(os.getcwd())
 
         project_index_file = open('index.md', 'w')
 
@@ -69,5 +67,6 @@ for item in link_list_items:
         project_index_file.write(out_content)
         project_index_file.close()
         os.chdir('..')
+        print(os.getcwd())
 
 
