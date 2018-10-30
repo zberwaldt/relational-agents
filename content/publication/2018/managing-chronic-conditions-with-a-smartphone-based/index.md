@@ -1,0 +1,17 @@
+---
+name: "Managing Chronic Conditions With A Smartphone Based"
+title: "Managing Chronic Conditions with a Smartphone-based Conversational Virtual Agent"
+project: null
+event: "International Conference on Intelligent Virtual Agents (IVA)"
+authors:
+- name: "Bickmore, T."
+- name: "Kimani, E."
+- name: "Trinh, H."
+- name: "Pusateri, A."
+- name: "Orlow, M."
+- name: "Magnani, J."
+year: 2018
+resources: null
+external_url: null
+draft: false
+---
