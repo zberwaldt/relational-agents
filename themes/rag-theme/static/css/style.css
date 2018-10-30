@@ -12,7 +12,7 @@ html {
 }
 
 html, body {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     padding: 0;
     margin: 0;
@@ -30,6 +30,8 @@ body {
 
 main {
     flex-grow: 2;
+    background-color: hsl(0, 0%, 95%);
+    padding: 32px 0;
 }
 
 a {
@@ -71,6 +73,10 @@ i.fas, i.far {
     justify-content: space-between;
 }
 
+.container.flex.f-row {
+    align-items: flex-start;
+}
+
 .grid {
     display: grid;
 }
@@ -86,19 +92,51 @@ i.fas, i.far {
     margin: 8px;
 }
 
-#gallery, #press {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+#publications {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#press, 
+#projects {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+#publications, 
+#press, 
+#projects {
     grid-template-rows: auto;
     grid-gap: 8px 16px;
 }
 
-#publications h2 {
-    grid-column: span 4;
+.pub-section {
+    text-align: center;
+    color: unset;
+    text-decoration: none;
+    transition: transform .2s ease-in-out;
 }
 
+.pub-section:hover {
+    transition: transform .2s ease-in-out;
+    transform: scale(1.1);
+}
 
+.pub-section h2, .pub-section p, .pub-section h3 {
+    color: hsla(0, 0%, 0%, .8);
+}
 
-.press-item {
+.pub-section h2 {
+    font-size: 1.6em;
+}
+
+.pub-section h3 {
+    font-size: 1.4em;
+}
+
+.pub-section p {
+    font-size: 1.2em;
+}
+
+.press-item, .pub-section, .project {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -128,6 +166,7 @@ i.fas, i.far {
 }
 
 .publication-list {
+    justify-content: flex-start;
     margin: 32px 0;
 }
 

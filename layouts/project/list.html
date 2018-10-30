@@ -1,10 +1,14 @@
 {{ define "main" }}
     <div class="container">
-        <h1>{{ .Title }}</h1>
+        <h1 class="page-title">{{ .Title }}</h1>
+        <div id="projects" class="grid">
         {{ range .Pages }}
+            <div class="project">
             <h2>{{ .Title }}</h2>
+            {{ .Resources }}
             <a href="{{ .URL }}">Link</a>
-            {{ if .Params.categories }} categories: {{ range .Params.categories }} <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}
+            </div>
         {{ end }}
+        </div>
     </div>
 {{ end }}

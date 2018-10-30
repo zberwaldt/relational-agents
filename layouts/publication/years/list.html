@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <div id="publications" class="container flex f-row">
+    <div class="container flex f-row">
         <div class="publication-list">
         {{ range (.Pages.GroupByParam "year").Reverse }}
             <h1>{{ .Key }}</h1>

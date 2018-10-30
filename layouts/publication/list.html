@@ -1,7 +1,14 @@
 {{ define "main" }}
-    <div id="publications" class="container grid">
-        {{ range .Sections }}
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <div class="container">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <div id="publications" class="pub_section grid">
+        {{ range .Sections.Reverse }}
+        <a href="{{ .RelPermalink }}" class="pub-section">
+            <h2>{{ .Title }}</h2>
+            <p>Total papers:</p>
+            <h3>{{(len .Pages)}}</h3>
+        </a>
         {{ end }}
+        </div>
     </div>
 {{ end }}

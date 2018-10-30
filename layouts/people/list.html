@@ -1,17 +1,20 @@
 {{ define "main" }}
-    <div id="gallery" class="container grid">
-    {{ range .Pages }}
-        <figure class="image" 
-                data-name="{{ .Params.name }}" 
-                data-bio="{{ .Params.bio }}" 
-                data-position="{{ .Params.position }}">
-            <h1>{{ .Params.name }}</h1>
-            <h2>{{ .Params.position }}</h2>
-            {{ with .Resources.GetMatch "**.jpg"}}
-                <img src="{{ .Permalink }}" alt="{{ .Name }}"/>
+    <div id="gallery" class="container">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <div id="gallery" class="grid">
+        {{ range .Pages }}
+            <figure class="image" 
+                    data-name="{{ .Params.name }}" 
+                    data-bio="{{ .Params.bio }}" 
+                    data-position="{{ .Params.position }}">
+                <h1>{{ .Params.name }}</h1>
+                <h2>{{ .Params.position }}</h2>
+                {{ with .Resources.GetMatch "**.jpg"}}
+                    <img src="{{ .Permalink }}" alt="{{ .Name }}"/>
+                {{ end }}
+            </figure>
             {{ end }}
-        </figure>
-        {{ end }}
+        </div>
     </div>
 {{ end }}
 
