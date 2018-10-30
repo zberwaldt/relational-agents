@@ -1,6 +1,7 @@
 ---
-title: A Virtual Laboratory for Studying Long-Term Human-Computer Relationships
-url: virtual-laboratory
+title: "A Virtual Laboratory for Studying Long-Term Human-Computer Relationships"
+description: null
+url: "/virtual-laboratory/"
 resources:
 - name: main image
   src: 4_files/image001.gif

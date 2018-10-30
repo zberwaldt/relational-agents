@@ -1,6 +1,7 @@
 ---
-title: Public Speaking Coach
-url: public-speaking-coach
+title: "Public Speaking Coach"
+description: null
+url: "/public-speaking-coach/"
 resources:
 - name: main image
   src: PublicSpeaking_files/robocop.jpg

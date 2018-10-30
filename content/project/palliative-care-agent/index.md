@@ -1,6 +1,7 @@
 ---
-title: Palliative Care Agent
-url: palliative-care-agent
+title: "Palliative Care Agent"
+description: null
+url: "/palliative-care-agent/"
 resources:
 - name: main image
   src: ECAPAL-proxy.jpg

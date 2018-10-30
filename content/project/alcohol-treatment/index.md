@@ -1,6 +1,7 @@
 ---
-title: Alcohol Treatment for Veterans
-url: alcohol-treatment
+title: "Alcohol Treatment for Veterans"
+description: null
+url: "/alcohol-treatment/"
 resources:
 - name: main image
   src: AlcoholTreatment_files/VA_Alcohol.png

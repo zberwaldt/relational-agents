@@ -1,6 +1,7 @@
 ---
-title: An Always On Relational Agent for Social Support of Older Adults
-url: eldercare-agent
+title: "An Always On Relational Agent for Social Support of Older Adults"
+description: null
+url: "/eldercare-agent/"
 resources:
 - name: main image
   src: AlwaysOn_files/AlwaysOnSm.jpg

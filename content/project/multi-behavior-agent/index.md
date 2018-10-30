@@ -1,6 +1,7 @@
 ---
-title: Online Tailored Interventions & Relational Agents for Exercise and Sun Protection (Project RAISE)
-url: multi-behavior-agent
+title: "Online Tailored Interventions & Relational Agents for Exercise and Sun Protection (Project RAISE)"
+description: null
+url: "/multi-behavior-agent/"
 resources:
 - name: main image
   src: 8_files/image001.gif

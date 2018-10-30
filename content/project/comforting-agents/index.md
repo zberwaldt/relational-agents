@@ -1,6 +1,7 @@
 ---
-title: Automated Comforting by Relational Agents
-url: comforting-agents
+title: "Automated Comforting by Relational Agents"
+description: null
+url: "/comforting-agents/"
 resources:
 - name: main image
   src: 12_files/image001.gif

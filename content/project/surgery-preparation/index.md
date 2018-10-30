@@ -1,6 +1,7 @@
 ---
-title: Pre-Surgery Counseling by Relational Agent
-url: surgery-preparation
+title: "Pre-Surgery Counseling by Relational Agent"
+description: null
+url: "/surgery-preparation/"
 resources:
 - name: main image
   src: 13_files/mgh.jpg

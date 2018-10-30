@@ -1,6 +1,7 @@
 ---
-title: Research Ethics and Safety Promoted by Embodied Conversational Technology (RESPECT)
-url: clinical-trial-explanation
+title: "Research Ethics and Safety Promoted by Embodied Conversational Technology (RESPECT)"
+description: null
+url: "/clinical-trial-explanation/"
 resources:
 - name: main image
   src: RESPECT.png

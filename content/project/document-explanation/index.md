@@ -1,6 +1,7 @@
 ---
-title: Health Document Explanation by Relational Agents
-url: document-explanation
+title: "Health Document Explanation by Relational Agents"
+description: null
+url: "/document-explanation/"
 resources:
 - name: main image
   src: 10_files/image001.gif

@@ -1,6 +1,7 @@
 ---
-title: Drugs don't work in patients who don't take them C. Everett Koop, MD
-url: medication-adherence
+title: "Drugs don't work in patients who don't take them C. Everett Koop, MD"
+description: null
+url: "/medication-adherence/"
 resources:
 - name: main image
   src: 6_files/image001.gif

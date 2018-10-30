@@ -1,6 +1,7 @@
 ---
-title: A Virtual Coach to Increase Physical Activity in Overweight Adults
-url: weight-loss-agent
+title: "A Virtual Coach to Increase Physical Activity in Overweight Adults"
+description: null
+url: "/weight-loss-agent/"
 resources:
 - name: main image
   src: 7_files/image001.jpg

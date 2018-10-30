@@ -62,9 +62,11 @@ for item in link_list_items:
         
             project_images = project_content.find_all('img')
         
-        out_content += f'title: {project_title}\n'
-        
-        out_content += f'url: {processed_link}\n'
+        out_content += f'title: "{project_title}"\n'
+       
+        out_content += f'description: null\n'
+       
+        out_content += f'url: "/{processed_link}/"\n'
         
         out_content += f'resources:\n'
         

@@ -1,6 +1,7 @@
 ---
-title: Preconception Care for Males (Gabe)
-url: male-preconception-care
+title: "Preconception Care for Males (Gabe)"
+description: null
+url: "/male-preconception-care/"
 resources:
 - name: main image
   src: Gabe.jpg

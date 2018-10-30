@@ -1,6 +1,7 @@
 ---
-title: Breastfeeding Promotion
-url: breastfeeding-promotion
+title: "Breastfeeding Promotion"
+description: null
+url: "/breastfeeding-promotion/"
 resources:
 - name: main image
   src: 17_files/breastFeeding4.jpg 

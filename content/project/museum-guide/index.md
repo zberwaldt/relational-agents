@@ -1,6 +1,7 @@
 ---
-title: Tinker: A Relational Guide for the Boston Museum of Science
-url: museum-guide
+title: "Tinker: A Relational Guide for the Boston Museum of Science"
+description: null
+url: "/museum-guide/"
 resources:
 - name: main image
   src: 11_files/image001.gif

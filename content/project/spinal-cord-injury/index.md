@@ -1,6 +1,7 @@
 ---
-title: Spinal Cord Injury
-url: spinal-cord-injury
+title: "Spinal Cord Injury"
+description: null
+url: "/spinal-cord-injury/"
 resources:
 - name: main image
   src: SCI_files/interaction.jpg
