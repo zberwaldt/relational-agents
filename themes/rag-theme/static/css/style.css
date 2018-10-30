@@ -86,12 +86,45 @@ i.fas, i.far {
     margin: 8px;
 }
 
-#gallery {
-    grid-template-columns: repeat(4, 1fr);
+#gallery, #press {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 8px 16px;
 }
 
 #publications h2 {
     grid-column: span 4;
+}
+
+
+
+.press-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    padding:24px;
+    border-radius: 3px;
+    border: 1px solid hsla(0, 0%, 0%, .1);
+    border-top: 3px solid hsl(207, 100%, 50%);
+    background: white;
+}
+
+.press-item:hover {
+    transition: transform .2s ease-in-out, border-top-color .2s ease-in-out;
+    transform: scale(1.01);
+    border-top-color: hsl(180, 100%, 50%);
+}
+
+
+.press-item .press-title {
+    font-size: 1.6em;
+    margin:0;
+}
+
+.page-title {
+    text-align:center;
+    margin-bottom: 32px;
 }
 
 .publication-list {

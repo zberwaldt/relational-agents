@@ -36,6 +36,8 @@ for item in link_list_items:
             os.makedirs(processed_link)
             os.chdir(processed_link)
         
+        print(os.getcwd())
+
         project_index_file = open('index.md', 'w')
 
         href = link['href']
