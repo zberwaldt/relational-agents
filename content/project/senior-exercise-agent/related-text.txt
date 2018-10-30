@@ -1,0 +1,20 @@
+A Randomized Controlled Trial of an Automated Exercise Coach for Older Adults.
+            Journal of the American Geriatrics Society, 61: 1676-1683
+            Bickmore, T., Silliman, R., Nelson, K., Cheng, D., Winter, M., Henaulat, L., Paasche-Orlow, M.
+
+Limited Health Literacy and Decline in Executive Function in Older Adults.
+            Journal of Health Communication, 18(Suppl 1): 143-157
+            Sequeira, S., Eggermont, L., Silliman, R., Bickmore, T., Henault, L., Winter, M., Cheng, D., Nelson, K., Paasche-Orlow, M.
+
+Usability of Conversational Agents by Patients with Inadequate Health Literacy: Evidence from Two Clinical Trials. 
+            Journal of Health Communication 15, 197-210.
+            Bickmore, T, Pfeifer, L, Byron, D, Forsythe, S, Henault, L, Jack, B, Silliman, R, Paasche-Orlow, M (2010) PDF
+
+'It's just like you talk to a friend' Relational Agents for Older Adults. 
+            Interacting with Computers 17 (6) : 711-735 
+            Bickmore, T., Caruso, L., Clough-Gorr, K., and Heeren, T.	 (2005) PDF
+
+Acceptance and Usability of a Relational Agent Interface by Urban Older Adults.
+            Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) Portland, OR. 
+            Bickmore, T., Caruso, L., and Clough-Gorr, K. (2005) PDF
+

@@ -1,0 +1,16 @@
+Using Computer Agents to Explain Medical Documents to Patients with Low Health Literacy.
+            Patient Education and Counseling, 75(3), 315-320. 
+            Bickmore, T., Pfeifer, L., and Paasche-Orlow, M. (2009) [PDF]
+
+The Role of Gesture in Document Explanation by Embodied Conversational Agents.
+            International Journal of Semantic Computing Vol. 2, No. 1, 47-70.
+            Bickmore, T., Pfeifer, L., and Yin, L.	 (2008) [PDF]
+
+Automated Explanation of Research Informed Consent by Embodied Conversational Agents.
+            MS Thesis, College of Computer and Information Science, Northeastern University
+            Fernando, R. (2009) [PDF]
+
+Health Document Explanation by Virtual Agents.
+            Intelligent Virtual Agents '07 
+            Bickmore, T., Pfeifer, L., and Paasche-Orlow, M. (2007) [PDF]
+

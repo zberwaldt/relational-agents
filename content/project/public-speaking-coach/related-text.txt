@@ -1,0 +1,4 @@
+RoboCOP: A Robotic Coach for Oral Presentations.
+               ACM International Conference on Pervasive and Ubiquitous Computing (Ubicomp).
+	      Trinh, H, Asadi, R, Edge, D, Bickmore, T (2017). [PDF]
+

@@ -1,0 +1,19 @@
+Real-time Presentation Tracking Using Semantic Keyword Spotting.
+              Interspeech.
+              Asadi, R., Fell, H., Bickmore, T., Trinh, H. (2016)
+	      [PDF]
+
+Virtual Agents in the Classroom: Experience Fielding a Co-Presenter Agent in University Courses.
+            Intelligent Virtual Agents (IVA).
+            Bickmore, T., Trinh, H., Hoppmann, M., Asadi, R. (2016) [PDF]
+
+Thinking Outside the Box: Co-Planning Scientific Presentations with Virtual Agents.
+              Intelligent Virtual Agents (IVA).
+              Trinh, H., Bickmore, T., Edge, D., Ring, L. (2016)
+           	    [PDF]
+
+DynamicDuo: Co-presenting with Virtual Agents.
+            ACM SIGCHI Conference on Human Factors in Computing Systems (CHI).
+              Trinh, H., Ring, L., Bickmore, T. (2015)
+	      [PDF]
+

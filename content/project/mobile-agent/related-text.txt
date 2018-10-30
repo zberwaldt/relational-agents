@@ -1,0 +1,32 @@
+Context Awareness in a Handheld Exercise Agent.
+            Pervasive and Mobile Computing special issue on Pervasive Health and Wellness, Vol 5, 226-235.
+            Bickmore, T., Mauer, D., and Brown, T. (2009) PDF
+
+Negotiating Task Interruptions with Virtual Agents for Health Behavior Change.
+            Autonomous Agents and Multi-Agent Systems (AAMAS) '08
+            Bickmore, T., Mauer, D., Crespo, F., and Brown, T. (2007) PDF
+
+Context Awareness in Mobile relational Agents.
+            Intelligent Virtual Agents '07, Paris.
+            Bickmore, T., Mauer, D., and Brown, T. (2007) PDF
+
+Persuasion, Task Interruption and Health Regimen Adherence.
+            Persuasive Technology '07, Stanford, CA. 
+            Bickmore, T., Mauer, D., Crespo, F., and Brown, T. (2007) PDF
+
+What Would Jiminy Cricket Do? Lessons From the First Social Wearable.
+            HCI International '07, Beijing, China.
+            Bickmore, T. (2007) PDF
+
+A Handheld Animated Advisor for Physical Activity Promotion.
+            American Medical Informatics Association Annual Symposium, Washington, DC.
+            Bickmore, T., Gruber, A., Intille, S., and Mauer, D. (2006)
+
+Modalities for Building relationships with Handheld Computer Agents.
+            Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), Montreal, Canada.
+            Bickmore, T. and Mauer, D. (2006) PDF
+
+Wearable relational Agents for Health.
+            Ann Behav Med 31 (Suppl) : S185
+            Bickmore, T.	 (2006)
+

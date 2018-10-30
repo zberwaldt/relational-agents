@@ -1,0 +1,20 @@
+Automated Interventions for Multiple Health Behaviors Using Conversational Agents.
+            Patient Education and Counseling
+            Bickmore, T., Schulman, D., Sidner, C.  (to appear)
+
+A Reusable Framework for Health Counseling Dialogue Systems based on a Behavioral Medicine Ontology. 
+            Journal of Biomedical Informatics, 44, 183-197.
+            Bickmore, T., Schulman, D., Sidner, C. (2011) PDF
+
+An Intelligent Conversational Agent for Promoting Long-term Health Behavior Change using Motivational Interviewing. 
+            AAAI Spring Symposium on AI in Health Communication. 
+            Schulman, D., Bickmore, T., Sidner, C. (to appear) PDF
+
+Issues in Designing Agents for Long Term Behavior Change
+            CHI'09 Workshop on Engagement by Design.
+            Bickmore, T., Schulman, D., Sidner, C. (2009) PDF
+
+DTask & LiteBody: Open Source, Standards-based Tools for Building Web-deployed Embodied Conversational Agents
+            Proceedings of Intelligent Virtual Agents, Amsterdam.
+            Bickmore, T., Schulman, D. and Shaw, G. (2009)  PDF
+

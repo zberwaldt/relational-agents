@@ -1,0 +1,23 @@
+Is the Media Equation a Flash in the Pan? The Durability and Longevity of Social Responses to Computers
+            ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)
+            Pfeifer, L. and Bickmore, T. (2011). PDF
+
+Maintaining Engagement in Long-term Interventions with Relational Agents. 
+            International Journal of Applied Artificial Intelligence special issue on Intelligent Virtual Agents 24(6): 648-666.
+            Bickmore, T, Schulman, D, Yin, L  (2010).PDF
+
+A Virtual Laboratory for Studying Long-term Relationships between Humans and Virtual Agents
+            Proceedings of Autonomous Agents and Multi-Agent Systems (AAMAS), Budapest, Hungary.
+            Bickmore, T. and Schulman, D. (2009) PDF
+
+Engagement vs. Deceit: Virtual Humans with Human Autobiographies Proceedings of Intelligent Virtual Agents, Amsterdam. 
+            Bickmore, T., Schulman, D. and Yin, L. (2009) PDF
+
+Should Agents Speak Like, um, Humans? The Use of Conversational Fillers by Virtual Agents
+            Proceedings of Intelligent Virtual Agents, Amsterdam. 
+            Pfeifer, L. and Bickmore, T. (2009) PDF
+
+Persuading Users through Counseling Dialogue with a Conversational Agent
+            Proceedings of Persuasive Technology 2009, Claremont, CA. 
+            Schulman, D. and Bickmore, T. (2009) PDF
+

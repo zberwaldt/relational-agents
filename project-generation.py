@@ -40,7 +40,7 @@ for item in link_list_items:
 
         href = link['href']
         
-        project_url =f'https://relationalagents.com/projects/{href}'
+        project_url = f'https://relationalagents.com/projects/{href}'
         
         project_page = urlopen(project_url)
         
@@ -49,24 +49,58 @@ for item in link_list_items:
         out_content = '---\n'
         
         project_content = project_soup.find('article', attrs={'class': 'project'})
-        
+
         if project_content.find('h2'):
+        
             project_title = project_content.find('h2').text.strip()
+        
         else: 
+        
             project_title = project_content.find('h3').text.strip()
+        
+        if project_content.find_all('img'):
+        
+            project_images = project_content.find_all('img')
         
         out_content += f'title: {project_title}\n'
         
+        out_content += f'url: {processed_link}\n'
+        
+        out_content += f'resources:\n'
+        
+        for img in project_images: 
+            src = img['src']
+        
+            out_content += f'- name: main image\n'
+        
+            out_content += f'  src: {src}\n'
+        
+        out_content += f'draft: false\n'
+
         project_articles = project_content.find_all('p')
         
         out_content += '---\n\n'
         
         for article in project_articles:
+
             out_content += f'{article.text.strip()}\n\n'
 
         project_index_file.write(out_content)
+        
         project_index_file.close()
+        
+        # output a file on the related publications for later
+        
+        if project_content.find('ul'):
+            related_pubs = open('related-text.txt', 'w')
+            pub_content = ''
+            pub_list = project_content.find('ul').find_all('li')
+            for pub in pub_list:
+                pub_content += f'{pub.text.strip()}\n\n'
+            related_pubs.write(pub_content)
+            related_pubs.close()
+
         os.chdir('..')
-        print(os.getcwd())
+        
 
 

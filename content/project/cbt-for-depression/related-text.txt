@@ -1,0 +1,9 @@
+An Affectively Aware Virtual Therapist for Depression Counseling.
+               ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) workshop on Computing and Mental Health.
+	      Ring, L., Bickmore, T., Pedrelli, P.
+	      [PDF]
+
+Real-time Tailoring of Depression Counseling by Conversational Agent.
+	      Connected Health Symposium, Boston.
+	      Ring, L., Pedrelli, P., Bickmore, T. (2016)
+

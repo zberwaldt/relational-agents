@@ -1,0 +1,32 @@
+Agent-User Concordance and Satisfaction with a Virtual Hospital Discharge Nurse.
+  Intelligent Virtual Agents conference (IVA) (2014)
+  Zhou, S., Bickmore, T., Jack, B. PDF
+
+Automated Promotion of Technology Acceptance by Clinicians Using Relational Agents.
+  Intelligent Virtual Agents conference(IVA) (2013)
+  Bickmore, T., Vardoulakis, L., Jack, B., Paasche-Orlow, M. PDF
+
+Longitudinal Remote Follow-Up by Intelligent Conversational Agents for Post-Hospitalization Care.
+  AAAI Spring Symposium on AI in Health Communication. 
+  Pfeifer, L, Bickmore, T (to appear) PDF
+
+Usability of Conversational Agents by Patients with Inadequate Health Literacy: Evidence from Two Clinical Trials.
+  Journal of Health Communication 15, 197-210.
+  Bickmore, T, Pfeifer, L, Byron, D, Forsythe, S, Henault, L, Jack, B, Silliman, R, Paasche-Orlow, M (2010) PDF
+
+Response to a Relational Agent by Hospital Patients with Depressive Symptoms.
+  Interacting with Computers special issue on Mental Health 22(4), 289-298. 
+  Bickmore, T, Mitchell, S, Jack, B, Paasche-Orlow, M, Pfeifer, L, ODonnell, J (2010). PDF
+
+Taking the Time to Care: Empowering Low Health Literacy Hospital Patients with Virtual Nurse Agents
+  Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), Boston, MA.
+  Bickmore, T., Pfeifer, L., and Jack, B. (2009) PDF
+
+Using Computer Agents to Explain Medical Documents to Patients with Low Health Literacy.
+  Patient Education and Counseling 75(3): 315-320.
+  Bickmore, T., Pfeifer, L., and Paasche-Orlow, M. (2009) PDF
+
+Health Document Explanation by Virtual Agents
+  Intelligent Virtual Agents '07, Paris.
+  Bickmore, T., Pfeifer, L. and Paasche-Orlow, M. (2007)  PDF
+

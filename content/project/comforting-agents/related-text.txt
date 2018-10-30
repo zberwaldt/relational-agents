@@ -1,0 +1,16 @@
+Empathic Touch by Relational Agents.
+            IEEE Transactions on Affective Computing 1(1), 60-71.
+            Bickmore, T, Fernando, R, Ring, L, Schulman, D (2010).PDF
+
+Towards Empathic Touch by Relational Agents
+            Autonomous Agents and Multi-Agent Systems (AAMAS) workshop on Empathic Agents, Budapest, Hungary. 
+            Bickmore, T. and Fernando, R. (2009)PDF
+
+Practical Approaches to Comforting Users with Relational Agents
+            ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), San Jose, CA. 
+            Bickmore, T. and Schulman, D. (2007)PDF
+
+The Comforting Presence of Relational Agents.
+            Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), Montreal, Canada. 
+            Bickmore, T. and Schulman, D.	 (2006) PDF
+
