@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Relational Agents Group"
 theme = "rag-theme"
 
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 [params]
     description = "Relational Agents Group website"
 

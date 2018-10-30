@@ -2,7 +2,6 @@
 title: "Friendly Face"
 description: "Tell me about this project"
 url: "/friendlyface/"
-categories: ["current"]
 resources:
 - src: image
   name: main image

@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <div id="publications" class="container flex f-column">
+    <div id="publications" class="container grid">
         {{ range .Sections }}
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
