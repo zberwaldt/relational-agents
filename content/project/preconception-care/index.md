@@ -4,7 +4,7 @@ description: null
 url: "/preconception-care/"
 resources:
 - name: main image
-  src: 16_files/pcc-screenshot1.jpg
+  src: pcc-screenshot1.jpg
 draft: false
 ---
 

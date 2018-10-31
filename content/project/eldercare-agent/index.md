@@ -4,7 +4,8 @@ description: null
 url: "/eldercare-agent/"
 resources:
 - name: main image
-  src: AlwaysOn_files/AlwaysOnSm.jpg
+  src: AlwaysOnSm.jpg
+related_pubs: false
 draft: false
 ---
 

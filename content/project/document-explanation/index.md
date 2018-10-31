@@ -4,7 +4,9 @@ description: null
 url: "/document-explanation/"
 resources:
 - name: main image
-  src: 10_files/image001.gif
+  src: image001.gif
+date: null
+related_pubs: false
 draft: false
 ---
 

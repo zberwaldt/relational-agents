@@ -4,7 +4,7 @@ description: null
 url: "/breastfeeding-promotion/"
 resources:
 - name: main image
-  src: 17_files/breastFeeding4.jpg 
+  src: breastFeeding4.jpg 
 draft: false
 ---
 

@@ -4,7 +4,7 @@ description: null
 url: "/atrial-fibrillation/"
 resources:
 - name: main image
-  src: AtrialFibrillation_files/AF-Lit Phone.png
+  src: AF-Lit Phone.png
 draft: false
 ---
 

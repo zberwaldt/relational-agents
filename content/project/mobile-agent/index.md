@@ -4,7 +4,7 @@ description: null
 url: "/mobile-agent/"
 resources:
 - name: main image
-  src: 1_files/image001.jpg
+  src: image001.jpg
 draft: false
 ---
 

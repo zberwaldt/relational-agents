@@ -4,7 +4,7 @@ description: null
 url: "/virtual-laboratory/"
 resources:
 - name: main image
-  src: 4_files/image001.gif
+  src: image001.gif
 draft: false
 ---
 

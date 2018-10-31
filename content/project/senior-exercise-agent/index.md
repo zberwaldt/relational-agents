@@ -4,7 +4,7 @@ description: null
 url: "/senior-exercise-agent/"
 resources:
 - name: main image
-  src: 3_files/image001.gif
+  src: image001.gif
 draft: false
 ---
 

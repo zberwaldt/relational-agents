@@ -2,7 +2,7 @@
     <div class="container flex f-row">
         <div class="publication-list">
         {{ range (.Pages.GroupByParam "year").Reverse }}
-            <h1>{{ .Key }}</h1>
+            <h1 class="page-title text-center">{{ .Key }}</h1>
             {{ range .Pages }}
             <div class="publication">
                 <h3>{{ .Title }}</h3>

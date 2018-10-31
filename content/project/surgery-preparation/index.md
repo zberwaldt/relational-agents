@@ -4,7 +4,7 @@ description: null
 url: "/surgery-preparation/"
 resources:
 - name: main image
-  src: 13_files/mgh.jpg
+  src: mgh.jpg
 draft: false
 ---
 

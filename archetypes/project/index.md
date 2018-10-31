@@ -8,5 +8,6 @@ resources:
 - name: demo video
   src: demo.mov
 date: {{ .Date }}
+related_pubs: false
 draft: false
 ---

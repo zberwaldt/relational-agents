@@ -1,7 +1,7 @@
 ---
 name: "Feasibility Of Using Virtual Counselors To"
 title: "Feasibility of using Virtual Counselors to Collect Family Health Histories from Underserved Populations"
-project: null
+project: "Family Health History"
 event: "American Public Health Association annual meeting (abstract)"
 authors:
 - name: "Wang, C."

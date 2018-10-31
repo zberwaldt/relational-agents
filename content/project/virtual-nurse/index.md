@@ -4,7 +4,7 @@ description: null
 url: "/virtual-nurse/"
 resources:
 - name: main image
-  src: 2_files/image001.jpg
+  src: image001.jpg
 draft: false
 ---
 

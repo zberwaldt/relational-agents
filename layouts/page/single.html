@@ -1,16 +1,16 @@
 {{ define "main" }}
 <div class="container">
-    <h1 class="page-title">{{ .Title }}</h1>
+    <h1 class="page-title text-center">{{ .Title }}</h1>
     <div id="press" class="list-of-press grid">
         {{ range .Params.press }}
-        <div class="press-item">
+        <a href="{{ .href }}" target="_blank" class="press-item flex f-column">
             <div class="item-info">
                 <h2 class="press-title">{{.title}}</h2>
                 <span class="date-of-publish">{{ .date }}</span>
             </div>  
             <p class="news-description">{{ .description }}</p>
-            <a href="{{ .href }}" target="_blank">Read More</a>
-        </div>
+            <p>click to read more</p>
+        </a>
         {{ end }}
     </div>
 </div>

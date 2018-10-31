@@ -1,7 +1,7 @@
 ---
 name: "Using Virtual Counselors To Overcome Literacy Related Barriers"
 title: "Using virtual counselors to overcome literacy-related barriers in the collection of family health histories"
-project: null
+project: "Family Health History"
 event: "Health Literacy Annual Research Conference (HARC)"
 authors:
 - name: "Wang, K."

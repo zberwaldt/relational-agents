@@ -4,9 +4,10 @@ description: null
 url: "/family-history/"
 resources:
 - name: main image
-  src: vicky_files/vicky2.jpg
-- name: main image
-  src: vicky_files/pedigree2.jpg
+  src: vicky2.jpg
+- name: supporting image
+  src: pedigree2.jpg
+related_pubs: true
 draft: false
 ---
 

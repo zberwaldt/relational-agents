@@ -4,7 +4,7 @@ description: null
 url: "/medication-adherence/"
 resources:
 - name: main image
-  src: 6_files/image001.gif
+  src: image001.gif
 draft: false
 ---
 

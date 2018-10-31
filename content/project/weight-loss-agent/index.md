@@ -4,7 +4,7 @@ description: null
 url: "/weight-loss-agent/"
 resources:
 - name: main image
-  src: 7_files/image001.jpg
+  src: image001.jpg
 draft: false
 ---
 

@@ -4,7 +4,7 @@ description: null
 url: "/latino-exercise-promotion/"
 resources:
 - name: main image
-  src: 9_files/image001.jpg
+  src: image001.jpg
 draft: false
 ---
 

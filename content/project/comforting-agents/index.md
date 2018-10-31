@@ -4,7 +4,7 @@ description: null
 url: "/comforting-agents/"
 resources:
 - name: main image
-  src: 12_files/image001.gif
+  src: image001.gif
 draft: false
 ---
 

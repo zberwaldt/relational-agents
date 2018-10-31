@@ -4,7 +4,7 @@ description: null
 url: "/multi-behavior-agent/"
 resources:
 - name: main image
-  src: 8_files/image001.gif
+  src: image001.gif
 draft: false
 ---
 

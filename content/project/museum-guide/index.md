@@ -4,7 +4,7 @@ description: null
 url: "/museum-guide/"
 resources:
 - name: main image
-  src: 11_files/image001.gif
+  src: image001.gif
 draft: false
 ---
 
