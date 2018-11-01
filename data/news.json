@@ -1,5 +1,25 @@
 {
-    "2018": {
-        "details": "News"
-    }
+   "news": [
+        {
+            "type": "conference",
+            "title": "Papers accepted to intelligent Virtual Agents",
+            "details": "Group members have six papers accepted to the Intelligent Virutal Agents conference in Sydney Australia.",
+            "Month": "July"
+        }, {
+            "type": "conference",
+            "title": "Papers accepted to intelligent Virtual Agents",
+            "details": "Group members have six papers accepted to the Intelligent Virutal Agents conference in Sydney Australia.",
+            "Month": "July"
+        }, {
+            "type": "conference",
+            "title": "Papers accepted to intelligent Virtual Agents",
+            "details": "Group members have six papers accepted to the Intelligent Virutal Agents conference in Sydney Australia.",
+            "Month": "July"
+        }, {
+            "type": "conference",
+            "title": "Papers accepted to intelligent Virtual Agents",
+            "details": "Group members have six papers accepted to the Intelligent Virutal Agents conference in Sydney Australia.",
+            "Month": "July"
+        }
+    ]
 }

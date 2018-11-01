@@ -1,30 +1,48 @@
 {{ define "main" }}
-<section class="jumbotron">
-    <div class="container">
-        <div class="section-content half-width">
-            <h2 class="subtitle"></h2>
-            <h1 class="description">Designing Conversational Agents</h1>
-            <h3 class=""></h3>
+<div id="home">
+    <section class="jumbotron">
+        <div class="container">
+            <div class="section-content half-width">
+                <h2 class="subtitle">Research</h2>
+                <h1 class="description">Designing Conversational Agents</h1>
+                <p class="exposition">We work on health education problems.</h3>
+            </div>
         </div>
-    </div>
-</section>
-<section id="explore">
-    <div class="container">
-        <div class="section-content half-width">
-            <h2 class="subtitle"></h2>
-            <h2 class="description">Explore our projects</h2>
-            <p class="exposition"></p>
-        </div>  
-    </div>
-</section>
-<section id="news">
-    <div class="container">
-        <h2></h2>
-    </div>
-</section>
-<section id="team">
-    <div class="container">
-
-    </div>
-</section>
+    </section>
+    <section id="explore">
+        <div class="container">
+            <div class="section-content half-width right">
+                <h2 class="subtitle"></h2>
+                <h2 class="description">Explore our projects</h2>
+                <p class="exposition"></p>
+            </div>  
+        </div>
+    </section>
+    <section id="news">
+        <div class="container flex f-jc-center f-ai-center">
+            <button><i class="fas fa-chevron-left"></i></button>
+            <div class="carosel">
+            {{ range $index, $value := .Site.Data.news.news }}
+            <div class="news-item {{ if (eq $index 0) }}active{{ end }}">
+                <h2 class="subtitle">{{ .type }}</h2>
+                <h3 class="description">{{ .title }}</h3>
+                <p class="exposition">{{ .details }}</p>
+                <p class="date">{{ .date }}</p>
+            </div>
+            {{ end }}
+            </div>
+            <button><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container flex">
+            <div class="section-content flex f-column f-jc-center">
+                <h2 class="subtitle">Team</h2>
+                <h2 class="description">Meet the People behind our research</h2>
+                <p class="exposition"></p>
+                <a href="/people">See the team <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
 {{ end }}

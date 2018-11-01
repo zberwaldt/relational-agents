@@ -31,7 +31,7 @@ body {
 main {
     flex-grow: 2;
     background-color: hsl(0, 0%, 95%);
-    padding: 32px 0;
+    padding: 32px 0 0;
 }
 
 figure {
@@ -70,6 +70,7 @@ i.fas, i.far {
 }
 
 .container {
+    height: inherit;
     margin: 0 auto;
     max-width: 1100px;
     min-width: 80%;
@@ -238,6 +239,7 @@ i.fas, i.far {
 .f-column {
     flex-direction: column;
 }
+
 .f-jc-between {
     justify-content: space-between;
 }
@@ -246,9 +248,14 @@ i.fas, i.far {
     justify-content: flex-start;
 }
 
+.f-jc-center {
+    justify-content: center;
+}
+
 .f-jc-end {
     justify-content: flex-end;
 }
+
 .navbar {
     width: 100%;
     justify-content: center;
@@ -314,4 +321,105 @@ div.brand {
     height: 155px;
     color: var(--inverse-text-color);
     background: hsl(0, 0%, 8%);
+}
+
+/* Home Styles */
+
+#home section {
+    padding: 32px 0;
+    height: 400px;
+}
+
+#home #news {
+    background: linear-gradient(45deg,#80D6FC, #5AFBDF);
+}
+
+#team {
+    background: url('/img/Group_2016.jpg') no-repeat 50vw;
+    background-size: 50%;
+    background-position-y: 50%;
+}
+
+#team .container {
+    align-items: center;
+}
+
+#team .section-content {
+    width: 50%;
+}
+
+.carosel {
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+
+.news-item {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 12.5%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.subtitle {
+    margin-bottom: 24px;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+}
+
+.description {
+    font-size: 2em;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.section-content {
+    box-sizing: border-box;
+    padding-right: 16px;
+    background:hsl(0, 0%, 95%);
+    height: 100%;
+}
+
+@media (max-width: 1500px ) {
+    #team {
+        background-size: 75%;
+    }
+}
+
+@media (max-width: 975px ) {
+    #team {
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 728px ) {
+    #team {
+        background-size: 100%;
+        background-position-x: 0%;
+        background-position-y: 30vh;
+    }
+}
+
+@media (max-width: 728px ) {
+    #team {
+        background-size: 100vw;
+    }
+    #team .container {
+        align-items: flex-start;
+    }
+    #team .section-content {
+        width: 100%;
+        height: 50%;
+        padding:0;
+    }
 }
