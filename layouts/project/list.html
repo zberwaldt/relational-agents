@@ -3,7 +3,7 @@
         <h1 class="page-title text-center">{{ .Title }}</h1>
         <div id="projects" class="grid">
         {{ range .Pages }}
-            <a href="{{ .URL }}" class="project flex f-row f-jc-start">         
+            <a href="{{ .RelPermalink }}" class="project flex f-row f-jc-start">         
                 {{ with .Resources.GetMatch "main image" }}
                 {{ $image := . }}
                 {{ $resize := $image.Fill "64x64 smart" }}

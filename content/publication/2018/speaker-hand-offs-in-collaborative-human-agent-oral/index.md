@@ -1,5 +1,5 @@
 ---
-name: "Speaker Hand Offs In Collaborative Human Agent Oral"
+name: "Speaker Hand Offs In Collaborative Human-Agent"
 title: "Speaker Hand-Offs in Collaborative Human-Agent Oral Presentations"
 project: null
 event: "International Conference on Intelligent Virtual Agents (IVA)"

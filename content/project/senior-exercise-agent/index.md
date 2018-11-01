@@ -1,7 +1,7 @@
 ---
 title: "Computer Agents to Promote Walking in Older Adults with Low Health Literacy"
 description: null
-url: "/senior-exercise-agent/"
+
 resources:
 - name: main image
   src: image001.gif

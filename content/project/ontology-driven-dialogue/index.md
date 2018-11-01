@@ -1,7 +1,7 @@
 ---
 title: "Computational Models of Health Behavior Change Dialog"
 description: null
-url: "/ontology-driven-dialogue/"
+
 resources:
 - name: main image
   src: image001.gif

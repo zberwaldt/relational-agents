@@ -1,7 +1,7 @@
 ---
 title: "Just-in-Time Information for Exercise Adoption"
 description: null
-url: "/mobile-agent/"
+
 resources:
 - name: main image
   src: image001.jpg

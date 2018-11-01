@@ -1,7 +1,6 @@
 ---
 title: "Cognitive Behavioral Therapy for Depression"
 description: null
-url: "/cbt-for-depression/"
 resources:
 - name: main image
   src: cbtexample.png

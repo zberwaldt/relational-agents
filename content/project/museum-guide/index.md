@@ -1,7 +1,7 @@
 ---
 title: "Tinker: A Relational Guide for the Boston Museum of Science"
 description: null
-url: "/museum-guide/"
+
 resources:
 - name: main image
   src: image001.gif

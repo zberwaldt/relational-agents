@@ -1,7 +1,6 @@
 ---
 title: "Couples Counseler Robot"
 description: null
-url: "/couples-counseling/"
 resources:
 - name: main image
   src: robocounselor2.jpg

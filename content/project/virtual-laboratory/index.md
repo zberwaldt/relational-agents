@@ -1,7 +1,7 @@
 ---
 title: "A Virtual Laboratory for Studying Long-Term Human-Computer Relationships"
 description: null
-url: "/virtual-laboratory/"
+
 resources:
 - name: main image
   src: image001.gif

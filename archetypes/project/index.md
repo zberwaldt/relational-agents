@@ -1,7 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 description: "Tell me about this project"
-url: "/{{ lower .Name }}/"
 resources:
 - name: main image
   src: image.jpg

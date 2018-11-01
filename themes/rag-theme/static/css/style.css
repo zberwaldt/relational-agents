@@ -96,8 +96,17 @@ i.fas, i.far {
     margin: 8px;
 }
 
+#current-members {
+    margin-bottom: 32px;
+}
+
 #publications {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#current-members,
+#past-members {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #press, 
@@ -107,11 +116,22 @@ i.fas, i.far {
 
 #publications, 
 #press, 
-#projects {
+#projects,
+#current-members,
+#past-members {
     grid-template-rows: auto;
     grid-gap: 8px 16px;
 }
 
+
+.hint {
+    opacity: .5;
+    justify-self:center;
+}
+
+.team-member img {
+    margin-right: 16px;
+}
 
 .pub-section, 
 .project,
@@ -135,7 +155,8 @@ i.fas, i.far {
 
 .press-item, 
 .pub-section, 
-.project {
+.project,
+.team-member {
     font-size: 12px;
     padding:24px;
     border-radius: 3px;
@@ -146,7 +167,8 @@ i.fas, i.far {
 
 .pub-section:hover, 
 .project:hover, 
-.press-item:hover {
+.press-item:hover,
+#current-members .team-member:hover {
     transition: transform .2s ease-in-out, border-top-color .2s ease-in-out;
     transform: scale(0.98);
     border-top-color: hsl(180, 100%, 50%);

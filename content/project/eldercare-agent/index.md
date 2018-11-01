@@ -1,7 +1,7 @@
 ---
 title: "An Always On Relational Agent for Social Support of Older Adults"
 description: null
-url: "/eldercare-agent/"
+
 resources:
 - name: main image
   src: AlwaysOnSm.jpg

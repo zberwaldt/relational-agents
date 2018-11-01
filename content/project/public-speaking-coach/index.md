@@ -1,7 +1,7 @@
 ---
 title: "Public Speaking Coach"
 description: null
-url: "/public-speaking-coach/"
+
 resources:
 - name: main image
   src: robocop.jpg

@@ -1,7 +1,6 @@
 ---
 title: "Atrial Fibrillation"
 description: null
-url: "/atrial-fibrillation/"
 resources:
 - name: main image
   src: AF-Lit Phone.png

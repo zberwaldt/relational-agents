@@ -1,7 +1,6 @@
 ---
 title: "Co-presenter Agent"
 description: null
-url: "/co-presenter-agent/"
 resources:
 - name: main image
   src: Tim_screenshot3.png

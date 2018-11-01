@@ -1,7 +1,7 @@
 ---
 title: "A Virtual Coach to Increase Physical Activity in Overweight Adults"
 description: null
-url: "/weight-loss-agent/"
+
 resources:
 - name: main image
   src: image001.jpg

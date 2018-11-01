@@ -1,21 +1,46 @@
 {{ define "main" }}
     <div id="gallery" class="container">
         <h1 class="page-title text-center">{{ .Title }}</h1>
-        <div id="gallery" class="grid">
-        {{ range .Pages }}
-            <figure class="image" 
-                    data-name="{{ .Params.name }}" 
-                    data-bio="{{ .Params.bio }}" 
-                    data-position="{{ .Params.position }}">
-                <h1>{{ .Params.name }}</h1>
-                <h2>{{ .Params.position }}</h2>
-                {{ with .Resources.GetMatch "**.jpg"}}
-                    <img src="{{ .Permalink }}" alt="{{ .Name }}"/>
+        <div id="gallery" class="flex f-column">
+            <h2 class="page-title">Current Team</h2>
+            <section id="current-members" class="grid">
+                {{ $images := (.Resources.ByType "image") }}
+                {{ range sort $images ".Params.weight" }}
+                {{ if not .Params.alumni }}
+                {{ $image := . }}
+                {{ $resize := $image.Fill "100x140 smart" }}
+                <figure class="team-member flex f-row f-jc-start"
+                        data-name="{{ .Name }}"
+                        data-bio="{{ .Params.bio }}"
+                        data-role="{{ .Params.role }}"
+                        data-website="{{ .Params.website }}">
+                    <img src="{{ $resize.RelPermalink }}" alt="{{ .Name }}" />
+                    <div class="member-details flex f-column">
+                        <h3 class="name">{{ .Name }}</h3>
+                        <p class="role">{{ .Params.role }}</p>
+                        <p class="hint">click to learn more.</p>
+                    </div>
+                </figure>
                 {{ end }}
-            </figure>
-            {{ end }}
+                {{ end }}
+            </section>
+            <h2 class="page-title">Alumni</h2>
+            <section id="past-members" class="grid">
+                {{ range sort (.Resources.ByType "image") ".Params.weight" }}
+                    {{ if .Params.alumni }}
+                        {{ $image := . }}
+                        {{ $resize := $image.Fill "100x140 smart" }}
+                    <figure class="team-member flex f-row f-jc-start">
+                        <img src="{{ $resize.RelPermalink }}" alt="{{ .Name }}" />
+                        <div class="member-details">
+                            <h3 class="name">{{ .Name }}</h3>
+                            <p class="role">{{ .Params.role }}</p>
+                        </div>
+                    </figure>
+                    {{ end }}
+                {{ end }}
+            </section>
         </div>
-    </div>
 {{ end }}
 
 {{ define "scripts" }}

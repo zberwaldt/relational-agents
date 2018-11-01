@@ -1,7 +1,7 @@
 ---
 title: "A RCT to Reduce Cardiopulmonary Re-hospitalizations"
 description: null
-url: "/virtual-nurse/"
+
 resources:
 - name: main image
   src: image001.jpg

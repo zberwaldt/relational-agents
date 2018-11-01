@@ -1,7 +1,7 @@
 ---
 title: "Preconception Care for Males (Gabe)"
 description: null
-url: "/male-preconception-care/"
+
 resources:
 - name: main image
   src: Gabe.jpg
@@ -12,5 +12,5 @@ The preconception care system for men (Gabe) involves the developement and deplo
 
 We use an agent to deliver the content in an engaging way, which has the potential to increase long-term user retention. This is important for improving health outcomes. The project is a collaborative effort between Northeastern University and Boston Medical Center.
 
-With this system, we aim to provide age appropriate health promotion and identify and reduce health risks. Specifically, including men in preconception care interventions may help to meet the 2020 Healthy People objectives and Maternal and Child Health objectives by reducing unintended pregnancies, the infant mortality rate, low birth weight, and preterm birth. The project’s objectives are to introduce new paradigms of care needed to engage young African American men. This population has historically been ignored in policy and research, they have a lower life expectancy, and lack a connection with healthcare, when compared with members of other populations.
+With this system, we aim to provide age appropriate health promotion and identify and reduce health risks. Specifically, including men in preconception care interventions may help to meet the 2020 Healthy People objectives and Maternal and Child Health objectives by reducing unintended pregnancies, the infant mortality rate, low birth weight, and preterm birth. The projectï¿½s objectives are to introduce new paradigms of care needed to engage young African American men. This population has historically been ignored in policy and research, they have a lower life expectancy, and lack a connection with healthcare, when compared with members of other populations.
 

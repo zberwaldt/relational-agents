@@ -1,7 +1,7 @@
 ---
 title: "Family Health History"
 description: null
-url: "/family-history/"
+
 resources:
 - name: main image
   src: vicky2.jpg

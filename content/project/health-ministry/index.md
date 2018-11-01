@@ -1,7 +1,7 @@
 ---
 title: "Health Ministry"
 description: null
-url: "/health-ministry/"
+
 resources:
 - name: main image
   src: HealthMinistry2.jpg

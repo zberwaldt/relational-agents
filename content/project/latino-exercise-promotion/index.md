@@ -1,7 +1,7 @@
 ---
 title: "Computer-Based Physical Activity Advice for Ethnic Minority Aging Adults"
 description: null
-url: "/latino-exercise-promotion/"
+
 resources:
 - name: main image
   src: image001.jpg
