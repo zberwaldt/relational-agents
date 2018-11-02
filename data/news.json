@@ -7,19 +7,19 @@
             "Month": "July"
         }, {
             "type": "conference",
-            "title": "Papers accepted to intelligent Virtual Agents",
-            "details": "Group members have six papers accepted to the Intelligent Virutal Agents conference in Sydney Australia.",
-            "Month": "July"
+            "title": "Relational Agent Group hosts CHI 2019",
+            "details": "The group was selected to Host the CHI conference in 2019",
+            "Month": "June"
         }, {
-            "type": "conference",
-            "title": "Papers accepted to intelligent Virtual Agents",
-            "details": "Group members have six papers accepted to the Intelligent Virutal Agents conference in Sydney Australia.",
-            "Month": "July"
+            "type": "interview",
+            "title": "Interview with WIRED magazine",
+            "details": "Director, Timothy Bickmore, interviewed about the challenges of Relational Agents",
+            "Month": "December"
         }, {
-            "type": "conference",
-            "title": "Papers accepted to intelligent Virtual Agents",
-            "details": "Group members have six papers accepted to the Intelligent Virutal Agents conference in Sydney Australia.",
-            "Month": "July"
+            "type": "equipment",
+            "title": "Added new tool to our toolbox.",
+            "details": "Bought a robot",
+            "Month": "January"
         }
     ]
 }

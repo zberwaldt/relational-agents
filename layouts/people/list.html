@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <div id="gallery" class="container">
+    <div class="container">
         <div id="gallery" class="flex f-column">
             <h2 class="page-title text-center">Current Team</h2>
             <section id="current-members" class="grid">
@@ -13,7 +13,7 @@
                         data-bio="{{ .Params.bio }}"
                         data-role="{{ .Params.role }}"
                         data-website="{{ .Params.website }}">
-                    <img src="{{ $resize.RelPermalink }}" alt="{{ .Name }}" />
+                    <img class="member-image" src="{{ $resize.RelPermalink }}" alt="{{ .Name }}" />
                     <div class="member-details flex f-column">
                         <h3 class="name">{{ .Name }}</h3>
                         <p class="role">{{ .Params.role }}</p>
@@ -30,7 +30,7 @@
                         {{ $image := . }}
                         {{ $resize := $image.Fill "100x140 smart" }}
                     <figure class="team-member flex f-row f-jc-start">
-                        <img src="{{ $resize.RelPermalink }}" alt="{{ .Name }}" />
+                        <img class="member-image" src="{{ $resize.RelPermalink }}" alt="{{ .Name }}" />
                         <div class="member-details">
                             <h3 class="name">{{ .Name }}</h3>
                             <p class="role">{{ .Params.role }}</p>

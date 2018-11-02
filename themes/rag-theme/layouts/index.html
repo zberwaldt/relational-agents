@@ -10,17 +10,18 @@
         </div>
     </section>
     <section id="explore">
-        <div class="container">
+        <div class="container flex">
             <div class="section-content half-width right">
                 <h2 class="subtitle"></h2>
                 <h2 class="description">Explore our projects</h2>
                 <p class="exposition"></p>
+                <a href="/projects">explore our projects<i class="fas fa-chevron-right"></i></a>
             </div>  
         </div>
     </section>
     <section id="news">
         <div class="container flex f-jc-center f-ai-center">
-            <button><i class="fas fa-chevron-left"></i></button>
+            <button id="prev-item"><i class="fas fa-chevron-left"></i></button>
             <div class="carosel">
             {{ range $index, $value := .Site.Data.news.news }}
             <div class="news-item {{ if (eq $index 0) }}active{{ end }}">
@@ -31,7 +32,7 @@
             </div>
             {{ end }}
             </div>
-            <button><i class="fas fa-chevron-right"></i></button>
+            <button id="next-item"><i class="fas fa-chevron-right"></i></button>
         </div>
     </section>
     <section id="team">
@@ -45,4 +46,8 @@
         </div>
     </section>
 </div>
+{{ end }}
+
+{{ define "scripts" }}
+    <script src="/js/news-gallery.js"></script>
 {{ end }}

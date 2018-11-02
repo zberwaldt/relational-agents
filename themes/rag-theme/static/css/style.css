@@ -9,6 +9,7 @@
 html {
     font-size: 16px;
     font-family: var(--primary-font);
+    overflow-x: hidden;
 }
 
 html, body {
@@ -31,7 +32,6 @@ body {
 main {
     flex-grow: 2;
     background-color: hsl(0, 0%, 95%);
-    padding: 32px 0 0;
 }
 
 figure {
@@ -279,6 +279,40 @@ i.fas, i.far {
     transition: transform .2s ease-in-out, 
                 color .2s ease-in-out;
 }
+
+.navbar .pages li {
+    position: relative;
+}
+
+.navbar .pages li:hover .sub-menu {
+    display: flex;
+    align-items: stretch;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+.pages li .sub-menu li {
+    margin: 0;
+}
+
+.sub-menu li a {
+    display: block;
+    padding: 16px 24px;
+    font-size: .9em;
+    text-align: center;
+    background: hsla(0, 0%, 20%, 1);
+    color: hsla(0, 0%, 100%, .95);
+}
+
+.sub-menu li a:hover {
+    background: hsla(0, 0%, 35%, 1);
+    color: hsla(0, 0%, 100%, .8);
+}
+
 .active a{
     color: blue;
 }
@@ -325,6 +359,10 @@ div.brand {
 
 /* Home Styles */
 
+.jumbotron {
+    background: black;
+}
+
 #home section {
     padding: 32px 0;
     height: 400px;
@@ -337,15 +375,20 @@ div.brand {
 #team {
     background: url('/img/Group_2016.jpg') no-repeat 50vw;
     background-size: 50%;
-    background-position-y: 50%;
 }
 
-#team .container {
-    align-items: center;
+#explore {
+    background: url('/img/Group_2016.jpg') no-repeat 0vw;
+    background-size: 50%;
 }
 
-#team .section-content {
+#team .section-content, #explore .section-content {
     width: 50%;
+}
+
+#explore .section-content {
+    position: relative;
+    left: 50%;
 }
 
 .carosel {
@@ -357,7 +400,7 @@ div.brand {
 
 .news-item {
     position: absolute;
-    width: 100%;
+    width: 75%;
     top: 50%;
     left: 12.5%;
     transform: translateY(-50%);
@@ -380,19 +423,43 @@ div.brand {
 }
 
 .half-width {
-    width: 50%;
+    width: 30%;
 }
 
 .section-content {
     box-sizing: border-box;
-    padding-right: 16px;
     background:hsl(0, 0%, 95%);
     height: 100%;
+}
+
+.detail-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: hsla(0, 0%, 0%, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.member-card {
+    border: 1px solid hsla(0, 0%, 0%, .1);
+    width: 45%;
+    padding: 32px;
+    border-radius: 2px;
+    background: white;
 }
 
 @media (max-width: 1500px ) {
     #team {
         background-size: 75%;
+    }
+    #explore {
+        background-size: contain;
+        background-position-x: calc(100% - 50vw);
     }
 }
 
@@ -406,7 +473,7 @@ div.brand {
     #team {
         background-size: 100%;
         background-position-x: 0%;
-        background-position-y: 30vh;
+        background-position-y: 232px;
     }
 }
 
@@ -419,7 +486,17 @@ div.brand {
     }
     #team .section-content {
         width: 100%;
-        height: 50%;
+        height: 200px;
         padding:0;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translate(500px, -50%);
+    }
+
+    to {
+        transform: translate(0px, -50%);
     }
 }

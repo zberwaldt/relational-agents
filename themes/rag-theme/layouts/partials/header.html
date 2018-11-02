@@ -11,6 +11,15 @@
                 {{ range .Site.Menus.main }}
                     <li class="{{ if eq (lower $currentPage.Title) .Name }}active{{ end }}">
                         <a href="{{ .URL }}">{{ .Name }}</a>
+                        {{ if .HasChildren }}
+                            <ul class="sub-menu f-column">
+                            {{ range .Children }}
+                                <li>
+                                    <a href="{{ .URL }}">{{ .Name }}</a>
+                                </li>
+                            {{ end }}
+                            </ul>
+                        {{ end }}
                     </li>
                 {{ end }}
             {{ end}}

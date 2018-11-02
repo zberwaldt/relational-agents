@@ -29,6 +29,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     name = "press"
     weight = 5
 
+[[ menu.main ]]
+    url = "/project/archive"
+    name = "past"
+    parent = "projects"
+[[ menu.main ]]
+    url = "/project"
+    name = "current"
+    parent = "projects"
+
 [taxonomies]
 tag = "tags"
 category = "categories"
