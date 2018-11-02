@@ -27,7 +27,7 @@
             <div class="news-item {{ if (eq $index 0) }}active{{ end }}">
                 <h2 class="subtitle">{{ .type }}</h2>
                 <h3 class="description">{{ .title }}</h3>
-                <p class="exposition">{{ .details }}</p>
+                <p class="exposition">{{ .details | markdownify }}</p>
                 <p class="date">{{ .date }}</p>
             </div>
             {{ end }}
