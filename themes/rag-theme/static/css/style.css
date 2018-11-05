@@ -50,16 +50,28 @@ i.fas, i.far {
     clear: left;
 }
 
+.news-item .exposition a {
+    color: var(--inverse-text-color);
+}
+
 .back-link,
 .dl-link, 
 .view-link {
     color: var(--main-text-color);
+}
+
+.news-item .exposition a,
+.back-link,
+.dl-link, 
+.view-link {
     opacity: 1;
     transform: scale(1);
     transition: opacity .2s ease-in-out,
                 transform .2s ease-in-out;
 }
 
+
+.news-item .exposition a:hover,
 .back-link:hover,
 .dl-link:hover,
 .view-link:hover {
@@ -391,6 +403,22 @@ div.brand {
     left: 50%;
 }
 
+#news button {
+    color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    font-size: 1.25em;
+    border:none;
+    background: hsla(0, 0%, 0%, 0.33);
+    transition: transform 0.2s ease-in-out;
+}
+
+#news button:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(.90);
+}
+
 .carosel {
     overflow: hidden;
     position: relative;
@@ -405,6 +433,17 @@ div.brand {
     left: 12.5%;
     transform: translateY(-50%);
     display: none;
+}
+
+.news-item .exposition {
+    color: var(--main-text-color);
+    font-size: .9em;
+}
+
+
+.news-item .date {
+    text-align: right;
+    font-size: 1.1em;
 }
 
 .active {

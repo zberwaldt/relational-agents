@@ -16,10 +16,23 @@ soup = BeautifulSoup(page, 'html.parser')
 
 news_items = soup.find('section', attrs={'class': 'whats-new'}).find_all('li')
 
+news_file = open('news.txt', 'w')
+
+news_content = ""
+
 for item in news_items:
     links = item.find_all('a')
+    item_text = item.text
+    match = dedent(item.text)
     for link in links:
-        match = re.sub(link.text, item.text).group(0)
-        print(match)
-        mdLinkText = f'bloop'
-        linkHref = f'({link['href']})'
+        link_text = link.text.strip()
+        link_href = link['href']
+        match = re.sub(f'{link_text}', f'[{link_text}]({link_href})', match)
+    news_content += f"NEWS: \n\n {match} \n\n"
+
+news_file.write(news_content)
+news_file.close()
+        
+
+
+

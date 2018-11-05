@@ -5,6 +5,9 @@ theme = "rag-theme"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+[blackfriday]
+ hrefTargetBlank = true
+
 [params]
     description = "Relational Agents Group website"
 

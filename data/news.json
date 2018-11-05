@@ -2,24 +2,39 @@
    "news": [
         {
             "type": "conference",
-            "title": "Papers accepted to intelligent Virtual Agents",
-            "details": "Group members have six papers accepted to the Intelligent Virutal Agents conference in Sydney Australia.",
-            "Month": "July"
+            "title": "Papers accepted to Intelligent Virtual Agents 2018",
+            "details": "RAG members had six papers accepted to the  [Intelligent Virtual Agents](http://iva2018.westernsydney.edu.au/) conference in Syndney, Australia.",
+            "date": "July, 2018."
+        }, {
+            "type": "grant award",
+            "title": "RAG awarded grant for Church-based Community health project",
+            "details" : "RAG receives [NSF](http://nsf.gov) Smart and Connected Communities grant to develop Church-based health intervention.",
+            "date": "July, 2018."
+        }, {
+            "type": "keynote",
+            "title": "Professor Bickmore gives closing keynote at eCHW 2017",
+            "details": "Prof. Bickmore gave the closing keynote at the [e-Coaching conference](https://www.echw.science) in Amsterdam",
+            "date": "January 26-27, 2017"
+        }, {
+            "type": "grant award",
+            "title": "Papers accepted to Intelligent Virtual Agents 2018",
+            "details": "RAG receives NIH R01 grant to develop agents for palliative care.",
+            "date": "April, 2016."
+        }, {
+            "type": "project",
+            "title": "Virtual Nurse system licensed to Telerent Corp.",
+            "details": "[Virtual Nurse](/project/archive/virtual-nurse) system licensed to [Telerent Corp](http://www.telerent.com).",
+            "date": "October, 2015."
         }, {
             "type": "conference",
-            "title": "Relational Agent Group hosts CHI 2019",
-            "details": "The group was selected to Host the CHI conference in 2019",
-            "Month": "June"
+            "title": "Northeastern tapped to host the IVA 2014 conference ",
+            "details": "Northeastern University hosted the [Intelligent Virtual Agents conference](http://www.ccs.neu.edu/iva2014/), [[News report](http://www.northeastern.edu/news/2014/09/intelligent-virtual-agents-conference/)]",
+            "date": "Aug 27-29, 2014"
         }, {
-            "type": "interview",
-            "title": "Interview with WIRED magazine",
-            "details": "Director, Timothy Bickmore, interviewed about the challenges of Relational Agents",
-            "Month": "December"
-        }, {
-            "type": "equipment",
-            "title": "Added new tool to our toolbox.",
-            "details": "Bought a robot",
-            "Month": "January"
+            "type": "demonstration",
+            "title": "Papers accepted to Intelligent Virtual Agents 2018",
+            "details": "Kathleen Sebelius, Secretary of [Health and Human Services](http://www.dhhs.gov/), received a demonstration of the [Virtual Nurse](projects/2.html) from Carolyn Clancy, Director of the [Agency for Healthcare Research and Quality](http://www.ahrq.gov/).",
+            "date": "Oct 9, 2009"
         }
     ]
 }
