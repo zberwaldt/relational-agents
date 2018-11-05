@@ -1,7 +1,6 @@
 ---
 title: "Preconception Care for Males (Gabe)"
 description: null
-
 resources:
 - name: main image
   src: Gabe.jpg

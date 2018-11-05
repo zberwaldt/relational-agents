@@ -4,12 +4,12 @@ title: "Relational Agent to Provide Alcohol Brief Intervention and Referral to T
 project: null
 event: "Society for Behavioral Medicine (SBM) annual meeting"
 authors:
-- name: "Sawdy, M.."
-- name: "Yeksigian, C.."
-- name: "Zhou, S.."
-- name: "Bickmore, T.."
-- name: "Simon, S.."
-- name: "Rubin, A.."
+- name: "Sawdy, M."
+- name: "Yeksigian, C."
+- name: "Zhou, S."
+- name: "Bickmore, T."
+- name: "Simon, S."
+- name: "Rubin, A."
 year: 2018
 resources: null
 external_url: null

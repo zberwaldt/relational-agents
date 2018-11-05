@@ -1,7 +1,7 @@
 ---
 name: "Robocop A Robotic Coach For Oral"
 title: "RoboCOP: A Robotic Coach for Oral Presentations"
-project: null
+project: "Public Speaking Coach"
 event: "ACM International Joint Conference on Pervasive and Ubiquitous Computing (Ubicomp)"
 authors:
 - name: "Trinh, H."

@@ -4,10 +4,10 @@ title: "Cultural and Linguistic Adaptation of Relational Agents for Health Couns
 project: null
 event: "Workshop on Interactive Systems in Healthcare, Atlanta, GA"
 authors:
-- name: "Yin, L.."
-- name: "Bickmore, T.."
-- name: "Byron, D.."
-- name: "Cortes, D.."
+- name: "Yin, L."
+- name: "Bickmore, T."
+- name: "Byron, D."
+- name: "Cortes, D."
 year: 2010
 resources:
 - name: "WISH2010"

@@ -1,7 +1,6 @@
 ---
 title: "Family Health History"
 description: null
-
 resources:
 - name: main image
   src: vicky2.jpg

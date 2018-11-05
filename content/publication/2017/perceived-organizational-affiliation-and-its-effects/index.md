@@ -4,9 +4,9 @@ title: "Perceived Organizational Affiliation and Its Effects on Patient Trust: R
 project: null
 event: "Patient Education and Counseling 100(9):1730-37"
 authors:
-- name: "Zhang, Z.."
+- name: "Zhang, Z."
 - name: "Bickmore, T."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2017
 resources: null
 external_url: null

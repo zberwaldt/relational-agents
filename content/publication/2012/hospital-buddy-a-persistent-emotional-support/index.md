@@ -4,11 +4,11 @@ title: "Hospital Buddy: A Persistent Emotional Support Companion Agent for Hospi
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:
-- name: "Bickmore, T.."
-- name: "Bukhari, L.."
-- name: "Vardoulakis, L.."
-- name: "Orlow, M.."
-- name: "Shanahan, C.."
+- name: "Bickmore, T."
+- name: "Bukhari, L."
+- name: "Vardoulakis, L."
+- name: "Paasche-Orlow, M."
+- name: "Shanahan, C."
 year: 2012
 resources:
 - name: "IVA12 hbuddy"

@@ -4,7 +4,7 @@ title: "Conversational Agents Enable Automated Health Interventions for Individu
 project: null
 event: "Society for Behavioral Medicine (SBM) annual meeting, Symposium on Bridging the Digital Divide in Health and Healthcare: Can Behavioral Medicine Help? (abstract)"
 authors:
-- name: "Bickmore, T.."
+- name: "Bickmore, T."
 year: 2016
 resources: null
 external_url: null

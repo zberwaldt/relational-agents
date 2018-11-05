@@ -4,10 +4,10 @@ title: "Pilot study of the use of a computer agent to provide information and su
 project: null
 event: "American Public Health Association Annual Meeting (abstract)"
 authors:
-- name: "Edwards, R.."
-- name: "Bickmore, T.."
-- name: "Jenkins, L.."
-- name: "Foley, M.."
+- name: "Edwards, R."
+- name: "Bickmore, T."
+- name: "Jenkins, L."
+- name: "Foley, M."
 year: 2012
 resources:
 - name: "apha12-bf"

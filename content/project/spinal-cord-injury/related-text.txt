@@ -1,9 +1,0 @@
-A Friendly Face in the Storm: Self-care Support System Requirements for Individuals with Spinal Cord Injury.
-	      CHI'17 Workshop on Interactive Systems in Healthcare (WISH). 
-	      Shamekhi, A., Trinh, H., Bickmore, T., Ellis, T., Houlihan, B., Latham, N. (to appear).
-	      [PDF]
-
-A Virtual Self-care Coach for Individuals with Spinal Cord Injury
-              The 18th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS) 
-              Shamekhi, A., Trinh, H., Bickmore, T., DeAngelis, T., Ellis, T., Houlihan, B., Latham, N. (2016)
-

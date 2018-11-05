@@ -6,7 +6,7 @@ event: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)"
 authors:
 - name: "Zhou, S."
 - name: "Gali, R."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 - name: "Bickmore, T."
 year: 2014
 resources:

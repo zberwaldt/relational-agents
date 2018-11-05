@@ -4,9 +4,9 @@ title: "Relational Agents Improve Engagement and Learning in Science Museum Visi
 project: null
 event: "Intelligent Virtual Agents conference (IVA), Reykjavik, Iceland"
 authors:
-- name: "Bickmore, T.."
-- name: "Pfeifer, L.."
-- name: "Schulman, D.."
+- name: "Bickmore, T."
+- name: "Pfeifer, L."
+- name: "Schulman, D."
 year: 2011
 resources:
 - name: "iva11-tinker FINAL"

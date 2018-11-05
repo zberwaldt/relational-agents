@@ -7,7 +7,7 @@ authors:
 - name: "Zhang, Z."
 - name: "Bickmore, T."
 - name: "Silliman, R."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2013
 resources: null
 external_url: null

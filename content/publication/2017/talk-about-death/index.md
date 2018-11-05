@@ -1,13 +1,13 @@
 ---
-name: "Talk About Death End Of Life"
+name: "Talk About Death"
 title: "Talk About Death: End of Life Planning with a Virtual Agent"
-project: null
+project: "Palliative Care Agent"
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:
-- name: "Utami, D.."
-- name: "Bickmore, T.."
-- name: "Nikolopoulou, A.."
-- name: "Orlow, M.."
+- name: "Utami, D."
+- name: "Bickmore, T."
+- name: "Nikolopoulou, A."
+- name: "Paasche-Paasche-Orlow, M."
 year: 2017
 resources:
 - name: "IVA17 spiritual"

@@ -1,7 +1,6 @@
 ---
 title: "Spinal Cord Injury"
 description: null
-
 resources:
 - name: main image
   src: interaction.jpg

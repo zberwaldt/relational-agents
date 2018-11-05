@@ -7,7 +7,7 @@ authors:
 - name: "Bickmore, T."
 - name: "Vardoulakis, L."
 - name: "Jack, B."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2013
 resources:
 - name: "IVA13"

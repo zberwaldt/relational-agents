@@ -15,7 +15,7 @@ authors:
 - name: "Trinh, H."
 - name: "Waite, K."
 - name: "Shanahan, C."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2015
 resources:
 - name: "IVA15 HospitalBuddy"

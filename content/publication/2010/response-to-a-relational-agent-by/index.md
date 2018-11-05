@@ -7,7 +7,7 @@ authors:
 - name: "Bickmore, T."
 - name: "Mitchell, S."
 - name: "Jack, B."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 - name: "Pfeifer, L."
 - name: "ODonnell, J."
 year: 2010

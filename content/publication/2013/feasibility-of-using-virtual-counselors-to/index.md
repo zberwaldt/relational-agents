@@ -10,7 +10,7 @@ authors:
 - name: "Campion, M."
 - name: "Norkunas, T."
 - name: "Larson, C."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2013
 resources: null
 external_url: null

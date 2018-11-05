@@ -113,17 +113,14 @@ i.fas, i.far {
     margin-bottom: 32px;
 }
 
-#publications {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
 #current-members,
 #past-members {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #press, 
-#projects {
+#projects,
+#publications {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
@@ -164,6 +161,20 @@ i.fas, i.far {
 
 .pub-section p {
     font-size: 1.2em;
+}
+
+.pub-section {
+    align-items: center;
+}
+
+.pub-sec-total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    border: solid 2px hsl(180, 100%, 50%);
 }
 
 .press-item, 
@@ -218,7 +229,9 @@ i.fas, i.far {
 }
 
 .years {
-    flex-basis: 33%;
+    flex-basis: 25%;
+    flex-shrink: 0;
+    flex-grow: 0;
     background-color: hsla(0,0%, 0%, .9);
     position: sticky;
     align-self: flex-start;
@@ -414,10 +427,13 @@ div.brand {
     transition: transform 0.2s ease-in-out;
 }
 
+.detail-container button:hover,
 #news button:hover {
+    cursor: pointer;
     transition: transform 0.2s ease-in-out;
     transform: scale(.90);
 }
+
 
 .carosel {
     overflow: hidden;
@@ -483,6 +499,16 @@ div.brand {
     justify-content: center;
 }
 
+.detail-container button {
+    color: red;
+    font-size: 1.3em;
+    background: transparent;
+    border: none;
+}
+
+.detail-container button:hover {
+    cursor: pointer;
+}
 
 .member-card {
     border: 1px solid hsla(0, 0%, 0%, .1);

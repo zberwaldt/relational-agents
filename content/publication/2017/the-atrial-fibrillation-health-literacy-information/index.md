@@ -8,7 +8,7 @@ authors:
 - name: "Schlusser, C."
 - name: "Kimani, E."
 - name: "Rollman, B."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 - name: "Bickmore, T."
 year: 2017
 resources: null

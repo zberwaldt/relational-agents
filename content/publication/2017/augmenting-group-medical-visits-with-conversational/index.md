@@ -4,8 +4,8 @@ title: "Augmenting Group Medical Visits with Conversational Agents for Stress Ma
 project: null
 event: "Persuasive Technology Conference"
 authors:
-- name: "Shamekhi, A.."
-- name: "Bickmore, T.."
+- name: "Shamekhi, A."
+- name: "Bickmore, T."
 year: 2017
 resources:
 - name: "Persuasive17"

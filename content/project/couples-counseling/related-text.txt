@@ -1,4 +1,0 @@
-A Robotic Couples Counselor for Promoting Positive Communication. 
-	      IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN).
-	      Utami, D, Bickmore, T, Kruger, L (2017). [PDF]
-

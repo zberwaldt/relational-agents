@@ -4,8 +4,8 @@ title: "Is the Media Equation a Flash in the Pan? The Durability and Longevity o
 project: null
 event: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)"
 authors:
-- name: "Pfeifer, L.."
-- name: "Bickmore, T.."
+- name: "Pfeifer, L."
+- name: "Bickmore, T."
 year: 2011
 resources:
 - name: "CHI2011-pfeifer"

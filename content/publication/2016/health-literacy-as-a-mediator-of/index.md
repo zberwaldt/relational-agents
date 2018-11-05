@@ -12,7 +12,7 @@ authors:
 - name: "Bickmore, T."
 - name: "Hanchate, A."
 - name: "Wolf, M."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2016
 resources: null
 external_url: null

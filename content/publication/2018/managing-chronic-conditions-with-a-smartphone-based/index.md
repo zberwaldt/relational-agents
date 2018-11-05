@@ -8,7 +8,7 @@ authors:
 - name: "Kimani, E."
 - name: "Trinh, H."
 - name: "Pusateri, A."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 - name: "Magnani, J."
 year: 2018
 resources: null

@@ -7,7 +7,7 @@ authors:
 - name: "Utami, D."
 - name: "Barry, B."
 - name: "Bickmore, T."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2013
 resources:
 - name: "HCIR13"

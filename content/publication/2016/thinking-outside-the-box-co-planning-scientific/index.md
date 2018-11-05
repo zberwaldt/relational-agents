@@ -4,10 +4,10 @@ title: "Thinking Outside the Box: Co-Planning Scientific Presentations with Virt
 project: null
 event: "Intelligent Virtual Agents (IVA)"
 authors:
-- name: "Trinh, H.."
-- name: "Bickmore, T.."
-- name: "Edge, D.."
-- name: "Ring, L.."
+- name: "Trinh, H."
+- name: "Bickmore, T."
+- name: "Edge, D."
+- name: "Ring, L."
 year: 2016
 resources:
 - name: "IVA16 acetalk"

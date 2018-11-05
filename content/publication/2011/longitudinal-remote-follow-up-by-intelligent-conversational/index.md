@@ -4,8 +4,8 @@ title: "Longitudinal Remote Follow-Up by Intelligent Conversational Agents for P
 project: null
 event: "AAAI Spring Symposium on AI and Health Communication"
 authors:
-- name: "Pfeifer, L.."
-- name: "Bickmore, T.."
+- name: "Pfeifer, L."
+- name: "Bickmore, T."
 year: 2011
 resources:
 - name: "AAAI2011-pfeifer"

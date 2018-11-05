@@ -4,11 +4,11 @@ title: "Designing Relational Agents as Long Term Social Companions for Older Adu
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:
-- name: "Vardoulakis, L.."
-- name: "Ring, L.."
-- name: "Barry, B.."
-- name: "Sidner, C.."
-- name: "Bickmore, T.."
+- name: "Vardoulakis, L."
+- name: "Ring, L."
+- name: "Barry, B."
+- name: "Sidner, C."
+- name: "Bickmore, T."
 year: 2012
 resources:
 - name: "IVA12 woz"

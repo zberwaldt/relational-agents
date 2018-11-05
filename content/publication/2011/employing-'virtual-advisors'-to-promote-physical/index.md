@@ -4,11 +4,11 @@ title: "Employing 'Virtual Advisors' to Promote Physical Activity in Underserved
 project: null
 event: "Society for Behavioral Medicine (SBM) annual meeting (abstract)"
 authors:
-- name: "King, A.."
-- name: "Bickmore, T.."
-- name: "Campero, I.."
-- name: "Pruitt, L.."
-- name: "Yin, L.."
+- name: "King, A."
+- name: "Bickmore, T."
+- name: "Campero, I."
+- name: "Pruitt, L."
+- name: "Yin, L."
 year: 2011
 resources:
 - name: "king11"

@@ -6,7 +6,7 @@ event: "American Society of Human Genetics Annual Meeting"
 authors:
 - name: "Wang, C."
 - name: "Bickmore, T."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 - name: "Cunningham, T."
 - name: "Cabral, H."
 - name: "Winter, M."

@@ -6,7 +6,7 @@ event: "Patient Education and Counseling, 75(3), 315-320."
 authors:
 - name: "Bickmore, T."
 - name: "Pfiefer, L."
-- name: "Paasche-Orlow, M."
+- name: "Paasche-Paasche-Orlow, M."
 year: 2009
 resources:
 - name: "PEC09"

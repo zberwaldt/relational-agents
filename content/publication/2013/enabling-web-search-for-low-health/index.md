@@ -10,7 +10,7 @@ authors:
 - name: "Henault, L."
 - name: "Waite, K."
 - name: "Matsuyama, R."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2013
 resources: null
 external_url: null

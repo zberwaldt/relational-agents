@@ -4,9 +4,9 @@ title: "That's a Rap:  Increasing Engagement with Rap Music Performance by Virtu
 project: null
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:
-- name: "Olafsson, S.."
-- name: "Kimani, E.."
-- name: "Asadi, R.."
+- name: "Olafsson, S."
+- name: "Kimani, E."
+- name: "Asadi, R."
 - name: "Bickmore, T."
 year: 2017
 resources:

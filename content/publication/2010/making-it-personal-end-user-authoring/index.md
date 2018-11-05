@@ -1,9 +1,11 @@
 ---
-name: "Making It Personal End User Authoring Of"
+name: "Making It Personal End User Authoring"
 title: "Making It Personal: End-User Authoring of Health Narratives Delivered by Virtual Agents"
-project: null
+project: "Preconception Care"
 event: "Intelligent Virtual Agents conference (IVA), Philadelphia, PA"
 authors:
+- name: "Bickmore, T."
+- name: "Ring, L."
 year: 2010
 resources:
 - name: "IVA10 story"

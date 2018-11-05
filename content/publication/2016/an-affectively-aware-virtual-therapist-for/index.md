@@ -4,9 +4,9 @@ title: "An Affectively Aware Virtual Therapist for Depression Counseling"
 project: null
 event: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) workshop on Computing and Mental Health"
 authors:
-- name: "Ring, L.."
-- name: "Bickmore, T.."
-- name: "Pedrelli, P.."
+- name: "Ring, L."
+- name: "Bickmore, T."
+- name: "Pedrelli, P."
 year: 2016
 resources:
 - name: "CHI2016-MentalHealth"

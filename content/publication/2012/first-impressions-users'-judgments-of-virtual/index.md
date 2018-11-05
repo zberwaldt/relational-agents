@@ -4,12 +4,12 @@ title: "First Impressions: users' judgments of Virtual Agents' Personality and I
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:
-- name: "Cafaro, A.."
-- name: "Vilhjálmsson, H.."
-- name: "Bickmore, T.."
-- name: "Heylen, D.."
-- name: "Jóhannsdóttir, K.."
-- name: "Valgarðsson, G.."
+- name: "Cafaro, A."
+- name: "Vilhjálmsson, H."
+- name: "Bickmore, T."
+- name: "Heylen, D."
+- name: "Jóhannsdóttir, K."
+- name: "Valgarðsson, G."
 year: 2012
 resources: null
 external_url: null

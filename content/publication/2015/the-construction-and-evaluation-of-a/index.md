@@ -4,7 +4,7 @@ title: "The Construction and Evaluation of a Design Framework for Narrative Game
 project: null
 event: "Phd Dissertation, College of Computer and Information Science, Northeastern University"
 authors:
-- name: "Yin, L.."
+- name: "Yin, L."
 year: 2015
 resources:
 - name: "Yin thesis"

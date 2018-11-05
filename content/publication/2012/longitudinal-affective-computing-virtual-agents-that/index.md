@@ -4,9 +4,9 @@ title: "Longitudinal Affective Computing: Virtual Agents that Respond to User Mo
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:
-- name: "Ring, L.."
-- name: "Bickmore, T.."
-- name: "Schulman, D.."
+- name: "Ring, L."
+- name: "Bickmore, T."
+- name: "Schulman, D."
 year: 2012
 resources:
 - name: "IVA12 mood"

@@ -4,11 +4,11 @@ title: "Blissful Agents: Adjuncts to Group Medical Visits for Chronic Pain and D
 project: null
 event: "Intelligent Virtual Agents (IVA)"
 authors:
-- name: "Shamekhi, A.."
-- name: "Bickmore, T.."
-- name: "Lestoquoy, A.."
-- name: "Negash, L.."
-- name: "Gardiner, P.."
+- name: "Shamekhi, A."
+- name: "Bickmore, T."
+- name: "Lestoquoy, A."
+- name: "Negash, L."
+- name: "Gardiner, P."
 year: 2016
 resources:
 - name: "IVA16 pcori"

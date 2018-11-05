@@ -12,7 +12,7 @@ authors:
 - name: "Henault, L."
 - name: "Waite, K."
 - name: "Bickmore, T."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2016
 resources: null
 external_url: null

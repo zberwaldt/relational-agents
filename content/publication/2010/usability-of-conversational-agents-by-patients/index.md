@@ -11,7 +11,7 @@ authors:
 - name: "Henault, L."
 - name: "Jack, B."
 - name: "Silliman, R."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2010
 resources:
 - name: "HealthComm10"

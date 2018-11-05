@@ -10,7 +10,7 @@ authors:
 - name: "Henault, L."
 - name: "Bickmore, T."
 - name: "Kimani, E."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2017
 resources: null
 external_url: null

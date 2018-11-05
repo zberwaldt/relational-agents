@@ -4,8 +4,8 @@ title: "Posture, Relationship, and Discourse Structure"
 project: null
 event: "Intelligent Virtual Agents conference (IVA), Reykjavik, Iceland"
 authors:
-- name: "Schulman, D.."
-- name: "Bickmore, T.."
+- name: "Schulman, D."
+- name: "Bickmore, T."
 year: 2011
 resources:
 - name: "dan-posture-iva11-FINAL"

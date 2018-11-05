@@ -1,7 +1,7 @@
 ---
 name: "Embodied Conversational Agents For Patients With"
 title: "Embodied conversational agents for patients with advanced illnesses intervention description and trial design"
-project: null
+project: "Palliative Care Agent"
 event: "Society for General Internal Medicine Annual Conference"
 authors:
 - name: "Waite, K."
@@ -13,7 +13,7 @@ authors:
 - name: "Shamekhi, A."
 - name: "Olafsson, S."
 - name: "Bickmore, T."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2018
 resources: null
 external_url: null

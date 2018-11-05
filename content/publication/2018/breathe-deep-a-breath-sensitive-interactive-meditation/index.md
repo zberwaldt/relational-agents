@@ -4,8 +4,8 @@ title: "Breathe Deep: A Breath-Sensitive Interactive Meditation Coach"
 project: null
 event: "Pervasive Health Conference"
 authors:
-- name: "Shamehki, A.."
-- name: "Bickmore, T.."
+- name: "Shamehki, A."
+- name: "Bickmore, T."
 year: 2018
 resources:
 - name: "pervasive18"

@@ -1,7 +1,7 @@
 ---
 name: "A Robotic Couples Counselor For Promoting"
 title: "A Robotic Couples Counselor for Promoting Positive Communication"
-project: null
+project: "Couples Counseler Robot"
 event: "IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)"
 authors:
 - name: "Utami, D."

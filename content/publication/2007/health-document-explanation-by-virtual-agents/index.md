@@ -6,7 +6,7 @@ event: "Intelligent Virtual Agents '07, Paris."
 authors:
 - name: "Bickmore, T."
 - name: "Pfeifer, L."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2007
 resources:
 - name: "IVA07-DocEx"

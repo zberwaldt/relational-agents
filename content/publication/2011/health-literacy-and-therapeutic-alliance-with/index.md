@@ -4,8 +4,8 @@ title: "Health Literacy and Therapeutic Alliance with Relational Computer Agents
 project: null
 event: "Health Literacy Annual Research Conference (abstract)"
 authors:
-- name: "Bickmore, T.."
-- name: "Orlow, M.."
+- name: "Bickmore, T."
+- name: "Paasche-Orlow, M."
 year: 2011
 resources: null
 external_url: null

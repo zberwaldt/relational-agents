@@ -1,6 +1,7 @@
 {{ define "main" }}
     <div class="container flex f-row">
         <div class="publication-list">
+        <a class="back-link" href="/publication/"><i class="fas fa-chevron-left"></i>Back to index</a>
         {{ range (.Pages.GroupByParam "year").Reverse }}
             <h1 class="page-title text-center">{{ .Key }}</h1>
             {{ range .Pages }}

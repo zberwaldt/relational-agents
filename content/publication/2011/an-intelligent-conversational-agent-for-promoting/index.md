@@ -4,9 +4,9 @@ title: "An Intelligent Conversational Agent for Promoting Long-term Health Behav
 project: null
 event: "AAAI Spring Symposium on AI and Health Communication"
 authors:
-- name: "Schulman, D.."
-- name: "Bickmore, T.."
-- name: "Sidner, C.."
+- name: "Schulman, D."
+- name: "Bickmore, T."
+- name: "Sidner, C."
 year: 2011
 resources:
 - name: "AAAI2011-schulman"

@@ -10,7 +10,7 @@ authors:
 - name: "Cheng, D."
 - name: "Winter, M."
 - name: "Henaulat, L."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2013
 resources: null
 external_url: null

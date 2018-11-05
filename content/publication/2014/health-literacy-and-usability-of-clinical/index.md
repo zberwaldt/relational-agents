@@ -7,7 +7,7 @@ authors:
 - name: "Utami, D."
 - name: "Bickmore, T."
 - name: "Barry, B."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2014
 resources: null
 external_url: null

@@ -1,7 +1,6 @@
 ---
 title: "Public Speaking Coach"
 description: null
-
 resources:
 - name: main image
   src: robocop.jpg

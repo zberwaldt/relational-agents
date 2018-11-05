@@ -12,7 +12,7 @@ authors:
 - name: "Winter, M."
 - name: "Cheng, D."
 - name: "Nelson, K."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2013
 resources: null
 external_url: null

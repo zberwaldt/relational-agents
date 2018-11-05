@@ -4,8 +4,8 @@ title: "Changes in Verbal and Nonverbal Conversational Behavior in Long-Term Int
 project: null
 event: "International Conference on Multimodal Interaction (ICMI)"
 authors:
-- name: "Schulman, D.."
-- name: "Bickmore, T.."
+- name: "Schulman, D."
+- name: "Bickmore, T."
 year: 2012
 resources:
 - name: "ICMI12"

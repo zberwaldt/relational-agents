@@ -4,9 +4,9 @@ title: "Using an Interactive Visual Novel to Promote Patient Empowerment through
 project: null
 event: "Foundations of Digital Games"
 authors:
-- name: "Yin, L.."
+- name: "Yin, L."
 - name: "Ring, L."
-- name: "Bickmore, T.."
+- name: "Bickmore, T."
 year: 2012
 resources:
 - name: "fdg12"

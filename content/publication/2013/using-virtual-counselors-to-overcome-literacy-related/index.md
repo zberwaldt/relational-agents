@@ -11,7 +11,7 @@ authors:
 - name: "Campion, M."
 - name: "Cabral, J."
 - name: "Winter, M."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2013
 resources: null
 external_url: null

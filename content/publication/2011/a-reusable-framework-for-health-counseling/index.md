@@ -4,9 +4,9 @@ title: "A Reusable Framework for Health Counseling Dialogue Systems based on a B
 project: null
 event: "Journal of Biomedical Informatics, 44, 183-197"
 authors:
-- name: "Bickmore, T.."
-- name: "Schulman, D.."
-- name: "Sidner, C.."
+- name: "Bickmore, T."
+- name: "Schulman, D."
+- name: "Sidner, C."
 year: 2011
 resources:
 - name: "JBI2011-ontology"

@@ -4,8 +4,8 @@ title: "Empirical Validation of an Accommodation Theory-based Model of User-Agen
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:
-- name: "Bickmore, T.."
-- name: "Schulman, D.."
+- name: "Bickmore, T."
+- name: "Schulman, D."
 year: 2012
 resources:
 - name: "IVA12 accommodation"

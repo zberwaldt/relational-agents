@@ -9,7 +9,7 @@ authors:
 - name: "Zhou, S."
 - name: "Sidner, C."
 - name: "Quintiliani, L."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2015
 resources:
 - name: "IVA15 Consent"

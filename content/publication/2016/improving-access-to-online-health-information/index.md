@@ -7,7 +7,7 @@ authors:
 - name: "Bickmore, T."
 - name: "Utami, D."
 - name: "Matsuyama, R."
-- name: "Orlow, M."
+- name: "Paasche-Orlow, M."
 year: 2016
 resources: null
 external_url: http://doi.org/10.2196/jmir.5239
