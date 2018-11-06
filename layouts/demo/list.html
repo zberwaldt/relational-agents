@@ -1,10 +1,12 @@
 {{ define "main" }}
 <div class="container flex f-row">
-    <article class="demo-article">
-        <h2 class="text-center">{{ .Title }}</h2>
-    </article>
+    <div class="demo-section">
+        <h1 class="page-title text-center">{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
     <aside class="aside-nav">
         <h4>Open Source</h4>
+        <hr />
         <ul>
         {{ range .Sections }}
             <li>

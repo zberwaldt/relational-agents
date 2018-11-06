@@ -1,13 +1,38 @@
 {{ define "main" }}
+    {{ $current_page := . }}
     <div class="container flex f-row">
         <article class="demo-article" id="{{.Title | lower}}">
-        {{ .Content }}
+            <a class="back-link" href="{{ .Parent.RelPermalink }}"><i class="fas fa-chevron-left"></i> Go Back</a>
+            {{ .Content }}
         </article>
         <aside class="demoes aside-nav flex f-column">
-            <h4>Other Software</h4>
-            <a href="../litebody">LiteBody</a>
-            <a href="../dtask">Dtask</a>
-            <a href="../hbco">HBCO</a>
+            <h4>Open Source</h4>
+            <hr />
+            <ul>   
+            {{ with .Site.GetPage "/demo/litebody"}}
+                <li>
+                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                
+                    <ul>
+                    {{ range .Pages }}  
+                        <li>
+                            <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Params.short_title }}</a>
+                        </li>
+                    {{ end }}
+                    </ul>
+                </li>
+            {{ end }}
+            {{ with .Site.GetPage "/demo/dtask"}}
+                <li>
+                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
+            {{ with .Site.GetPage "/demo/hbco" }}
+                <li>
+                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+            {{ end }}
+            </ul>
         </aside>
     </div>
 {{ end }}

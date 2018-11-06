@@ -1,10 +1,8 @@
 ---
-title: "litebody"
+title: "Litebody"
 layout: single
 draft: false
 ---
-
-<a class="back-link" href="../"><i class="fas fa-chevron-left"></i>Go Back</a>
 
 Litebody: An Open-Source Tool for Building Lightweight, Web-deployed Embodied Conversational Agents
 =======

@@ -1,7 +1,7 @@
 {{ define "main" }}
     <div class="container">
         <div id="gallery" class="flex f-column">
-            <h2 class="page-title text-center">Current Team</h2>
+            <h1 class="page-title text-center">Current Team</h1>
             <section id="current-members" class="grid">
                 {{ $images := (.Resources.ByType "image") }}
                 {{ range sort $images ".Params.weight" }}
@@ -23,7 +23,7 @@
                 {{ end }}
                 {{ end }}
             </section>
-            <h2 class="page-title text-center">Alumni</h2>
+            <h1 class="page-title text-center">Alumni</h1>
             <section id="past-members" class="grid">
                 {{ range sort (.Resources.ByType "image") ".Params.weight" }}
                     {{ if .Params.alumni }}

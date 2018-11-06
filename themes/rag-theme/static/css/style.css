@@ -48,6 +48,7 @@ i.fas, i.far {
 
 .back-link {
     clear: left;
+    margin-bottom: 16px;
 }
 
 .news-item .exposition a {
@@ -177,6 +178,11 @@ i.fas, i.far {
     border: solid 2px hsl(180, 100%, 50%);
 }
 
+.demo-vid {
+    margin-bottom: 16px;
+}
+
+.demo-vid,
 .press-item, 
 .pub-section, 
 .project,
@@ -232,7 +238,7 @@ i.fas, i.far {
     flex-basis: 25%;
     flex-shrink: 0;
     flex-grow: 0;
-    background-color: hsla(0,0%, 0%, .9);
+    background-color: rgba(19, 19, 19, 0.9);
     position: sticky;
     align-self: flex-start;
     top: 16px;
@@ -241,12 +247,45 @@ i.fas, i.far {
     padding: 16px;
 }
 
+.aside-nav hr {
+    width: 100%;
+    color: white;
+    border: 1px solid;
+}
+
+.aside-nav a:hover {
+    color: rgb(200,200,200);
+}
+
+.aside-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aside-nav li {
+    margin: 4px 0;
+}
+
+.aside-nav ul li ul {
+    padding-left: 8px;
+    color:white;
+}
+
+.aside-nav ul li ul li::before {
+    content: '->'
+}
+
 .aside-nav h4{
     color: white;
 }
 
 .aside-nav a {
     color: white;
+}
+
+.aside-nav a.active {
+    color: rgba(102, 199, 255, 0.856);
 }
 
 .text-center {
@@ -324,6 +363,15 @@ i.fas, i.far {
     margin: 0;
 }
 
+.demo-vid{
+    align-items:center;
+}
+
+.demo-vid h2 {
+    margin: 0 0 16px;
+}
+
+
 .sub-menu li a {
     display: block;
     padding: 16px 24px;
@@ -390,6 +438,7 @@ div.brand {
     background-position: center 25%;
 
 }
+
 
 #home section {
     padding: 32px 0;
@@ -465,12 +514,17 @@ div.brand {
     font-size: 1.1em;
 }
 
+.demo-section {
+    margin-top: 32px;
+    flex-grow:2;
+}
+
 .demo-article {
     margin-top: 32px;
     flex-grow: 2;
 }
 
-.active {
+.news-item.active {
     display: block;
 }
 
