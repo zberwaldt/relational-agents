@@ -2,7 +2,7 @@
 <div id="home">
     <section class="jumbotron">
         <div class="container">
-            <div class="section-content half-width">
+            <div class="section-content flex f-column f-jc-center half-width">
                 <h2 class="subtitle">Research</h2>
                 <h1 class="description">Designing Conversational Agents</h1>
                 <p class="exposition">We work on health education problems.</h3>
@@ -26,7 +26,7 @@
             {{ range $index, $value := .Site.Data.news.news }}
             <div class="news-item {{ if (eq $index 0) }}active{{ end }}">
                 <h2 class="subtitle">{{ .type }}</h2>
-                <h3 class="description">{{ .title }}</h3>
+                <h3 class="description">{{ .title | title }}</h3>
                 <p class="exposition">{{ .details | markdownify }}</p>
                 <p class="date">{{ .date }}</p>
             </div>
