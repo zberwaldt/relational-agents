@@ -27,7 +27,7 @@
             {{ end }}
         {{ end }}
         </div>
-        <aside class="years flex f-column">
+        <aside class="years aside-nav flex f-column">
             <h4>Publications by year:</h4>
             {{ range sort .Parent.Sections "Title" "desc" }}
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>

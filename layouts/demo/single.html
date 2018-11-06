@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <div class="container flex f-row">
+        <article class="demo-article" id="{{.Title | lower}}">
+        {{ .Content }}
+        </article>
+        <aside class="demoes aside-nav flex f-column">
+            <h4>Other Software</h4>
+            <a href="../litebody">LiteBody</a>
+            <a href="../dtask">Dtask</a>
+            <a href="../hbco">HBCO</a>
+        </aside>
+    </div>
+{{ end }}

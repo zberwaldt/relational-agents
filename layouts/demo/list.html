@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container flex f-row">
+    <article class="demo-article">
+        <h2 class="text-center">{{ .Title }}</h2>
+    </article>
+    <aside class="aside-nav">
+        <h4>Open Source</h4>
+        <ul>
+        {{ range .Sections }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            
+                <ul>
+                {{ range .Pages }}
+                    <li>
+                        <a href="{{ .RelPermalink }}">{{ .Params.short_title }}</a>
+                    </li>
+                {{ end }}
+                </ul>
+            </li>
+        {{ end }}
+        {{ range .Pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title | title }} Open Source</a>
+            </li>
+        {{ end }}
+        </ul>
+    </aside>
+</div>
+{{ end }}

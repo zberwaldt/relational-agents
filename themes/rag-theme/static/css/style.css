@@ -228,7 +228,7 @@ i.fas, i.far {
     background: rgba(102, 199, 255, 0.856);
 }
 
-.years {
+.aside-nav {
     flex-basis: 25%;
     flex-shrink: 0;
     flex-grow: 0;
@@ -241,11 +241,11 @@ i.fas, i.far {
     padding: 16px;
 }
 
-.years h4 {
+.aside-nav h4{
     color: white;
 }
 
-.years a {
+.aside-nav a {
     color: white;
 }
 
@@ -463,6 +463,11 @@ div.brand {
 .news-item .date {
     text-align: right;
     font-size: 1.1em;
+}
+
+.demo-article {
+    margin-top: 32px;
+    flex-grow: 2;
 }
 
 .active {
