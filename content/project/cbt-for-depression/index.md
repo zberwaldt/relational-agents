@@ -15,16 +15,3 @@ to receive therapeutic care at home. While effective, these automated interventi
 We are exploring the use of relational agents to both increase retention and dynamically adapt to user
 affective state in the context of a cognitive-behavioral therapy-based intervention for individuals with depressive symptoms. 
 
-Publications:
----
-
-An Affectively Aware Virtual Therapist for Depression Counseling.
-ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) workshop on Computing and Mental Health.
-Ring, L., Bickmore, T., Pedrelli, P.
-[PDF]
-
-
-Real-time Tailoring of Depression Counseling by Conversational Agent.
-Connected Health Symposium, Boston.
-Ring, L., Pedrelli, P., Bickmore, T. (2016)
-

@@ -1,7 +1,7 @@
 ---
 name: "A Smartphone Based Virtual Agent For Atrial"
 title: "A Smartphone-based Virtual Agent for Atrial Fibrillation Education and Counseling"
-project: null
+project: "Atrial Fibrillation"
 event: "Intelligent Virtual Agents (IVA)"
 authors:
 - name: "Kimani, K."

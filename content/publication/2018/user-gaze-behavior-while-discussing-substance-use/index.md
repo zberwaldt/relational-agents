@@ -1,7 +1,7 @@
 ---
 name: "User Gaze Behavior While Discussing Substance Use"
 title: "User Gaze Behavior while Discussing Substance Use with a Virtual Agent"
-project: null
+project: "Alcohol Treatment for Veterans"
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:
 - name: "Zhou, S."

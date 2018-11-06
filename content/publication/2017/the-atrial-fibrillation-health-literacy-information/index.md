@@ -1,7 +1,7 @@
 ---
 name: "The Atrial Fibrillation Health Literacy Information"
 title: "The Atrial Fibrillation Health Literacy Information Technology System: Pilot Assessment"
-project: null
+project: "Atrial Fibrillation"
 event: "JMIR Cardio"
 authors:
 - name: "Magnani, J."

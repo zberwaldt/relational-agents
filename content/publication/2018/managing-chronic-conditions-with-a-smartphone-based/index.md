@@ -1,7 +1,7 @@
 ---
 name: "Managing Chronic Conditions With A Smartphone Based"
 title: "Managing Chronic Conditions with a Smartphone-based Conversational Virtual Agent"
-project: null
+project: "Atrial Fibrillation"
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:
 - name: "Bickmore, T."

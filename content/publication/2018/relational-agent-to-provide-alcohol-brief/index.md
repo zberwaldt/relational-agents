@@ -1,7 +1,7 @@
 ---
 name: "Relational Agent To Provide Alcohol Brief"
 title: "Relational Agent to Provide Alcohol Brief Intervention and Referral to Treatment in Primary Care: Design and Preliminary Results"
-project: null
+project: "Alcohol Treatment for Veterans"
 event: "Society for Behavioral Medicine (SBM) annual meeting"
 authors:
 - name: "Sawdy, M."
