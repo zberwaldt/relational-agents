@@ -11,8 +11,8 @@ features = []
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Zach Berwaldt"
+  homepage = "https://zachberwaldt.com/"
 
 # If porting an existing theme
 [original]
