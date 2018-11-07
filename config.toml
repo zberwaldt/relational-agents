@@ -6,6 +6,7 @@ theme = "rag-theme"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [blackfriday]
+ extensionsmask = ["autolink"]
  hrefTargetBlank = true
  nofollowLinks = true
  noreferrerLinks = true

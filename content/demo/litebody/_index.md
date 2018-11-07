@@ -11,7 +11,8 @@ Litebody is a set of open-source tools for building lightweight, web-deployed Em
 
 Components
 ----
-Components of the Litebody system, and their features, include: 
+Components of the Litebody system, and their features, include:
+
 1. **Litebody Protocol:** an http or https based client-server protocol for delivering audio and animation scripts from a server to an ECA client, and for delivering user input from client to server.
 
 2. **Litebody Client:** a Flash-based ECA client, which supports a core set of nonverbal behavior. Our current implementations including the character animation distributed with Litebody are as small as 500K, allowing reasonable download times even on slow network connections. It can allow multiple-choice or free-text user input, and has a plug-in architecture that can be used to provide additional input methods.
@@ -31,8 +32,9 @@ Demo
 
 Licensing 
 -----
-![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png) LiteBody by Northeastern University Relational Agents Group  is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Based on a work at [litebodysuite.sourceforge.net](http://litebodysuite.sourceforge.net)
+![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png) LiteBody by <a xmlns:cc="http://creativecommons.org/ns#" href="http://relationalagents.com " property="cc:attributionName" rel="cc:attributionURL">Northeastern University Relational Agents Group</a> is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/). Based on a work at <a xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://litebodysuite.sourceforge.net" rel="dc:source">litebodysuite.sourceforge.net</a>
 
+We also request that any publications covering work based on LiteBody cite the Bickmore, et al, 2009 IVA paper (above). 
 
 Download
 -------

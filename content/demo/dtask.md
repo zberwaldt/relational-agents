@@ -143,7 +143,8 @@ Publications
 Licensing
 ----
 [![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/) <span property="dc:title" xmlns:dc="http://purl.org/dc/elements/1.1/">DTask </span> by <a href="http://relationalagents.com " property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Northeastern University Relational Agents Group </a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. Based on a work at <a href="http://dtask.sourceforge.net" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/">dtask.sourceforge.net</a>.</p>
-<p>We also request that any publications covering work based on DTask cite the Bickmore, et al, 2011 JBI paper (above).</p>
+
+We also request that any publications covering work based on DTask cite the Bickmore, et al, 2011 JBI paper (above).
 
 Download
 ----

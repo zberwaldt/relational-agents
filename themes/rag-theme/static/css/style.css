@@ -526,16 +526,30 @@ div.brand {
     flex-shrink: 1;
 }
 
+.demo-article img {
+    width: 85%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+.demo-article .float-r {
+    float: right;
+    width: unset;
+    height: unset;
+}
+
 .demo-article p img {
     text-align: center;
 }
 
-.demo-article img {
-    width: 85%;
-    height: auto;
-    margin: auto;
+.demo-article pre {
+    background: hsla(0, 0%, 15%, .8);
+    padding: 8px;
+    color: white;
+    width: unset;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
-
 
 .news-item.active {
     display: block;
@@ -586,10 +600,6 @@ div.brand {
 
 .highlight {
     color: #4AA2EA;
-}
-
-.float-r {
-    float: right;
 }
 
 .member-card {

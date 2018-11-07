@@ -45,12 +45,11 @@ The server responds to a GET message with an agent description, including:
 - REQUIRED --> a username/password is always needed
 - OPTIONAL --> may use a username/password, or interact as a "guest" (NOT IMPLEMENTED)
 
-```
+    ```
     - agent ::= <AGENT VERSION="int.int" AUTHENTICATION="authType">; conversation* </AGENT>;
     - conversation ::= <CONVERSATION URL="url" />;
-    - authType ::= NONE | OPTIONAL | REQUIRED
-
-```
+    - authType ::= NONE | OPTIONAL | REQUIRED 
+    ```
 #### Conversation Startup
 
 A POST message to the agent URL requests a new conversation. The server replies with a conversation description containing the new conversation URL in the case of success. If the conversation could not be started, the server must reply with an HTTP error.
@@ -72,13 +71,12 @@ message.
 
 
 
-```
+    ```
     <CONVERSATION xml:base="[URL]" URL="[URL]" ACTIVE="[true|false]">
     (<VIEW ID="[string]"/>)*
     (<ACTION ID="[string]"/>)*
     </CONVERSATION>;
-
-```
+    ```
 
 
 #### POST messages
@@ -125,7 +123,7 @@ The different types of input elements are as follows:
 
    - **Menu:** A menu must contain atleast one item as option. The user has to select the answer from the options provided in the menu to respond to the agent.
    
-   - **FreeText:** <img style="border:1px solid black;" src="text.PNG" class="float-r">
+   - **FreeText:** <img src="text.PNG" class="float-r">
 A freetext is another input type which allows the user to enter textual input unlike selecting predefined options in menu. It has a mandatory attribute ‘prompt’. Another attribute in freetext element is the ‘lines’, which is an optional attribute. The ‘lines’ specify if the input is a single or multiple line input. If the attribute is not present, the default value considered is Single.
    
    - **Widget:** <img src="slider.PNG" class="float-r">

@@ -24,5 +24,9 @@ Licensing
 ----
 ![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png) HBCO by Northeastern University Relational Agents Group  is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Based on a work at [tbd.sourceforge.net](http://litebody.sourceforge.net).
 
+We also request that any publications covering work based on HBCO cite the Bickmore, et al, 2011 JBI paper (above).
 
+Download
+----
 
+[http://hbco.courceforge.net](http://hbco.courceforge.net)
