@@ -123,7 +123,7 @@ All configuration for litebody is done in the web.xml file.  This example shows 
 
 #### Configuration Parameters
 
-<table class="prop">
+<table>
     <tbody>
         <tr>
             <th>Property</th>

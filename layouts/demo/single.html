@@ -11,7 +11,7 @@
             <ul>   
             {{ with .Site.GetPage "/demo/litebody"}}
                 <li>
-                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title }} Open Source</a>
                 
                     <ul>
                     {{ range .Pages }}  
@@ -24,12 +24,12 @@
             {{ end }}
             {{ with .Site.GetPage "/demo/dtask"}}
                 <li>
-                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title | title }} Open Source</a>
                 </li>
             {{ end }}
             {{ with .Site.GetPage "/demo/hbco" }}
                 <li>
-                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title | title }} Open Source</a>
                 </li>
             {{ end }}
             </ul>

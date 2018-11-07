@@ -29,4 +29,4 @@ We also request that any publications covering work based on HBCO cite the Bickm
 Download
 ----
 
-[http://hbco.courceforge.net](http://hbco.courceforge.net)
+[http://hbco.sourceforge.net](http://hbco.sourceforge.net)

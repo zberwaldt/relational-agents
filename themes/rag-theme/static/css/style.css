@@ -132,6 +132,7 @@ i.fas, i.far {
 #past-members {
     grid-template-rows: auto;
     grid-gap: 8px 16px;
+    margin-bottom: 32px;
 }
 
 
@@ -524,12 +525,29 @@ div.brand {
     flex-grow: 2;
     max-width: 65%;
     flex-shrink: 1;
+    margin-bottom: 32px;
 }
 
 .demo-article img {
     width: 85%;
     height: auto;
     object-fit: scale-down;
+}
+
+.demo-article table {
+    border: solid 1px black;
+    margin: 16px 0;
+}
+.demo-article table th,
+.demo-article table td {
+    padding: 4px;
+}
+.demo-article table th {
+    background: rgb(255, 247, 223);
+}
+
+.demo-article table td {
+    border: solid 1px black;
 }
 
 .demo-article a[href="http://creativecommons.org/licenses/by-nc-sa/3.0/"] {

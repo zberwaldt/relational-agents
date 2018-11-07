@@ -45,11 +45,12 @@ The server responds to a GET message with an agent description, including:
 - REQUIRED --> a username/password is always needed
 - OPTIONAL --> may use a username/password, or interact as a "guest" (NOT IMPLEMENTED)
 
-    ```
-    - agent ::= <AGENT VERSION="int.int" AUTHENTICATION="authType">; conversation* </AGENT>;
-    - conversation ::= <CONVERSATION URL="url" />;
-    - authType ::= NONE | OPTIONAL | REQUIRED 
-    ```
+```
+- agent ::= <AGENT VERSION="int.int" AUTHENTICATION="authType">; conversation* </AGENT>;
+- conversation ::= <CONVERSATION URL="url" />;
+- authType ::= NONE | OPTIONAL | REQUIRED 
+```
+
 #### Conversation Startup
 
 A POST message to the agent URL requests a new conversation. The server replies with a conversation description containing the new conversation URL in the case of success. If the conversation could not be started, the server must reply with an HTTP error.
@@ -84,19 +85,12 @@ message.
 A POST message to a conversation URL is a request to advance the state of the conversation. All POST messages are in the form of an XML document.  The server replies with the next action message.
 
 - action=performComplete[&amp;warning=<string>]*  -- client is finished executing last perform, ready for next message; warning, because the client is allowed to report (non-fatal) warnings with perform complete</string>
-
 - action=menuInput&amp;choice=&lt;int&gt;   -- multiple choice user input
-
 - action=textInput&amp;value=&lt;string&gt;  -- text entry user input
-
 - action=widgetInput&amp;value=&lt;string&gt;  -- user input from a custom input widget   
-
 - action=error[&amp;cause=&lt;string&gt;]?  -- the client got a message it couldn't execute for some reason.
-
 - action=timeout  -- client timed out on user input
-
 - action=exit  -- client is terminating the conversation
-
 - optional parameter: reason=&lt;string&gt;
 	
 #### GET messages
@@ -122,10 +116,8 @@ The input element specifies the type of input the user would be provided with to
 The different types of input elements are as follows:
 
    - **Menu:** A menu must contain atleast one item as option. The user has to select the answer from the options provided in the menu to respond to the agent.
-   
    - **FreeText:** <img src="text.PNG" class="float-r">
 A freetext is another input type which allows the user to enter textual input unlike selecting predefined options in menu. It has a mandatory attribute ‘prompt’. Another attribute in freetext element is the ‘lines’, which is an optional attribute. The ‘lines’ specify if the input is a single or multiple line input. If the attribute is not present, the default value considered is Single.
-   
    - **Widget:** <img src="slider.PNG" class="float-r">
 The widget allows for extensibility with arbitrary additional input types. Slider is one example of a widget. It contains attribute ‘parameter’. It also contains the ‘url’ mandatory attribute which specifies the location of the SWF file implementing the widget. Another attribute of the widget element is the ‘size’. Its default value is ‘DEFAULT’. It can also have ‘FULL’ and ‘AGENT’ as input options.
    
@@ -135,39 +127,25 @@ The element contains synchronized and/or unsynchronized elements. Synchronized e
 Any URL within PERFORM (audio, images, etc.) is allowed to be a relative URL.  If so, it should be resolved using the **xml:base** element on &lt;perform&gt;
 
 - **Synchronized elements:**
-   
+
     - **Brows:** The brows element directs the brows of the agent. It has an attribute, ‘value’ that could have either ‘FLAT’, ‘POINTDOWN’ or ‘POINTUP’ as its value. The timestamp attribute is a non-negative integer that specifies the amount of time the specified brow motion should be displayed..
-
     - **Viseme:** The viseme element also contains attribute ‘value’ which is of type integer and a ‘timestamp’ attribute, a non-negative integer..
-
     - **audioURL:** The ‘audioURL’ is a mandatory attribute of the synchronized element that specifies the url value which points to the audio file..
-
     - **duration:** The ‘duration’ is another mandatory attribute of the synchronized element
-	
+
 - **Unsynchronized elements:**
-    
+
     - **posture:** This element specifies the posture of the agent
-
     - **gaze:** The gaze element specifies the direction of the gaze, away or towards using the element’s ‘direction’ attribute.
-
     - **clearPage:** It should occur exactly once.
-
     - **page:** The mandatory ‘page’ element can occur only once and specifies the displayed page details. The attributes’ ‘url’ specifies the page url and the ‘type’ provides the type of the displayed page, either html or image (suported image formats: png and gif). The optional ‘size’ attribute specifies the size of the page. Also, if the page needs any authentication, it is specified using the optional ‘auth’ attribute.
-
     - **pointer:** The pointer element directs the agent to display a finger pointing at a specific location. The pointer element has three mandatory attributes; viz. shape, x and y. The shape specifies if the pointer is a hand or a point gesture. The ‘x’ and ‘y’ attributes specify the coordinates in cartesian plane.
-
     - **expression:** The expression element contains a ‘type’ attribute that specifies agent’s expression, either happy, warm or concern.
-
     - **delay:** It specifies the duration in milliseconds the agent has to wait before performing any subsequent events. The time is specified using the ‘duration’ attribute.
-
     - **background:** The background element contains the ‘url’ attribute that specifies the background image source. The image source could be either of png or gif image format.
-
     - **clearPointer:** This element terminates the events generated through ‘pointer’ element specified above. For example, if a pointing hand is been displayed using the ‘pointer’ element, the use of clearPointer element should remove it.
-
     - **clearBackground:** clears out the background generated using the ‘background’ element
-
     - **headNod:** performs head nodding gesture using the element
-
     - **debug:** allows debugging
    
 **The <span class="highlight">EXIT</span> element:**
@@ -179,6 +157,7 @@ Authentication and Authorization
 
 When the server reports in the agent description that authentication is needed,
 the client should append additional parameters to every subsequent request:
+
  - **user**=&lt;string&gt;
  - **pass**=&lt;string&gt;
 
@@ -186,6 +165,7 @@ Authentication, if required, must be used for every request made by the client e
 GET message to the agent URL (which returns the agent description).
 
 The server reports authentication and/or authorization failures with the following HTTP error codes:
+
  - **401 Unauthorized** -- bad username, or no authentication provided
  - **449 Retry With** -- bad password
 
