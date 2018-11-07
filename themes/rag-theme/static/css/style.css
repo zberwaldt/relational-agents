@@ -522,7 +522,20 @@ div.brand {
 .demo-article {
     margin-top: 32px;
     flex-grow: 2;
+    max-width: 65%;
+    flex-shrink: 1;
 }
+
+.demo-article p img {
+    text-align: center;
+}
+
+.demo-article img {
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
 
 .news-item.active {
     display: block;
@@ -540,7 +553,7 @@ div.brand {
 }
 
 .half-width {
-    width: 30%;
+    width: 50%;
 }
 
 .section-content {
@@ -569,6 +582,14 @@ div.brand {
 
 .detail-container button:hover {
     cursor: pointer;
+}
+
+.highlight {
+    color: #4AA2EA;
+}
+
+.float-r {
+    float: right;
 }
 
 .member-card {
