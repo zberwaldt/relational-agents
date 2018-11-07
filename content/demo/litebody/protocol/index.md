@@ -71,12 +71,12 @@ message.
 
 
 
-    ```
-    <CONVERSATION xml:base="[URL]" URL="[URL]" ACTIVE="[true|false]">
-    (<VIEW ID="[string]"/>)*
-    (<ACTION ID="[string]"/>)*
-    </CONVERSATION>;
-    ```
+    {{< highlight xml >}}
+<CONVERSATION xml:base="[URL]" URL="[URL]" ACTIVE="[true|false]">
+(<VIEW ID="[string]"/>)*
+(<ACTION ID="[string]"/>)*
+</CONVERSATION>;
+    {{< /highlight >}}
 
 
 #### POST messages

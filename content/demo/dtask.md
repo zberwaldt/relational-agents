@@ -103,34 +103,33 @@ Tasks can have locally-scoped input and output parameters. The "HowAreYou" task 
 
 The "RespondToIntro" task has one input parameter, and constraints on the recipe are used to bind the output of the earlier task to this input. The example shows one dialogue turn which can be used to achieve this task in the case where the user requested a reciprocal response. There may be any number of other dialogue turns specified with different applicability conditions.
 
-<pre>
-  &lt;task id="RitualIntro"/&gt;
-  &lt;subtasks id="DoRitualIntro" goal="RitualIntro"&gt;
-  &lt;step name="ask" task="HowAreYou"/&gt;
-  &lt;step name="respond" task="RespondToIntro"/&gt;
-  &lt;binding slot="$respond.reciprocal" value="$ask.reciprocal"/&gt;
-  &lt;/subtasks&gt;
-  &lt;task id="HowAreYou"&gt;
-  &lt;output name="reciprocal" type="boolean"/&gt;
-  &lt;d:turn&gt;
-  &lt;d:agent&gt;Hi {USER.name}. How are you?&lt;/d:agent&gt;
-  &lt;d:user&gt;
-  &lt;d:say&gt;I'm good. How are you?&lt;/d:say&gt;
-  &lt;d:result slot="reciprocal" value="true"/&gt;
-  &lt;/d:user&gt;
-  &lt;d:user&gt;
-  &lt;d:say&gt;Good.&lt;/d:say&gt;
-  &lt;d:result slot="reciprocal" value="false"/&gt;
-  &lt;/d:user&gt;
-  &lt;/d:turn&gt;
-  &lt;/task&gt;
-  &lt;task id="RespondToIntro"&gt;
-  &lt;input name="reciprocal" type="boolean"/&gt;
-  &lt;d:turn&gt;
-  &lt;applicable&gt;$this.reciprocal&lt;/applicable&gt;
-  &lt;d:agent&gt;Great. Thanks for asking!&lt;/d:agent&gt;
-
-</pre>
+{{<highlight xml>}}
+  <task id="RitualIntro"/>
+  <subtasks id="DoRitualIntro" goal="RitualIntro">
+  <step name="ask" task="HowAreYou"/>
+  <step name="respond" task="RespondToIntro"/>
+  <binding slot="$respond.reciprocal" value="$ask.reciprocal"/>
+  </subtasks>
+  <task id="HowAreYou">
+  <output name="reciprocal" type="boolean"/>
+  <d:turn>
+  <d:agent>Hi {USER.name}. How are you?</d:agent>
+  <d:user>
+  <d:say>I'm good. How are you?</d:say>
+  <d:result slot="reciprocal" value="true"/>
+  </d:user>
+  <d:user>
+  <d:say>Good.</d:say>
+  <d:result slot="reciprocal" value="false"/>
+  </d:user>
+  </d:turn>
+  </task>
+  <task id="RespondToIntro">
+  <input name="reciprocal" type="boolean"/>
+  <d:turn>
+  <applicable>$this.reciprocal</applicable>
+  <d:agent>Great. Thanks for asking!</d:agent>
+{{< /highlight >}}
 
 Publications
 ----
@@ -142,7 +141,7 @@ Publications
 
 Licensing
 ----
-[![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/) <span property="dc:title" xmlns:dc="http://purl.org/dc/elements/1.1/">DTask </span> by <a href="http://relationalagents.com " property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Northeastern University Relational Agents Group </a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. Based on a work at <a href="http://dtask.sourceforge.net" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/">dtask.sourceforge.net</a>.</p>
+[![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/)<span property="dc:title" xmlns:dc="http://purl.org/dc/elements/1.1/">DTask</span> by <a href="http://relationalagents.com " property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Northeastern University Relational Agents Group</a> is licensed under a <a style="float: none; margin: 0;" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. Based on a work at <a href="http://dtask.sourceforge.net" rel="dc:source" xmlns:dc="http://purl.org/dc/elements/1.1/">dtask.sourceforge.net</a>.
 
 We also request that any publications covering work based on DTask cite the Bickmore, et al, 2011 JBI paper (above).
 

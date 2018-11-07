@@ -32,7 +32,7 @@ Demo
 
 Licensing 
 -----
-![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png) LiteBody by <a xmlns:cc="http://creativecommons.org/ns#" href="http://relationalagents.com " property="cc:attributionName" rel="cc:attributionURL">Northeastern University Relational Agents Group</a> is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/). Based on a work at <a xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://litebodysuite.sourceforge.net" rel="dc:source">litebodysuite.sourceforge.net</a>
+[![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/) LiteBody by <a xmlns:cc="http://creativecommons.org/ns#" href="http://relationalagents.com " property="cc:attributionName" rel="cc:attributionURL">Northeastern University Relational Agents Group</a> is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/). Based on a work at <a xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://litebodysuite.sourceforge.net" rel="dc:source">litebodysuite.sourceforge.net</a>
 
 We also request that any publications covering work based on LiteBody cite the Bickmore, et al, 2009 IVA paper (above). 
 

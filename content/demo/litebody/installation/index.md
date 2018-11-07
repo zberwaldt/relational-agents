@@ -85,7 +85,7 @@ Please note that a sample configuration of the project is provided in the reposi
 All configuration for litebody is done in the web.xml file.  This example shows the general layout of the file.  Note that the servlet standard gives a lot more possible configuration; this is just what we're using at the moment.  Most of the interesting configuration is in the "init-param" elements.
 
 
-```
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <web-app xmlns="http://java.sun.com/xml/ns/j2ee"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -119,7 +119,7 @@ All configuration for litebody is done in the web.xml file.  This example shows 
     <filter-class>webframe.ForceCacheValidation</filter-class>
   </filter>
 </web-app>
-```
+{{< /highlight >}}
 
 #### Configuration Parameters
 
