@@ -8,7 +8,7 @@
                 {{ if not .Params.alumni }}
                 {{ $image := . }}
                 {{ $resize := $image.Fill "100x140 smart" }}
-                <figure class="team-member flex f-row f-jc-start"
+                <button class="team-member flex f-row f-jc-start"
                         data-name="{{ .Name }}"
                         data-bio="{{ .Params.bio }}"
                         data-role="{{ .Params.role }}"
@@ -19,7 +19,7 @@
                         <p class="role">{{ .Params.role }}</p>
                         <p class="hint">click to learn more.</p>
                     </div>
-                </figure>
+                </button>
                 {{ end }}
                 {{ end }}
             </section>

@@ -44,6 +44,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     name = "current"
     parent = "projects"
 
+[[ menu.main ]]
+    url = "/demo/litebody"
+    name = "litebody"
+    parent = "demoes"
+[[ menu.main ]]
+    url = "/demo/dtask"
+    name = "dtask"
+    parent = "demoes"
+[[ menu.main ]]
+    url = "/demo/hbco"
+    name = "hbco"
+    parent = "demoes"
+
 [taxonomies]
 tag = "tags"
 category = "categories"

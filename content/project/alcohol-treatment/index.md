@@ -1,6 +1,6 @@
 ---
 title: "Alcohol Treatment for Veterans"
-description: null
+description: "An animated conversational agent that will counsel veterans about alcohol and substance use"
 resources:
 - name: main image
   src: VA_Alcohol.png
