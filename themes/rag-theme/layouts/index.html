@@ -1,3 +1,9 @@
+{{ define "styles" }}
+    <link rel="prefetch" href="{{ .Site.BaseURL }}img/Co-Watcher4.png" />
+    <link rel="prefetch" href="{{ .Site.BaseURL }}img/Co-Watcher3.png" />
+    <link rel="prefetch" href="{{ .Site.BaseURL }}img/Group_2016.png" />
+{{ end }}
+
 {{ define "main" }}
 <div id="home">
     <section class="jumbotron">
@@ -20,7 +26,7 @@
         </div>
     </section>
     <section id="news">
-        <div class="container flex f-jc-center f-ai-center">
+        <div class="container flex f-jc-center f-a-center">
             <button id="prev-item"><i class="fas fa-chevron-left"></i></button>
             <div class="carosel">
             {{ range $index, $value := .Site.Data.news.news }}

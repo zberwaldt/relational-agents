@@ -20,6 +20,7 @@
     
         let container = document.createElement('div');
         container.classList.add('detail-container');
+        container.classList.add('flex');
         let cardElem = document.createElement('div');
         cardElem.classList.add('member-card');
         let imgElem = document.createElement('img');

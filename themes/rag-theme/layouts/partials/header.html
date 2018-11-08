@@ -1,18 +1,18 @@
-<body>
-    <nav class="navbar">
-        <div class="container flex">
-            <a href="/" class="brand">
+<body class="flex f-column f-jc-between">
+    <nav class="navbar flex f-jc-center f-a-center full-width">
+        <div class="container flex f-a-center">
+            <a href="/" class="brand flex f-a-center">
                 <img src="{{.Site.BaseURL}}rag-64.png" alt="relational agents logo" />
                 <span>{{ .Site.Title }}</span>
             </a>
-            <ul class="pages flex">
+            <ul class="pages flex f-a-center">
             {{ if .Site.Menus.main }}
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                     <li class="{{ if eq (lower $currentPage.Title) .Name }}active{{ end }}">
                         <a href="{{ .URL }}">{{ .Name }}</a>
                         {{ if .HasChildren }}
-                            <ul class="sub-menu f-column">
+                            <ul class="sub-menu flex f-column">
                             {{ range .Children }}
                                 <li>
                                     <a href="{{ .URL }}">{{ .Name }}</a>

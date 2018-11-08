@@ -1,0 +1,50 @@
+.pub-section {
+    color: unset;
+    text-decoration: none;
+    transition: transform .2s ease-in-out;
+}
+
+.pub-section h2, .pub-section p, .pub-section h3 {
+    color: hsla(0, 0%, 0%, .8);
+}
+
+.pub-section h3 {
+    font-size: 1.4em;
+}
+
+.pub-section p {
+    font-size: 1.2em;
+}
+
+.pub-section {
+    align-items: center;
+}
+
+.pub-sec-total {
+    align-items: center;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    border: solid 2px hsl(180, 100%, 50%);
+}
+ 
+.pub-section {
+    font-size: 12px;
+    padding:24px;
+    border-radius: 3px;
+    border: 1px solid hsla(0, 0%, 0%, .1);
+    border-top: 3px solid hsl(207, 100%, 50%);
+    background: white;
+}
+
+.pub-section:hover {
+    transition: transform .2s ease-in-out, border-top-color .2s ease-in-out;
+    transform: scale(0.98);
+    border-top-color: hsl(180, 100%, 50%);
+}
+
+
+.pub-section h2 {
+    font-size: 1.4em;
+    margin:0;
+}

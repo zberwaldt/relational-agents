@@ -1,3 +1,7 @@
+{{ define "styles" }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/article.css" />
+{{ end }}
+
 {{ define "main" }}
     {{ $current_page := . }}
     <div class="container flex f-row">

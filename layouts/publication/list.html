@@ -1,3 +1,7 @@
+{{ define "styles"}}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/publication.css" />
+{{ end }}
+
 {{ define "main" }}
     <div class="container">
         <h1 class="page-title text-center">{{ .Title }}</h1>
@@ -8,7 +12,7 @@
                 <h2>{{ .Title }}</h2>
                 <p>Total papers:</p>
             </div>
-            <div class="pub-sec-total">
+            <div class="pub-sec-total flex f-jc-center">
                 <h3>{{(len .Pages)}}</h3>
             </div>
         </a>

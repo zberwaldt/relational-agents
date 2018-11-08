@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+    <head>
     {{ partial "head.html" . }}
+    {{ block "styles" . }}
+    {{ end }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
+    <title>{{ .Title }} &ndash; {{ .Site.Title }}</title>
+    </head>
     <body>
         {{ partial "header.html" . }}
         <main id="content">
