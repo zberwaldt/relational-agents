@@ -116,18 +116,6 @@ i.fas, i.far {
     margin-right: 24px;
 }
 
-.publication-list {
-    justify-content: flex-start;
-    margin: 32px 0;
-}
-
-.publication {
-    padding: 8px;
-}
-
-.publication:nth-child(odd) {
-    background: rgba(102, 199, 255, 0.856);
-}
 
 .aside-nav {
     flex-basis: 25%;

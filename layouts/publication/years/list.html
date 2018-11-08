@@ -1,13 +1,20 @@
+{{ define "styles" }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/publication.css" />
+{{ end }}
+
 {{ define "main" }}
     <div class="container flex f-row">
         <div class="publication-list">
-        <a class="back-link" href="/publication/"><i class="fas fa-chevron-left"></i>Back to index</a>
+        <a class="back-link" href="/publication/"><i class="fas fa-chevron-left"></i>Back to index</a> <label for="has-pdf"><input id="has-pdf" name="has-pdf" type="checkbox">PDFs Only</label>
         {{ range (.Pages.GroupByParam "year").Reverse }}
-            <h1 class="page-title text-center">{{ .Key }}</h1>
             {{ range .Pages }}
-            <div class="publication">
+            {{ if .Resources }}
+            <div class="publication" data-haspdf="true">
+            {{ else }}
+            <div class="publication" data-haspdf="false">
+            {{ end }}
                 <h3>{{ .Title }}</h3>
-                <ul class="authors">
+                <ul class="authors flex f-row f-a-center f-jc-start"><strong>Authors:</strong>
                 {{ range .Params.authors }}
                     <li class="author">
                         {{ .name }} {{ if .appearing }}(to appear){{ end }}
@@ -31,8 +38,12 @@
             <h4>Publications by year:</h4>
             <hr />
             {{ range sort .Parent.Sections "Title" "desc" }}
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <a href="{{ .RelPermalink }}">{{ .Title }} - {{ len .Pages }} Papers</a> 
             {{ end }}
         </aside>
     </div>
+{{ end }}
+
+{{ define "scripts" }}
+    <script src="{{ .Site.BaseURL }}js/showpdfs.js"></script>
 {{ end }}
