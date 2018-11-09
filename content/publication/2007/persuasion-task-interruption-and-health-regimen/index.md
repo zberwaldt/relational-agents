@@ -13,5 +13,6 @@ resources:
 - name: "persuasive07"
   src: "persuasive07.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

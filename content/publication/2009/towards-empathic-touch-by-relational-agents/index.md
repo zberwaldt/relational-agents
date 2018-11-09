@@ -11,5 +11,7 @@ resources:
 - name: "AAMAS09-empathy"
   src: "AAMAS09-empathy.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
+headless: true
 ---

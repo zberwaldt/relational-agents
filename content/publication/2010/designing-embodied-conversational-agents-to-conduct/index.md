@@ -11,5 +11,6 @@ resources:
 - name: "IVA10 lhi"
   src: "IVA10.lhi.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

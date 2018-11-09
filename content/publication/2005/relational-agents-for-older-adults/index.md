@@ -13,5 +13,6 @@ resources:
 - name: "05_IWC_BTCLCKHT"
   src: "05_IWC_BTCLCKHT.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

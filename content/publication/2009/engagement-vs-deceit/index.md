@@ -12,5 +12,7 @@ resources:
 - name: "IVA09 backstory"
   src: "IVA09.backstory.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
+headless: true
 ---

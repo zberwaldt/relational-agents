@@ -11,5 +11,6 @@ resources:
 - name: "CHI2011-pfeifer"
   src: "CHI2011-pfeifer.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

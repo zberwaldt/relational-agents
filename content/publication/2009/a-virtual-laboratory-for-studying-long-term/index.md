@@ -11,5 +11,7 @@ resources:
 - name: "AAMAS09"
   src: "AAMAS09.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
+headless: true
 ---

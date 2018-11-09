@@ -13,5 +13,6 @@ resources:
 - name: "HCIR13"
   src: "HCIR13.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

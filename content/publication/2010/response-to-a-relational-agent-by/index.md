@@ -15,5 +15,6 @@ resources:
 - name: "IwC2010 depression"
   src: "IwC2010.depression.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

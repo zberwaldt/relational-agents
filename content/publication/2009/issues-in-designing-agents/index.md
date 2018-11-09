@@ -12,5 +12,7 @@ resources:
 - name: "CHI09 ebd"
   src: "CHI09.ebd.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
+headless: true
 ---

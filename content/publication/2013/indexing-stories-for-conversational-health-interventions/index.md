@@ -12,5 +12,6 @@ resources:
 - name: "AAAI13-ramesh"
   src: "AAAI13-ramesh.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

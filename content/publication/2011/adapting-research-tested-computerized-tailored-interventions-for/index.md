@@ -18,5 +18,6 @@ resources:
 - name: "TBM2011-CTI"
   src: "TBM2011-CTI.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

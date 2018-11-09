@@ -13,5 +13,6 @@ resources:
 - name: "IVA16 acetalk"
   src: "IVA16.acetalk.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

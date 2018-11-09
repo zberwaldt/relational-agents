@@ -16,5 +16,6 @@ resources:
 - name: "bf iva14"
   src: "bf.iva14.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

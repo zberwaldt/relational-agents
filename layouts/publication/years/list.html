@@ -6,39 +6,40 @@
     <div class="container flex f-row">
         <div class="publication-list">
         <a class="back-link" href="/publication/"><i class="fas fa-chevron-left"></i>Back to index</a> <label for="has-pdf"><input id="has-pdf" name="has-pdf" type="checkbox">PDFs Only</label>
-        {{ range (.Pages.GroupByParam "year").Reverse }}
-            {{ range .Pages }}
-            {{ if .Resources }}
+        {{ $dictionary := (dict "page" . "articles" .Params.articles ) }}
+        {{ range $dictionary.articles }}
+            {{ $page_to_get := . }}
+            {{$bundle := $dictionary.page.Site.GetPage $page_to_get }}  
+            {{ if $bundle.Resources }}
             <div class="publication" data-haspdf="true">
             {{ else }}
             <div class="publication" data-haspdf="false">
             {{ end }}
-                <h3>{{ .Title }}</h3>
-                <ul class="authors flex f-row f-a-center f-jc-start"><strong>Authors:</strong>
-                {{ range .Params.authors }}
-                    <li class="author">
-                        {{ .name }} {{ if .appearing }}(to appear){{ end }}
-                    </li>
+            <h3>{{ $bundle.Title }}</h3>
+            <ul class="authors flex f-row f-a-center f-jc-start"><strong>Authors:</strong>
+                {{ range $bundle.Params.authors }}
+                <li class="author">
+                    {{ .name }} {{ if .appearing }}(to appear){{ end }}
+                </li>
                 {{ end }}
-                </ul>
-                <p>{{ .Params.year }}</p>
-                {{ if .Resources }}
-                    {{ with .Resources.GetMatch "*" }}
+            </ul>
+            <p>{{ $bundle.Params.year }}</p>
+            {{ with $bundle.Resources }}
+                    {{ with $bundle.Resources.GetMatch "*" }}
                         <a class="dl-link" href="{{ .RelPermalink }}" download >download <i class="far fa-download"></i><i class="far fa-file-pdf"></i></a>
                     {{ end }}
-                {{ end }}
-                {{ if .Params.external_url }}
-                    <a class="view-link" rel="noopener noreferrer" href="{{ .Params.external_url }}" target="_blank">view <i class="far fa-external-link"></i></a>
-                {{ end }}
-            </div>
             {{ end }}
+            {{ if $bundle.Params.external_url }}
+            <a class="view-link" rel="noopener noreferrer" href="{{ $bundle.Params.external_url }}" target="_blank">view <i class="far fa-external-link"></i></a>
+            {{ end }}
+            </div>
         {{ end }}
         </div>
         <aside class="years aside-nav flex f-column">
             <h4>Publications by year:</h4>
             <hr />
             {{ range sort .Parent.Sections "Title" "desc" }}
-                <a href="{{ .RelPermalink }}">{{ .Title }} - {{ len .Pages }} Papers</a> 
+                <a href="{{ .RelPermalink }}">{{ .Title }} - {{ len .Params.articles }} Papers</a> 
             {{ end }}
         </aside>
     </div>

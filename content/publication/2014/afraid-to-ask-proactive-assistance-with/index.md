@@ -13,5 +13,6 @@ resources:
 - name: "CHI13 Gaze"
   src: "CHI13.Gaze.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

@@ -12,5 +12,6 @@ resources:
 - name: "IVA12 mood"
   src: "IVA12.mood.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

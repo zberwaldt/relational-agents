@@ -10,5 +10,6 @@ authors:
 year: 2014
 resources: null
 external_url: http://www.jmir.org/2014/12/e285
-draft: false
+draft: false 
+headless: true
 ---

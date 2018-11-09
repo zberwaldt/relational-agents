@@ -13,5 +13,6 @@ resources:
 - name: "Interspeech2016"
   src: "Interspeech2016.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

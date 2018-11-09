@@ -10,5 +10,6 @@ resources:
 - name: "RameshMSThesis"
   src: "RameshMSThesis.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

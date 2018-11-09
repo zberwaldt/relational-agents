@@ -12,5 +12,6 @@ resources:
 - name: "IVA10 culture"
   src: "IVA10.culture.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

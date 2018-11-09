@@ -12,5 +12,6 @@ resources:
 - name: "CHI15-dynamicduo"
   src: "CHI15-dynamicduo.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

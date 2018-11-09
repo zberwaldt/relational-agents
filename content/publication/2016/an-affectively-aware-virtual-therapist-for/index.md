@@ -13,4 +13,5 @@ resources:
   src: "CHI2016-MentalHealth.pdf"
 external_url: null
 draft: false
+headless: true
 ---

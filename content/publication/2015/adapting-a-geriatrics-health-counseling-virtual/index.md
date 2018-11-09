@@ -13,5 +13,6 @@ resources:
 - name: "IVA15 China"
   src: "IVA15.China.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

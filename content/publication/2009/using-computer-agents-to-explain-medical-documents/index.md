@@ -12,5 +12,7 @@ resources:
 - name: "PEC09"
   src: "PEC09.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
+headless: true
 ---

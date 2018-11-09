@@ -13,5 +13,6 @@ resources:
 - name: "CHI13 PCC"
   src: "CHI13.PCC.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

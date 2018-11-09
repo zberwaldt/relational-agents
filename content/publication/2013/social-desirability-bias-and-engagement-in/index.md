@@ -14,5 +14,6 @@ resources:
 - name: "VardoulakisDissertation"
   src: "VardoulakisDissertation.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

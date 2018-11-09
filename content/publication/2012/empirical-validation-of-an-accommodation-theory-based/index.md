@@ -11,5 +11,6 @@ resources:
 - name: "IVA12 accommodation"
   src: "IVA12.accommodation.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

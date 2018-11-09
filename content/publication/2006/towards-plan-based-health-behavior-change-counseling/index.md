@@ -11,5 +11,6 @@ resources:
 - name: "AAAI06"
   src: "AAAI06.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

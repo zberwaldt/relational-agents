@@ -12,5 +12,6 @@ resources:
 - name: "fdg12"
   src: "fdg12.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

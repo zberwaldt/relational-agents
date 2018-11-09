@@ -11,5 +11,6 @@ resources:
 - name: "IVA10 speakrate"
   src: "IVA10.speakrate.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

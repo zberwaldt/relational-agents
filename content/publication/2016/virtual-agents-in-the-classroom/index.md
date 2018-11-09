@@ -13,5 +13,6 @@ resources:
 - name: "IVA16 copclass"
   src: "IVA16.copclass.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

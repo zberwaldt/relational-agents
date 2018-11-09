@@ -12,4 +12,5 @@ resources:
   src: "04_CHI_BTPR.pdf"
 external_url: null
 draft: false
+headless: true
 ---

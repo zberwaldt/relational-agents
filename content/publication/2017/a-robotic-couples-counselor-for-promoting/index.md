@@ -12,5 +12,6 @@ resources:
 - name: "RO-MAN17"
   src: "RO-MAN17.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

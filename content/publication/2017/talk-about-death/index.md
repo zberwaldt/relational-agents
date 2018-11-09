@@ -13,5 +13,6 @@ resources:
 - name: "IVA17 spiritual"
   src: "IVA17.spiritual.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

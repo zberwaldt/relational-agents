@@ -10,5 +10,6 @@ resources:
 - name: "LazloRingThesis"
   src: "LazloRingThesis.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

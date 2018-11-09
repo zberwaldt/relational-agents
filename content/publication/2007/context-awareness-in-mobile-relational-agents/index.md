@@ -12,5 +12,6 @@ resources:
 - name: "IVA07-PDA"
   src: "IVA07-PDA.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

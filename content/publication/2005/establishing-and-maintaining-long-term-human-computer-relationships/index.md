@@ -11,5 +11,6 @@ resources:
 - name: "05_CHI_BTPR"
   src: "05_CHI_BTPR.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

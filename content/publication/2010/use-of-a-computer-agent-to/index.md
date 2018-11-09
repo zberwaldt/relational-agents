@@ -9,5 +9,6 @@ resources:
 - name: "asa10"
   src: "asa10.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

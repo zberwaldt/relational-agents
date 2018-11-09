@@ -13,5 +13,6 @@ authors:
 year: 2017
 resources: null
 external_url: https://cardio.jmir.org/2017/2/e7/
-draft: false
+draft: false 
+headless: true
 ---

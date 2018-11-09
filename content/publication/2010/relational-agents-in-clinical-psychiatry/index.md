@@ -11,5 +11,6 @@ resources:
 - name: "HarvardPsyc10"
   src: "HarvardPsyc10.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

@@ -13,5 +13,6 @@ resources:
 - name: "IVA17 rap"
   src: "IVA17.rap.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

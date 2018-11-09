@@ -11,5 +11,6 @@ resources:
 - name: "CHI08-mentalhealth"
   src: "CHI08-mentalhealth.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

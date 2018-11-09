@@ -11,5 +11,6 @@ resources:
 - name: "dan-posture-iva11-FINAL"
   src: "dan-posture-iva11-FINAL.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

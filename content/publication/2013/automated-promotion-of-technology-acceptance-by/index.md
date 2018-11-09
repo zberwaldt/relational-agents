@@ -13,5 +13,6 @@ resources:
 - name: "IVA13"
   src: "IVA13.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

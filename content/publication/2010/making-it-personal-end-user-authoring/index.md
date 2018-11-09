@@ -11,5 +11,6 @@ resources:
 - name: "IVA10 story"
   src: "IVA10.story.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

@@ -10,5 +10,6 @@ resources:
 - name: "hcii07"
   src: "hcii07.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

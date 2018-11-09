@@ -13,5 +13,6 @@ resources:
 - name: "ACII2013"
   src: "ACII2013.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

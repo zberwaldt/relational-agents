@@ -16,4 +16,5 @@ resources:
   src: "IVA16.aflit.pdf"
 external_url: null
 draft: false
+headless: true
 ---

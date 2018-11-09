@@ -12,5 +12,6 @@ resources:
 - name: "red iva14"
   src: "red.iva14.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

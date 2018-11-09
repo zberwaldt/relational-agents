@@ -13,5 +13,6 @@ resources:
 - name: "aamas08"
   src: "aamas08.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

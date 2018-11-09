@@ -11,5 +11,6 @@ resources:
 - name: "06_CHI_BTSD"
   src: "06_CHI_BTSD.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

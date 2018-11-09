@@ -12,5 +12,6 @@ resources:
 - name: "IVA15 Feminist"
   src: "IVA15.Feminist.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

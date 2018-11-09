@@ -15,4 +15,5 @@ resources:
   src: "IVA16.pcori.pdf"
 external_url: null
 draft: false
+headless: true
 ---

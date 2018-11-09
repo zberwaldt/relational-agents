@@ -15,5 +15,6 @@ resources:
 - name: "CHI08-MOS"
   src: "CHI08-MOS.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

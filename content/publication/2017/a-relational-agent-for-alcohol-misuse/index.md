@@ -16,5 +16,6 @@ resources:
 - name: "WISH17-VA"
   src: "WISH17-VA.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

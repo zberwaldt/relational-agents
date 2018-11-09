@@ -12,5 +12,6 @@ resources:
 - name: "iva11-tinker FINAL"
   src: "iva11-tinker.FINAL.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

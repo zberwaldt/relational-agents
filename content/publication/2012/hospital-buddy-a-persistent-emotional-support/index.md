@@ -14,5 +14,6 @@ resources:
 - name: "IVA12 hbuddy"
   src: "IVA12.hbuddy.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

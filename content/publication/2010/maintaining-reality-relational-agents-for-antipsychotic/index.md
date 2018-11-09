@@ -9,5 +9,6 @@ resources:
 - name: "IwC2010 antipsychotic"
   src: "IwC2010.antipsychotic.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

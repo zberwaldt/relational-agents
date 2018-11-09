@@ -15,5 +15,6 @@ authors:
 year: 2015
 resources: null
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

@@ -21,5 +21,6 @@ resources:
 - name: "IVA15 HospitalBuddy"
   src: "IVA15.HospitalBuddy.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

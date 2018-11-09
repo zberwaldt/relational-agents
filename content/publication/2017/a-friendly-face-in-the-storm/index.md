@@ -15,5 +15,6 @@ resources:
 - name: "WISH17-SCI"
   src: "WISH17-SCI.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

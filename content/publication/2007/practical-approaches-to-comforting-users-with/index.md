@@ -11,5 +11,6 @@ resources:
 - name: "CHI07"
   src: "CHI07.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

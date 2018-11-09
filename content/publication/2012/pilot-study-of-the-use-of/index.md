@@ -13,5 +13,6 @@ resources:
 - name: "apha12-bf"
   src: "apha12-bf.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

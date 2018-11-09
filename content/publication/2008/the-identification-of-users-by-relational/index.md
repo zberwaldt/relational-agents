@@ -12,5 +12,6 @@ resources:
 - name: "schulman_aamas08"
   src: "schulman_aamas08.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

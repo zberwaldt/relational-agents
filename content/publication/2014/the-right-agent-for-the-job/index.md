@@ -12,5 +12,6 @@ resources:
 - name: "render iva14"
   src: "render.iva14.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

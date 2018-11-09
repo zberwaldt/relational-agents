@@ -9,5 +9,6 @@ authors:
 year: 2011
 resources: null
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

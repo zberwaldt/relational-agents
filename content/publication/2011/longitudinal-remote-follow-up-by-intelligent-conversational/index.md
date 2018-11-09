@@ -11,5 +11,6 @@ resources:
 - name: "AAAI2011-pfeifer"
   src: "AAAI2011-pfeifer.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

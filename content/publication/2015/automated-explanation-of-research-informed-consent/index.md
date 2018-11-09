@@ -1,5 +1,5 @@
 ---
-name: "Automated Explanation Of Research Informed Consent"
+name: "Automated Explanation Of Research Informed Consent by Virtual Agents"
 title: "Automated Explanation of Research Informed Consent by Virtual Agents"
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
@@ -15,5 +15,6 @@ resources:
 - name: "IVA15 Consent"
   src: "IVA15.Consent.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

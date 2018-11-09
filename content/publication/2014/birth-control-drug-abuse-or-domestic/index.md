@@ -13,5 +13,6 @@ resources:
 - name: "pcc iva14"
   src: "pcc.iva14.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

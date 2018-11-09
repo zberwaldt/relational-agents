@@ -12,5 +12,6 @@ resources:
 - name: "05_CHI_BTCLCK"
   src: "05_CHI_BTCLCK.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

@@ -12,5 +12,7 @@ resources:
 - name: "PervasiveNMobile"
   src: "PervasiveNMobile.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
+headless: true
 ---

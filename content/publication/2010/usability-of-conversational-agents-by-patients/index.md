@@ -17,5 +17,6 @@ resources:
 - name: "HealthComm10"
   src: "HealthComm10.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

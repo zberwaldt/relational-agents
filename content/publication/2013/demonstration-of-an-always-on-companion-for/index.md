@@ -16,5 +16,6 @@ resources:
 - name: "SIGDIAL13"
   src: "SIGDIAL13.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

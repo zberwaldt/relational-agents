@@ -12,5 +12,7 @@ resources:
 - name: "CHI09 VirtualNurse"
   src: "CHI09.VirtualNurse.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
+headless: true
 ---

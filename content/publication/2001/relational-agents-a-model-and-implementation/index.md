@@ -12,4 +12,5 @@ resources:
   src: "01_CHI_BTCJ.pdf"
 external_url: null
 draft: false
+headless: true
 ---

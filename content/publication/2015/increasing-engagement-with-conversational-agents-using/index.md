@@ -11,5 +11,6 @@ resources:
 - name: "int8-2015"
   src: "int8-2015.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

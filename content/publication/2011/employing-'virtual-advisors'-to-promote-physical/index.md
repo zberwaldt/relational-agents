@@ -14,5 +14,6 @@ resources:
 - name: "king11"
   src: "king11.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

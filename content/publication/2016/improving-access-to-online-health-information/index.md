@@ -11,5 +11,6 @@ authors:
 year: 2016
 resources: null
 external_url: http://doi.org/10.2196/jmir.5239
-draft: false
+draft: false 
+headless: true
 ---

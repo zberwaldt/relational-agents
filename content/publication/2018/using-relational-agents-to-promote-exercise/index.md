@@ -14,5 +14,6 @@ authors:
 year: 2018
 resources: null
 external_url: http://www.jmir.org/2018/2/e48/
-draft: false
+draft: false 
+headless: true
 ---

@@ -11,5 +11,6 @@ resources:
 - name: "IVA15 Meditation"
   src: "IVA15.Meditation.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

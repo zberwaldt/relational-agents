@@ -15,5 +15,6 @@ resources:
 - name: "IVA12 kuyten"
   src: "IVA12.kuyten.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

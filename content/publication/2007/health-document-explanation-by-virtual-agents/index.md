@@ -12,5 +12,6 @@ resources:
 - name: "IVA07-DocEx"
   src: "IVA07-DocEx.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

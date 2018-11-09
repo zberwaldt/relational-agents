@@ -13,5 +13,6 @@ resources:
 - name: "ubicomp17"
   src: "ubicomp17.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

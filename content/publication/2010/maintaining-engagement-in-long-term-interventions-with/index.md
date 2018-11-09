@@ -12,5 +12,6 @@ resources:
 - name: "IJAAI10"
   src: "IJAAI10.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

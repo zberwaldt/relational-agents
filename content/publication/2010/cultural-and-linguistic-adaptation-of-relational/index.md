@@ -13,5 +13,6 @@ resources:
 - name: "WISH2010"
   src: "WISH2010.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

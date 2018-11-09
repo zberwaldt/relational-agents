@@ -12,5 +12,7 @@ resources:
 - name: "IVA09 litebody"
   src: "IVA09.litebody.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
+headless: true
 ---

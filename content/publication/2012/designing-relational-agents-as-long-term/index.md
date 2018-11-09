@@ -14,5 +14,6 @@ resources:
 - name: "IVA12 woz"
   src: "IVA12.woz.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

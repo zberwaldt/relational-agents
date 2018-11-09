@@ -18,5 +18,6 @@ resources:
 - name: "SMDM12"
   src: "SMDM12.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

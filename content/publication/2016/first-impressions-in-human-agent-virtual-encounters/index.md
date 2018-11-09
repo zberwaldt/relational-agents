@@ -11,4 +11,5 @@ year: 2016
 resources: null
 external_url: null
 draft: false
+headless: true
 ---

@@ -12,5 +12,6 @@ resources:
 - name: "CultureComp17"
   src: "CultureComp17.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

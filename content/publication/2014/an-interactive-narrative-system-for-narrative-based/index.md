@@ -12,5 +12,6 @@ resources:
 - name: "yin int7"
   src: "yin.int7.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

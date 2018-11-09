@@ -16,5 +16,6 @@ resources:
 - name: "pcc-apha-2011"
   src: "pcc-apha-2011.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

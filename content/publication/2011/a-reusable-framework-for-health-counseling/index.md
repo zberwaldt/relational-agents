@@ -12,5 +12,6 @@ resources:
 - name: "JBI2011-ontology"
   src: "JBI2011-ontology.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

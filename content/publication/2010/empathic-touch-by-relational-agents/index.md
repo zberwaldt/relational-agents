@@ -13,5 +13,6 @@ resources:
 - name: "TAFC10"
   src: "TAFC10.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

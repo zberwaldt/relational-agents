@@ -10,5 +10,6 @@ resources:
 - name: "schulman_dissertation_final"
   src: "schulman_dissertation_final.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

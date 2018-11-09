@@ -12,5 +12,6 @@ authors:
 year: 2012
 resources: null
 external_url: http://www.jmir.org/2012/1/e1/
-draft: false
+draft: false 
+headless: true
 ---

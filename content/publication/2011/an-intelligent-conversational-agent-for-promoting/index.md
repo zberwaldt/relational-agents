@@ -12,5 +12,6 @@ resources:
 - name: "AAAI2011-schulman"
   src: "AAAI2011-schulman.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---

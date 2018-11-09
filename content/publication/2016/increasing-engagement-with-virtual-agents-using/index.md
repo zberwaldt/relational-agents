@@ -13,5 +13,6 @@ resources:
 - name: "IVA16 camera"
   src: "IVA16.camera.pdf"
 external_url: null
-draft: false
+draft: false 
+headless: true
 ---
