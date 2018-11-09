@@ -1,7 +1,6 @@
 ---
 title: "Palliative Care Agent"
-description: null
-
+description: "A conversational agent system that counsels terminally ill patients in order to alleviate their suffering and improve quality of life."
 resources:
 - name: main image
   src: ECAPAL-proxy.jpg

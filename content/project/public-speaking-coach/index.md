@@ -1,6 +1,6 @@
 ---
 title: "Public Speaking Coach"
-description: null
+description: "Anthropomorphic robot that acts as a coach to provide feedback during presentation rehearsals"
 resources:
 - name: main image
   src: robocop.jpg

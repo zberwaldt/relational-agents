@@ -13,4 +13,5 @@ resources:
 external_url: null
 date: {{ .Date }}
 draft: false
+headless: true
 ---

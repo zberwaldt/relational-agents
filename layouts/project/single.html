@@ -2,26 +2,33 @@
     {{ $title := .Title }}
     <div class="container">
             <a class="back-link" href="/project/"><i class="fas fa-chevron-left"></i>Go back</a>
-            <h1 class="page-title">{{ $title }}</h1>
+            <h1 class="page-title text-center">{{ $title }}</h1>
+            <section class="article-content">
             {{ with .Resources.GetMatch "main image" }}
                 <img class="main-image" src="{{ .Permalink }}" alt="{{ .Name }}"/>
             {{ end }}
             {{ .Content }}
+            </section>
             {{ if .Params.related_pubs }}
             <section class="related-publications">
-                <h2> Publications </h2>
+                <h2 class="text-center"> Publications </h2>
+                {{ $pubs := .Site.GetPage "section" "publication" }}
                 <ul>
-                {{ range .Site.Pages}}
-                    {{ if (and (eq .Type "publication") (eq .Params.project $title))}}
-                    <li>
-                        <p>{{ .Title }}</p>
-                        <p>{{ .Params.year }}</p>
-                        {{ if .Resources }}
-                            {{ with .Resources.GetMatch "*" }}
+                {{ range $pubs.Sections }}
+                    {{ $page := . }}
+                    {{ range .Params.articles }}
+                    {{ $article := . }}
+                        {{ with $page.Site.GetPage  . }}
+                            {{ if eq .Params.project $title }}
+                            <li>
+                                <p>{{ .Title }}</p>
+                                <p>{{ .Params.year }}</p>
+                                {{ with .Resources.GetMatch "*" }}  
                                 <a class="dl-link" href="{{ .RelPermalink }}" download >download <i class="far fa-download"></i><i class="far fa-file-pdf"></i></a>
+                                {{ end }}
+                            </li>
                             {{ end }}
                         {{ end }}
-                    </li>
                     {{ end }}
                 {{ end }}
                 </ul>

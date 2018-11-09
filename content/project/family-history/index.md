@@ -1,6 +1,6 @@
 ---
 title: "Family Health History"
-description: null
+description: "A relational agen that simulate the behavior of a genetic counselor in collecting a family health history from individuals"
 resources:
 - name: main image
   src: vicky2.jpg

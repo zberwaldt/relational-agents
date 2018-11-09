@@ -1,6 +1,6 @@
 ---
 title: "Spinal Cord Injury"
-description: null
+description: "Virtual coach system that engages individuals with spinal cord injury to provide support and motivate adherence to self-care guidelines."
 resources:
 - name: main image
   src: interaction.jpg

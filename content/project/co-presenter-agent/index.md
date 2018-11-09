@@ -5,6 +5,7 @@ resources:
 - name: main image
   src: Tim_screenshot3.png
 draft: false
+related_pubs: true
 ---
 
 The quality of most professional oral presentations is often poor, owing to a number of factors, including public speaking anxiety.

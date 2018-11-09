@@ -1,7 +1,6 @@
 ---
 title: "Health Ministry"
-description: null
-
+description: "A church community health intervention project to promote healthy behavior change."
 resources:
 - name: main image
   src: HealthMinistry2.jpg

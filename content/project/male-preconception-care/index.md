@@ -1,6 +1,6 @@
 ---
 title: "Preconception Care for Males (Gabe)"
-description: null
+description: "Application that delivers a health and wellness intervention to young African American men."
 resources:
 - name: main image
   src: Gabe.jpg

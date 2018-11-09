@@ -1,7 +1,7 @@
 ---
 name: "Thinking Outside The Box Co Planning Scientific"
 title: "Thinking Outside the Box: Co-Planning Scientific Presentations with Virtual Agents"
-project: null
+project: "Co-presenter Agent"
 event: "Intelligent Virtual Agents (IVA)"
 authors:
 - name: "Trinh, H."
