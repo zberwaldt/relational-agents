@@ -45,10 +45,11 @@
                 </ul>
             </section>
             {{ end }}
-            {{ with .Resources.GetMatch "demo" }}
-            <section class="demo">
-                <p>There is a demo</p>
-            </section>
+            {{ with .Params.demo }}
+                <div class="demo-div flex f-column f-jc-center f-a-center">
+                    <h2 class="text-center">Demo</h2>
+                    <iframe width="420" height="315" src="{{ . }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             {{ end }}
     </div>
 {{ end }}

@@ -13,5 +13,5 @@ Many churches also have a group of highly-engaged volunteers who run "Health Min
 
 In this project, we are working with communities in a network of 12 churches in the Boston area, along with their Health Ministries, the church leadership, and a community liaison affiliated with Boston Medical Center, to improve the overall health of this population. The intervention will leverage smartphone-based conversational agents and mobile activity detection in addition to media deployed in face-to-face Health Ministry meetings.
 
-This work is supported by the National Science Foundation, and is a collaboration with Dr. Michael Paasche-Orlow (Boston Medical Center), and Profs. Stephen Intille, Andrea Parker, and Jessica Hoffman at Northeastern, and the Black Ministerial Alliance in Boston.
+This work is supported by the [National Science Foundation](https://www.nsf.gov/), and is a collaboration with [Dr. Michael Paasche-Orlow (Boston Medical Center)](https://www.bumc.bu.edu/busm/profile/michael-paasche-orlow/), and [Profs. Stephen Intille](https://www.ccis.northeastern.edu/people/stephen-intille/), [Andrea Parker](https://www.ccis.northeastern.edu/people/andrea-grimes-parker/), and [Jessica Hoffman](https://bouve.northeastern.edu/directory/jessica-hoffman/) at Northeastern, and the [Black Ministerial Alliance](https://bmaboston.org/) in Boston.
 

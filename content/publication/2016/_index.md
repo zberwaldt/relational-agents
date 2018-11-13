@@ -2,23 +2,23 @@
 title: "2016"
 layout: years/list
 articles: [
-    "/a-smartphone-based-virtual-agent-for-atrial",
-    "/a-virtual-self-care-coach-for-individuals",
-    "/an-affectively-aware-virtual-therapist-for",
-    "/behavioral-ontologies-in-patient-and-consumer-facing",
-    "/blissful-agents-adjuncts-to-group-medical",
-    "/conversational-agents-enable-automated-health-interventions",
-    "/disparities-in-age-associated-cognitive-decline-between",
-    "/first-impressions-in-human-agent-virtual-encounters",
-    "/health-literacy-as-a-mediator-of",
     "/improving-access-to-online-health-information",
-    "/increasing-engagement-with-virtual-agents-using",
+    "/health-literacy-as-a-mediator",
     "/racial-disparities-in-patient-activation-evaluating",
-    "/real-time-presentation-tracking",
-    "/real-time-tailoring-of-depression-counseling-by",
-    "/thinking-outside-the-box-co-planning-scientific",
+    "/disparities-in-age-associated-cognitive-decline-between",
+    "/conversational-agents-enable-automated-health-interventions",
     "/usability-of-a-relational-agent-based-breastfeeding",
-    "/utilization-of-an-embodied-conversational-agent",
-    "/virtual-agents-in-the-classroom"
+    "/behavioral-ontologies-in-patient-and-consumer-facing",
+    "/an-affectively-aware-virtual-therapist-for",
+    "/first-impressions-in-human-agent-virtual-encounters",
+    "/real-time-presentation-tracking",
+    "/a-smartphone-based-virtual-agent-for-atrial",
+    "/increasing-engagement-with-virtual-agents-using",
+    "/virtual-agents-in-the-classroom",
+    "/thinking-outside-the-box-co-planning-scientific",
+    "/blissful-agents-adjuncts-to-group-medical",
+    "/a-virtual-self-care-coach-for-individuals",
+    "/real-time-tailoring-of-depression-counseling-by",
+    "/utilization-of-an-embodied-conversational-agent"
 ]
 ---
