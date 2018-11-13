@@ -1,7 +1,7 @@
 ---
 name: "Response To A Relational Agent By"
 title: "Response to a Relational Agent by Hospital Patients with Depressive Symptoms"
-project: null
+project: "A RCT to Reduce Cardiopulmonary Re-hospitalizations"
 event: "Interacting with Computers special issue on Mental Health 22(4), 289-298"
 authors:
 - name: "Bickmore, T."

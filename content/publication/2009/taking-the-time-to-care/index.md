@@ -1,7 +1,7 @@
 ---
 name: "Taking The Time To Care"
 title: "Taking the Time to Care: Empowering Low Health Literacy Hospital Patients with Virtual Nurse Agents"
-project: null
+project: "A RCT to Reduce Cardiopulmonary Re-hospitalizations"
 event: "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), Boston, MA."
 authors:
 - name: "Bickmore, T."

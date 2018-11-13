@@ -6,8 +6,34 @@ i.fas, i.far {
 
 .back-link {
     clear: left;
-    margin-bottom: 16px;
+    margin: 16px 0 16px;
+    float:left;
 }
+
+.explore-btn {
+    border: 2px solid rgb(90, 90, 90);
+    padding: 8px 12px;
+    color: hsl(207,100%, 50%);
+    margin: 8px 0;
+    border-radius: 5px;
+    align-self: flex-start;
+    text-decoration: none;
+    background: transparent;
+    transition: all .2s ease-in-out;
+}
+
+.explore-btn:visited {
+    color: hsl(207,100%, 50%);
+}
+
+.explore-btn:hover {
+    transform: scale(.98);
+    background: hsl(207, 100%, 50%);;
+    color: hsl(0,0%, 100%);
+    border-color: hsl(207, 100%, 50%);;
+    transition: all .2s ease-in-out;
+}
+
 
 .news-item .exposition a {
     color: var(--inverse-text-color);
@@ -112,8 +138,10 @@ i.fas, i.far {
 }
 
 .project-image {
-    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
     margin-right: 24px;
+    align-self: center;
 }
 
 
@@ -122,12 +150,14 @@ i.fas, i.far {
     flex-shrink: 0;
     flex-grow: 0;
     background-color: rgba(19, 19, 19, 0.9);
+    border: 1px solid hsla(0, 0%, 0%, .1);
     position: sticky;
     align-self: flex-start;
     top: 16px;
     margin-top: 32px;
     margin-left: 24px;
     padding: 16px;
+    border-radius: 5px;
 }
 
 .aside-nav hr {
@@ -147,6 +177,10 @@ i.fas, i.far {
 }
 
 .aside-nav li {
+    margin: 4px 0;
+}
+
+.aside-nav a {
     margin: 4px 0;
 }
 
@@ -181,7 +215,6 @@ i.fas, i.far {
 
 .main-image {
     height: auto;
-    width: 50%;
     float: left;
     margin: 0 16px 16px 0;
 }
@@ -233,6 +266,7 @@ i.fas, i.far {
 #explore .section-content {
     position: relative;
     left: 50%;
+    margin-left: 32px;
 }
 
 #news button {
@@ -284,8 +318,113 @@ i.fas, i.far {
     flex-grow:2;
 }
 
+.demo-article h1 {
+    clear: both;
+}
+
+#content .demo-section h1.page-title {
+    margin-top: 0;
+}
+
 .news-item.active {
     display: block;
+}
+
+.pub-section {
+    color: unset;
+    text-decoration: none;
+    transition: transform .2s ease-in-out;
+}
+
+.pub-section h2, .pub-section p, .pub-section h3 {
+    color: hsla(0, 0%, 0%, .8);
+}
+
+.pub-section h3 {
+    font-size: 1.4em;
+}
+
+.pub-section p {
+    font-size: 1.2em;
+}
+
+.pub-section {
+    align-items: center;
+}
+
+.pub-sec-total {
+    align-items: center;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    border: solid 2px hsl(180, 100%, 50%);
+}
+ 
+.pub-section {
+    font-size: 12px;
+    padding:24px;
+    border-radius: 3px;
+    border: 1px solid hsla(0, 0%, 0%, .1);
+    border-top: 3px solid hsl(207, 100%, 50%);
+    background: white;
+}
+
+.pub-section:hover {
+    transition: transform .2s ease-in-out, border-top-color .2s ease-in-out;
+    transform: scale(0.98);
+    border-top-color: hsl(180, 100%, 50%);
+}
+
+
+.pub-section h2 {
+    font-size: 1.4em;
+    margin:0;
+}
+
+.authors {
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.authors li {
+    padding: 4px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.publication-list {
+    justify-content: flex-start;
+    margin: 32px 0;
+    width: 100%;
+}
+
+ul.publication-list {
+    list-style: none;
+    padding: 0;
+}
+
+.publication {
+    margin: 8px;
+    font-size: 12px;
+    padding:24px;
+    border-radius: 3px;
+    border: 1px solid hsla(0, 0%, 0%, .1);
+    border-top: 3px solid hsl(207, 100%, 50%);
+    background: white;
+    clear: both;
+}
+
+.publication h3 {
+    font-size: 1.5em;
+}
+
+.hidden {
+    display:none;
 }
 
 .subtitle {
@@ -332,6 +471,10 @@ i.fas, i.far {
 
 .highlight {
     color: #4AA2EA;
+}
+
+.related-publications {
+    clear: both;
 }
 
 .member-card {
@@ -381,11 +524,27 @@ i.fas, i.far {
     .navbar .brand span{
         display: none;
     }
+    
+    #home #team, #home #explore {
+        height:unset;
+        background-size: 100vw;
+    }
+
+    #home #team .section-content {
+        margin-top: 70%;
+    }
+    
+    #home #explore .section-content {
+        margin-left: 0;
+        margin-top: 77.5%;
+    }
 
     #team, #explore {
-        background-size: 100%;
-        background-position-x: 0%;
-        background-position-y: 232px;
+        background-position: top;
+    }
+
+    #explore {
+        background-size: 100vw;
     }
 
     .container.flex.f-row {
@@ -406,10 +565,6 @@ i.fas, i.far {
         max-width: 100%;
     }
 
-    #team {
-        background-size: 100vw;
-    }
-    
     #team .container, #explore .container {
         align-items: flex-start;
     }
@@ -420,8 +575,6 @@ i.fas, i.far {
 
     #team .section-content, #explore .section-content {
         width: 100%;
-        height: 200px;
-        padding:0;
     }
 }
 

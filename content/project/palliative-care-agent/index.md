@@ -5,6 +5,7 @@ resources:
 - name: main image
   src: ECAPAL-proxy.jpg
 draft: false
+related_pubs: true
 ---
 
 The purpose of this project is to develop a conversational agent

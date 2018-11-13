@@ -5,6 +5,7 @@ resources:
 - name: main image
   src: pcc-screenshot1.jpg
 draft: false
+related_pubs: true
 ---
 
 Despite increased access to prenatal care, the United States continues to rank poorly worldwide in birth outcomes.  Intervention studies delivering timely, comprehensive and expanded prenatal care have not been shown to improve persistent disparities in birth outcomes. Thus, prenatal care is too little too late.

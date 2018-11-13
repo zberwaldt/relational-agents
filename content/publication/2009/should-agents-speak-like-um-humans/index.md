@@ -1,7 +1,7 @@
 ---
 name: "Should Agents Speak Like Um Humans"
 title: "Should Agents Speak Like, um, Humans? The Use of Conversational Fillers by Virtual Agents"
-project: null
+project: "A Virtual Laboratory for Studying Long-Term Human-Computer Relationships"
 event: "Proceedings of Intelligent Virtual Agents, Amsterdam."
 authors:
 - name: "Pfeifer, L."
@@ -12,6 +12,5 @@ resources:
   src: "IVA09.disfluency.pdf"
 external_url: null
 draft: false 
-headless: true
 headless: true
 ---

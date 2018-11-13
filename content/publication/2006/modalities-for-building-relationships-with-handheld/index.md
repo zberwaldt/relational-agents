@@ -1,7 +1,7 @@
 ---
 name: "Modalities For Building Relationships With Handheld"
 title: "Modalities for Building Relationships with Handheld Computer Agents."
-project: null
+project: "Just-in-Time Information for Exercise Adoption"
 event: "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), Montreal, Canada."
 authors:
 - name: "Bickmore, T."

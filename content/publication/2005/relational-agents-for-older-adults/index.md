@@ -1,7 +1,7 @@
 ---
 name: "'It's Just Like You Talk To"
 title: "'It's just like you talk to a friend' Relational Agents for Older Adults."
-project: null
+project: "Computer Agents to Promote Walking in Older Adults with Low Health Literacy"
 event: "Interacting with Computers 17 (6) : 711-735"
 authors:
 - name: "Bickmore, T."

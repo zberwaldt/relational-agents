@@ -1,6 +1,6 @@
 ---
 title: "Research Ethics and Safety Promoted by Embodied Conversational Technology (RESPECT)"
-description: null
+description: "A scalable, cost-effective, and sustainable patient-centered intervention to make it easier for people to search for research studies."
 resources:
 - name: main image
   src: RESPECT.png

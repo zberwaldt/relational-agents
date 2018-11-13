@@ -1,10 +1,11 @@
 ---
 title: "Breastfeeding Promotion"
-description: null
+description: "A relational agent that promotes breastfeeding among new mothers."
 resources:
 - name: main image
   src: breastFeeding4.jpg 
 draft: false
+related_pubs: true
 ---
 
 Despite recommendations from the CDC and several professional health organizations that infants be exclusively breastfed for the first six months, only 14.8% of mothers in the U.S. adhere to these guidelines.

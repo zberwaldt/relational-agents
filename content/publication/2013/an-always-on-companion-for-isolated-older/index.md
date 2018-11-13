@@ -1,7 +1,7 @@
 ---
 name: "An Always On Companion For Isolated Older"
 title: "An Always-On Companion for Isolated Older Adults"
-project: null
+project: "An Always On Relational Agent for Social Support of Older Adults"
 event: "International Workshop on Techniques Toward Companion Technologies"
 authors:
 - name: "Sidner, C."

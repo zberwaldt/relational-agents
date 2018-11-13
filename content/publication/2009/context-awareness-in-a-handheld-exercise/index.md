@@ -1,7 +1,7 @@
 ---
 name: "Context Awareness In A Handheld Exercise Agent"
 title: "Context Awareness in a Handheld Exercise Agent"
-project: null
+project: "Just-in-Time Information for Exercise Adoption"
 event: "Pervasive and Mobile Computing special issue on Pervasive Health and Wellness, Vol 5, 226-235"
 authors:
 - name: "Bickmore, T."

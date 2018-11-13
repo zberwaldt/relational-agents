@@ -1,7 +1,7 @@
 ---
 name: "Addressing Loneliness And Isolation In Older"
 title: "Addressing Loneliness and Isolation in Older Adults: Proactive Affective Agents Provide Better Support"
-project: null
+project: "An Always On Relational Agent for Social Support of Older Adults"
 event: "International Conference on Affective Computing and Intelligent Interaction (ACII)"
 authors:
 - name: "Ring, L."

@@ -1,7 +1,7 @@
 ---
 name: "Longitudinal Remote Follow Up By Intelligent Conversational"
 title: "Longitudinal Remote Follow-Up by Intelligent Conversational Agents for Post-Hospitalization Care"
-project: null
+project: "A RCT to Reduce Cardiopulmonary Re-hospitalizations"
 event: "AAAI Spring Symposium on AI and Health Communication"
 authors:
 - name: "Pfeifer, L."

@@ -1,7 +1,7 @@
 ---
 name: "Negotiating Task Interruptions With Virtual Agents"
 title: "Negotiating Task Interruptions with Virtual Agents for Health Behavior Change"
-project: null
+project: "Just-in-Time Information for Exercise Adoption"
 event: "Autonomous Agents and Multi-Agent Systems (AAMAS) '08."
 authors:
 - name: "Bickmore, T."

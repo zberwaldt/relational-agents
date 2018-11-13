@@ -1,7 +1,7 @@
 ---
 name: "Limited Health Literacy And Decline"
 title: "Limited Health Literacy and Decline in Executive Function in Older Adults"
-project: null
+project: "Computer Agents to Promote Walking in Older Adults with Low Health Literacy"
 event: "Journal of Health Communication, 18(Suppl 1): 143-157"
 authors:
 - name: "Sequeira, S."

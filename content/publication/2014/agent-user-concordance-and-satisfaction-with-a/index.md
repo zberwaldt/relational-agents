@@ -1,7 +1,7 @@
 ---
 name: "Agent User Concordance And Satisfaction With A"
 title: "Agent-User Concordance and Satisfaction with a Virtual Hospital Discharge Nurse"
-project: null
+project: "A RCT to Reduce Cardiopulmonary Re-hospitalizations"
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:
 - name: "Zhou, S."

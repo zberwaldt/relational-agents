@@ -1,7 +1,7 @@
 ---
 name: "Usability Of Conversational Agents By Patients"
 title: "Usability of Conversational Agents by Patients with Inadequate Health Literacy: Evidence from Two Clinical Trials"
-project: null
+project: "A RCT to Reduce Cardiopulmonary Re-hospitalizations"
 event: "Journal of Health Communication 15, 197-210,"
 authors:
 - name: "Bickmore, T."

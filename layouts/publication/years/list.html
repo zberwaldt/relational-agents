@@ -1,7 +1,3 @@
-{{ define "styles" }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/publication.css" />
-{{ end }}
-
 {{ define "main" }}
     <div class="container flex f-row">
         <div class="publication-list">
@@ -35,11 +31,12 @@
             </div>
         {{ end }}
         </div>
+        {{ $current_page := . }}
         <aside class="years aside-nav flex f-column">
             <h4>Publications by year:</h4>
             <hr />
             {{ range sort .Parent.Sections "Title" "desc" }}
-                <a href="{{ .RelPermalink }}">{{ .Title }} - {{ len .Params.articles }} Papers</a> 
+                <a class="{{ if eq $current_page.Title .Title }}active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }} - {{ len .Params.articles }} Papers</a> 
             {{ end }}
         </aside>
     </div>

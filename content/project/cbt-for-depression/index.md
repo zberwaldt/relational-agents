@@ -1,10 +1,11 @@
 ---
 title: "Cognitive Behavioral Therapy for Depression"
-description: null
+description: "An exploration of using relational agents to increase retention and dynamically adapt to user affective state in the context of a cognitive-behavioral therapy-based intervention for individuals with depressive symptoms."
 resources:
 - name: main image
   src: cbtexample.png
 draft: false
+related_pubs: true
 ---
 
 Depression is one of the leading causes of disability in the world, effecting more than 350 million people.

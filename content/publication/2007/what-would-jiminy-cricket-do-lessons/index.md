@@ -1,7 +1,7 @@
 ---
 name: "What Would Jiminy Cricket Do Lessons"
 title: "What Would Jiminy Cricket Do? Lessons From the First Social Wearable."
-project: null
+project: "Just-in-Time Information for Exercise Adoption"
 event: "HCI International '07, Beijing, China."
 authors:
 - name: "Bickmore, T."

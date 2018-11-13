@@ -1,6 +1,6 @@
 ---
 title: "Co-presenter Agent"
-description: null
+description: "A system that uses an automated, life-size, animated agent to help inexperienced speakers deliver their presentations in from of an audience"
 resources:
 - name: main image
   src: Tim_screenshot3.png

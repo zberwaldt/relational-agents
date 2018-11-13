@@ -5,6 +5,7 @@ resources:
 - name: main image
   src: robocop.jpg
 draft: false
+related_pubs: true
 ---
 
 Rehearsing in front of a live audience is a common practice when preparing for important presentations.

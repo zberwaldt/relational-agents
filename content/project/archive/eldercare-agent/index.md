@@ -4,7 +4,7 @@ description: null
 resources:
 - name: main image
   src: AlwaysOnSm.jpg
-related_pubs: false
+related_pubs: true
 draft: false
 ---
 

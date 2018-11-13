@@ -1,15 +1,16 @@
 ---
 title: "Couples Counseler Robot"
-description: null
+description: "The goal of this project is to develop and evaluate a robot to conduct couples counseling, focusing on promoting positive communication behavior"
 resources:
 - name: main image
   src: robocounselor2.jpg
 draft: false
+related_pubs: true
 ---
 
 Several conversational agents and robots have been developed to simulate one-on-one health counseling sessions and have been shown to be effective.
 However only a few of these have been designed to interact with multiple co-located users at a given time.
-The goal of this project is to develop and evaluate a robot to conduct  couples counseling, focusing
+The goal of this project is to develop and evaluate a robot to conduct couples counseling, focusing
 initially on promoting positive communication behavior.
 In order for the robot to be successful, it needs to both support basic multiparty conversational processes (such as turn-taking and interruptions), and
 model couples counseling techniques.

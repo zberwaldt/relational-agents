@@ -1,7 +1,7 @@
 ---
 name: "Social Support Agents For Older Adults"
 title: "Social Support Agents for Older Adults: Longitudinal Affective Computing in the Home"
-project: null
+project: "An Always On Relational Agent for Social Support of Older Adults"
 event: "Journal on Multimodal User Interfaces"
 authors:
 - name: "Ring, L."
