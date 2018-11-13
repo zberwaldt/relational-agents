@@ -1,7 +1,7 @@
 ---
 name: "An Intelligent Conversational Agent For Promoting"
 title: "An Intelligent Conversational Agent for Promoting Long-term Health Behavior Change using Motivational Interviewing"
-project: null
+project: "Computational Models of Health Behavior Change Dialog"
 event: "AAAI Spring Symposium on AI and Health Communication"
 authors:
 - name: "Schulman, D."

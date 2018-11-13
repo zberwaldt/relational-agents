@@ -1,7 +1,7 @@
 ---
 name: "Tinker - A Relational Agent Museum"
 title: "Tinker - A Relational Agent Museum Guide"
-project: null
+project: "Tinker: A Relational Guide for the Boston Museum of Science"
 event: "Journal of Autonomous Agents and Multi-Agent Systems, 27(2): 254-276"
 authors:
 - name: "Bickmore, T."

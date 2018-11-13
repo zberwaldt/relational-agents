@@ -1,7 +1,7 @@
 ---
 name: "Practical Approaches To Comforting Users With"
 title: "Practical Approaches to Comforting Users with Relational Agents"
-project: null
+project: "Automated Comforting by Relational Agents"
 event: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), San Jose, CA."
 authors:
 - name: "Bickmore, T."

@@ -1,11 +1,11 @@
 ---
 title: "Online Tailored Interventions & Relational Agents for Exercise and Sun Protection (Project RAISE)"
-description: null
-
+description: "a relational agent that is used in conjunction with a year-long, web-based intervention for physical activity promotion and ultraviolet radiation avoidance for cancer prevention."
 resources:
 - name: main image
   src: image001.gif
 draft: false
+related_pubs: true
 ---
 
 The purpose of this project is to develop a relational agent that is used in conjunction with a year-long, web-based intervention for physical activity promotion and ultraviolet radiation avoidance for cancer prevention. The relational agent will act as a guide for the website and will be evaluated in a randomized clinical trial involving a national sample of 1,600 study participants.

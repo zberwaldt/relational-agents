@@ -1,11 +1,11 @@
 ---
 title: "A Virtual Coach to Increase Physical Activity in Overweight Adults"
-description: null
-
+description: "A randomized trial to look into average step over a twelve week period using a FitSense ActiPed"
 resources:
 - name: main image
   src: image001.jpg
 draft: false
+related_pubs: false
 ---
 
 Over two-thirds of Americans are currently overweight or obese. Poor adherence to recommended levels of exercise is a major contributory factor. The goal of this study is to integrate a wearable activity monitor from FitSense with a home-computer-based relational agent to provide daily physical activity counseling for overweight adults.

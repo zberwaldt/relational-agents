@@ -1,11 +1,11 @@
 ---
 title: "Tinker: A Relational Guide for the Boston Museum of Science"
-description: null
-
+description: "A virtual museum guide agent named \"Tinker\" that uses human relationship-building behaviors to engage museum visitors"
 resources:
 - name: main image
   src: image001.gif
 draft: false
+related_pubs: true
 ---
 
 People go to museums as much to be entertained and to socialize as they do to be educated. Contemporary museums use interactive exhibits, multimedia, games, automated mobile guides, and other mechanisms for entertaining individuals and groups of visitors. The incorporation of principles from the social psychology of human personal relationships represents a promising and important direction of research to further engage and entertain museum visitors.

@@ -1,7 +1,7 @@
 ---
 name: "A Reusable Framework For Health Counseling"
 title: "A Reusable Framework for Health Counseling Dialogue Systems based on a Behavioral Medicine Ontology"
-project: null
+project: "Computational Models of Health Behavior Change Dialog"
 event: "Journal of Biomedical Informatics, 44, 183-197"
 authors:
 - name: "Bickmore, T."

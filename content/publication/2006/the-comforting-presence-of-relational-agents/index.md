@@ -1,7 +1,7 @@
 ---
 name: "The Comforting Presence Of Relational Agents"
 title: "The Comforting Presence of Relational Agents."
-project: null
+project: "Automated Comforting by Relational Agents"
 event: "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), Montreal, Canada."
 authors:
 - name: "Bickmore, T."

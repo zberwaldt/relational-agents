@@ -1,7 +1,7 @@
 ---
 name: "Using Relational Agents To Increase Engagement"
 title: "Using Relational Agents to Increase Engagement in Computer-based Interventions: Preliminary Outcomes"
-project: null
+project: "Online Tailored Interventions & Relational Agents for Exercise and Sun Protection (Project RAISE)"
 event: "International Congress of Behavioral Medicine (abstract)"
 authors:
 - name: "Velicer, W."

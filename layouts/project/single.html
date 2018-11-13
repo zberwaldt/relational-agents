@@ -1,7 +1,11 @@
 {{ define "main" }}
     {{ $title := .Title }}
     <div class="container">
+            {{ if eq .Parent.Title "Past Projects" }}
+            <a class="back-link" href="/project/archive"><i class="fas fa-chevron-left"></i>Go back</a>
+            {{ else }}
             <a class="back-link" href="/project/"><i class="fas fa-chevron-left"></i>Go back</a>
+            {{ end }}
             <h1 class="page-title text-center">{{ $title }}</h1>
             <section class="article-content">
             {{ with .Resources.GetMatch "main image" }}

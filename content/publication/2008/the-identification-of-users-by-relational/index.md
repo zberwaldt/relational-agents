@@ -1,7 +1,7 @@
 ---
 name: "The Identification Of Users By Relational"
 title: "The Identification of Users by Relational Agents"
-project: null
+project: "Tinker: A Relational Guide for the Boston Museum of Science"
 event: "Autonomous Agents and Multi-Agent Systems (AAMAS) '08."
 authors:
 - name: "Schulman, D."
