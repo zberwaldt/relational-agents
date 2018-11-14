@@ -6,6 +6,7 @@ resources:
   src: VA_Alcohol.png
 draft: false
 related_pubs: true
+weight: 7
 ---
 
 The purpose of this project is to develop and evaluate an animated conversational agent that will talk to patients about their alcohol and substance use while waiting to see their primary care physician. The goal of the project is to inspire users to make healthy behavior change, regarding their alcohol consumption, through counseling.

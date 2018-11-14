@@ -6,6 +6,7 @@ resources:
   src: HealthMinistry2.jpg
 draft: false
 related_pubs: false
+weight: 2
 ---
 
 Culture plays an important role in health promotion interventions, and there has been an increasing use of community-based settings for health promotion activities. Church membership provides a strong foundation for social support, regular face-to-face meetings that represent additional channels for intervention, authority figures (clergy) who can be appealed to in health messaging, and a shared belief system that can be leveraged in motivating behavior change.

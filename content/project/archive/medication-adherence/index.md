@@ -6,6 +6,7 @@ resources:
   src: image001.gif
 draft: false
 related_pubs: true
+weight: 8
 ---
 
 Patients only follow prescribed medication regimens about half of the time, leading to 125,000 deaths annually in the US. We have developed a home-based relational agent designed to promote antipsychotic medication adherence among patients with schizophrenia. The agent tracks each patient's medication taking behavior for a single antipsychotic taken by mouth in pill or capsule form based on self-report, but she also reminds patients to take all of their other medications as prescribed. In addition to medication adherence, the agent promotes physical activity (walking) and talking to the agent every day. The system also keeps track of medication refill schedules and reminds patients to get refills before they run out of their tracked medication (including problem solving, such as recommending that a friend drive them to the pharmacy if they don't have transportation). Finally, the system uses a form of "direct observation" - a technique used in human medication adherence interventions -in which a health provider watches while the patient takes their medication.

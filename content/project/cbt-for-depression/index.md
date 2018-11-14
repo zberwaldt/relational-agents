@@ -6,6 +6,7 @@ resources:
   src: cbtexample.png
 draft: false
 related_pubs: true
+weight: 12
 ---
 
 Depression is one of the leading causes of disability in the world, effecting more than 350 million people.

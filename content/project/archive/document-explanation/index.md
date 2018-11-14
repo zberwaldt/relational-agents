@@ -7,6 +7,7 @@ resources:
 date: null
 related_pubs: true
 draft: false
+weight: 15
 ---
 
 Many professionals provide their lay clients with documents that are, to varying degrees, incomprehensible. Whether due to technical jargon, obscure concepts, or poor writing on the part of the professional, or low literacy, cultural barriers, or cognitive impairment on the part of the client, documents often fail to serve their intended communicative function. Perhaps nowhere is this problem more important and pervasive than in healthcare. The consequences of a patient failing to understand a prescription, hospital discharge instructions, or pre-surgery instructions can have serious, even fatal, consequences.

@@ -6,6 +6,7 @@ resources:
   src: interaction.jpg
 draft: false
 related_pubs: true
+weight: 8
 ---
 
 Most persons with spinal cord injury (SCI) require training and support for self-care management to help prevent the development of serious secondary conditions after hospital discharge. However, adherence to self-care management behaviors is poor once training with a therapist has ended.

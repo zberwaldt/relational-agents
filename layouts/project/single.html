@@ -21,7 +21,7 @@
                 <h2 class="text-center"> Publications </h2>
                 {{ $pubs := .Site.GetPage "section" "publication" }}
                 <ul class="publication-list">
-                {{ range $pubs.Sections }}
+                {{ range $pubs.Sections.Reverse }}
                     {{ $page := . }}
                     {{ range .Params.articles }}
                     {{ $article := . }}

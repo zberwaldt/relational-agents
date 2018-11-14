@@ -6,6 +6,7 @@ resources:
   src: mgh.jpg
 draft: false
 related_pubs: true
+weight: 13
 ---
 
 Patients are often poorly informed about their options for surgery, such as alternatives for anesthesia, and often arrive at the hospital improperly prepared for their procedure.

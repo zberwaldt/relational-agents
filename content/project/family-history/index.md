@@ -9,6 +9,7 @@ resources:
 demo: https://www.youtube.com/embed/EMusIrS6y-M
 related_pubs: true
 draft: false
+weight: 3
 ---
 
 A family health history - incorporating a "family tree" along with health conditions for each family member - can significantly improve disease risk assessments, even when all available genetic tests have been done. The family history is crucially important for determining risk for many chronic conditions, including cardiovascular disease, diabetes, and cancer, and represents an integration of disease risk stemming from genetic, environmental, and behavioral factors. Despite this, most health providers do a poor job of collecting family health histories, if they do it at all.

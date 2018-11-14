@@ -7,6 +7,7 @@ resources:
 demo: "https://www.youtube.com/embed/AaO_vzk_nXI"
 draft: false
 related_pubs: true
+weight: 10
 ---
 
 Rehearsing in front of a live audience is a common practice when preparing for important presentations.

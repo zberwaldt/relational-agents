@@ -6,6 +6,7 @@ resources:
   src: image001.jpg
 draft: false
 related_pubs: false
+weight: 9
 ---
 
 Over two-thirds of Americans are currently overweight or obese. Poor adherence to recommended levels of exercise is a major contributory factor. The goal of this study is to integrate a wearable activity monitor from [FitSense](http://www.fitlinxx.com/brand.htm) with a home-computer-based relational agent to provide daily physical activity counseling for overweight adults.

@@ -7,6 +7,7 @@ resources:
 demo: "https://www.youtube.com/embed/F7YyP_l3Bdk"
 draft: false
 related_pubs: true
+weight: 1
 ---
 
 The purpose of this project is to develop a conversational agent

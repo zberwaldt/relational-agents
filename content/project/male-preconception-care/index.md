@@ -6,6 +6,7 @@ resources:
   src: Gabe.jpg
 draft: false
 related_pubs: false
+weight: 5
 ---
 
 The preconception care system for men (Gabe) involves the developement and deployment of a software application that delivers a health and wellness intervention to young African American men. At the heart of the system is an Relational Agent that has conversations with the users, both to understand which health issues they are at risk for and to discuss potential solutions to those problems.

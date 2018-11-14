@@ -6,6 +6,7 @@ resources:
   src: robocounselor2.jpg
 draft: false
 related_pubs: true
+weight: 9
 ---
 
 Several conversational agents and robots have been developed to simulate one-on-one health counseling sessions and have been shown to be effective.

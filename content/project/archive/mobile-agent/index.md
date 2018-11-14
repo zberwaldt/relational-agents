@@ -6,6 +6,7 @@ resources:
   src: image001.jpg
 draft: false
 related_pubs: true
+weight: 3
 ---
 
 What happens if you put an exercise coach on a wearable computer? What if the coach could actually sense whether you were doing your exercise or not? And, what if the coach were designed to get to know you, your personal likes and dislikes, and something about your life plans?

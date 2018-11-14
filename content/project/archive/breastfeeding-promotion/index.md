@@ -6,6 +6,7 @@ resources:
   src: breastFeeding4.jpg 
 draft: false
 related_pubs: true
+weight: 2
 ---
 
 Despite recommendations from the CDC and several professional health organizations that infants be exclusively breastfed for the first six months, only 14.8% of mothers in the U.S. adhere to these guidelines.

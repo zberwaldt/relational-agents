@@ -6,6 +6,7 @@ resources:
   src: image001.gif
 draft: false
 related_pubs: true
+weight: 5
 ---
 
 Relational Agents represent an especially effective modality for educating and motivating older adults and other individuals with low reading, health or computer literacy, given the agents' intuitive emulation of face-to-face conversation and the engagement and social bonding afforded by their use of relational behavior such as social dialog, empathy and humor.
