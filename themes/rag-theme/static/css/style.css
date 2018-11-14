@@ -242,7 +242,7 @@ i.fas, i.far {
 /* Home Styles */
 
 .jumbotron {
-    background: linear-gradient(130deg, rgba(255,255, 255, 1) 0%, rgba(255, 255,255, .99) 33%, rgba(109, 210, 255, .8)  100%), url('../img/Co-Watcher4.png') no-repeat;
+    background: linear-gradient(130deg, rgba(255,255, 255, 1) 0%, rgba(255, 255,255, .99) 33%, rgba(109, 210, 255, .8)  100%), url('../img/jumbotron.png') no-repeat;
     background-size: cover;
     background-position: center 25%;
 }
@@ -257,12 +257,12 @@ i.fas, i.far {
 }
 
 #team {
-    background: url('../img/Group_2016.jpg') no-repeat 50vw;
+    background: url('../img/team-photo.jpg') no-repeat 50vw;
     background-size: 50%;
 }
 
 #explore {
-    background: url('../img/Co-Watcher3.png') no-repeat 0vw;
+    background: url('../img/explore.png') no-repeat 0vw;
     background-size: 50%;
 }
 
