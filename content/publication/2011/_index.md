@@ -4,15 +4,15 @@ layout: years/list
 articles: [
     "/a-reusable-framework-for-health-counseling",
     "/adapting-research-tested-computerized-tailored-interventions",
-    "/an-intelligent-conversational-agent-for-promoting",
-    "/an-online-preconception-care-educational-program",
-    "/employing-virtual-advisors-to-promote-physical",
-    "/health-literacy-and-therapeutic-alliance",
-    "/is-the-media-equation-a-flash",
     "/longitudinal-remote-follow-up-by-intelligent-conversational",
-    "/posture-relationship-and-discourse-structure",
-    "/relational-agents-as-an-adjunct",
+    "/an-intelligent-conversational-agent-for-promoting",
+    "/is-the-media-equation-a-flash",
+    "/employing-virtual-advisors-to-promote-physical",
     "/relational-agents-for-promoting-engagement",
-    "/relational-agents-improve-engagement-and-learning"
+    "/an-online-preconception-care-educational-program",
+    "/posture-relationship-and-discourse-structure",
+    "/relational-agents-improve-engagement-and-learning",
+    "/relational-agents-as-an-adjunct",
+    "/health-literacy-and-therapeutic-alliance",
 ]
 ---

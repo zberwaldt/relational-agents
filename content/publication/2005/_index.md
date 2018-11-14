@@ -2,9 +2,9 @@
 title: "2005"
 layout: years/list
 articles: [
-    "/acceptance-and-usability-of-a-relational",
-    "/establishing-and-maintaining-long-term-human-computer-relationships",
+    "/relational-agents-for-older-adults",
     "/establishing-the-computer-patient-working-alliance",
-    "/relational-agents-for-older-adults"
+    "/establishing-and-maintaining-long-term-human-computer-relationships",
+    "/acceptance-and-usability-of-a-relational",
 ]
 ---
