@@ -1,6 +1,6 @@
 ---
 title: "A Virtual Laboratory for Studying Long-Term Human-Computer Relationships"
-description: null
+description: "A five-year project to study how social interface agents can conduct very long-term interactions"
 resources:
 - name: main image
   src: image001.gif

@@ -1,7 +1,7 @@
 ---
 name: "Automated Explanation Of Research Informed Consent by Embodied Conversational Agents"
 title: "Automated Explanation of Research Informed Consent by Embodied Conversational Agents"
-project: null
+project: ["Health Document Explanation by Relational Agents"]
 event: "MS Thesis, College of Computer and Information Science, Northeastern University"
 authors:
 - name: "Fernando, R."

@@ -2,16 +2,17 @@
 title: "2009"
 layout: years/list
 articles: [
-    "/a-virtual-laboratory-for-studying-long-term",
     "/automated-explanation-of-research-informed-consent-by-embodied-agents",
-    "/context-awareness-in-a-handheld-exercise",
-    "/dtask-and-litebody",
     "/engagement-vs-deceit",
-    "/issues-in-designing-agents",
-    "/persuading-users-through-counseling-dialogue",
+    "/dtask-and-litebody",
     "/should-agents-speak-like-um-humans",
-    "/taking-the-time-to-care",
+    "/persuading-users-through-counseling-dialogue",
     "/towards-empathic-touch-by-relational-agents",
-    "/using-computer-agents-to-explain-medical-documents"
+    "/a-virtual-laboratory-for-studying-long-term",
+    "/taking-the-time-to-care",
+    "/using-computer-agents-to-explain-medical-documents",
+    "/issues-in-designing-agents",
+    "/context-awareness-in-a-handheld-exercise",
+    "/relational-agent-interventions-for-multiple-risk"
 ]
 ---

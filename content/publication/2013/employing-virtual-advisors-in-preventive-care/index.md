@@ -1,7 +1,7 @@
 ---
 name: "Employing 'Virtual Advisors' In Preventive Care"
 title: "Employing 'Virtual Advisors' in Preventive Care for Underserved Communities: Results from the COMPASS Study"
-project: null
+project: ["Computer-Based Physical Activity Advice for Ethnic Minority Aging Adults"]
 event: "Journal of Health Communication, 18(12): 1449-1464"
 authors:
 - name: "King, A."

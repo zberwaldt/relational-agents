@@ -15,7 +15,7 @@ articles: [
     "/conversational-interfaces-in-hci-and-behavioral",
     "/demonstration-of-an-always-on-companion-for",
     "/embodied-agents-for-long-term-discourse",
-    "/employing-'virtual-advisors'-in-preventive-care",
+    "/employing-virtual-advisors-in-preventive-care",
     "/enabling-web-search-for-low-health",
     "/virtual-exercise-coach-to-promote-walking-in-community",
     "/feasibility-of-using-virtual-counselors-to",

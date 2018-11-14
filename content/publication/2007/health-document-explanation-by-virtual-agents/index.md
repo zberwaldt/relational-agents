@@ -1,7 +1,7 @@
 ---
 name: "Health Document Explanation By Virtual Agents"
 title: "Health Document Explanation by Virtual Agents"
-project: "A RCT to Reduce Cardiopulmonary Re-hospitalizations"
+project: ["A RCT to Reduce Cardiopulmonary Re-hospitalizations", "Health Document Explanation by Relational Agents"]
 event: "Intelligent Virtual Agents '07, Paris."
 authors:
 - name: "Bickmore, T."

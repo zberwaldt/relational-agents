@@ -1,7 +1,7 @@
 ---
 name: "Cultural And Linguistic Adaptation Of Relational"
 title: "Cultural and Linguistic Adaptation of Relational Agents for Health Counseling"
-project: null
+project: ["Computer-Based Physical Activity Advice for Ethnic Minority Aging Adults"]
 event: "Workshop on Interactive Systems in Healthcare, Atlanta, GA"
 authors:
 - name: "Yin, L."

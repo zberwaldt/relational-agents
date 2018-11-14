@@ -1,11 +1,12 @@
 {{ define "main" }}
     {{ $title := .Title }}
     <div class="container">
-            {{ if eq .Parent.Title "Past Projects" }}
-            <a class="back-link" href="/project/archive"><i class="fas fa-chevron-left"></i>Go back</a>
-            {{ else }}
-            <a class="back-link" href="/project/"><i class="fas fa-chevron-left"></i>Go back</a>
-            {{ end }}
+        {{ if eq .Parent.Title "Past Projects" }}
+        <a class="back-link" href="/project/archive"><i class="fas fa-chevron-left"></i>Go back</a>
+        {{ else }}
+        <a class="back-link" href="/project/"><i class="fas fa-chevron-left"></i>Go back</a>
+        {{ end }}
+        <article class="project-articles">
             <h1 class="page-title text-center">{{ $title }}</h1>
             <section class="article-content">
             {{ with .Resources.GetMatch "main image" }}
@@ -25,7 +26,7 @@
                     {{ range .Params.articles }}
                     {{ $article := . }}
                         {{ with $page.Site.GetPage  . }}
-                            {{ if eq .Params.project $title }}
+                            {{ if in .Params.project $title }}
                             <li class="publication">
                                 <h3>{{ .Title }}</h3>
                                 <ul class="authors flex f-row f-a-center f-jc-start"><strong>Authors:</strong>
@@ -34,6 +35,9 @@
                                     {{ end }}
                                 </ul>
                                 <p>{{ .Params.year }}</p>
+                                {{ with .Params.external_url }}
+                                <a class="view-link" rel="noopener noreferrer" href="{{ . }}" target="_blank">view <i class="far fa-external-link"></i></a>
+                                {{ end }}
                                 {{ with .Resources.GetMatch "*" }}  
                                 <a class="dl-link" href="{{ .RelPermalink }}" download >download <i class="far fa-download"></i><i class="far fa-file-pdf"></i></a>
                                 {{ end }}
@@ -46,10 +50,11 @@
             </section>
             {{ end }}
             {{ with .Params.demo }}
-                <div class="demo-div flex f-column f-jc-center f-a-center">
-                    <h2 class="text-center">Demo</h2>
-                    <iframe width="420" height="315" src="{{ . }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+            <section class="demo-div flex f-column f-jc-center f-a-center">
+                <h2 class="text-center">Demo</h2>
+                <iframe width="420" height="315" src="{{ . }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
             {{ end }}
+        </article>
     </div>
 {{ end }}

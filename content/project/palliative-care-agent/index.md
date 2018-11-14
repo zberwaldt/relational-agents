@@ -4,6 +4,7 @@ description: "A conversational agent system that counsels terminally ill patient
 resources:
 - name: main image
   src: ECAPAL-proxy.jpg
+demo: "https://www.youtube.com/embed/F7YyP_l3Bdk"
 draft: false
 related_pubs: true
 ---
@@ -21,8 +22,4 @@ project, we are developing a relational agent to counsel patients at
 home about medication adherence, stress management, advanced care
 planning, and spiritual support, and to provide referrals to palliative
 care services when needed.
-
-
-
-
 

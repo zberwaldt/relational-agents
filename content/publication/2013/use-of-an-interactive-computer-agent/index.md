@@ -1,7 +1,7 @@
 ---
 name: "Use Of An Interactive Computer Agent to Support Breastfeeding"
 title: "Use of an Interactive Computer Agent to Support Breastfeeding"
-project: null
+project: "Breastfeeding Promotion"
 event: "Maternal and Child Health Journal, 17:1961-1968"
 authors:
 - name: "Edwards, R."

@@ -1,12 +1,11 @@
 ---
 title: "Health Document Explanation by Relational Agents"
-description: null
-
+description: "Developing models to allow a relational agent to effectively explain health documents to individuals with low health literacy."
 resources:
 - name: main image
   src: image001.gif
 date: null
-related_pubs: false
+related_pubs: true
 draft: false
 ---
 

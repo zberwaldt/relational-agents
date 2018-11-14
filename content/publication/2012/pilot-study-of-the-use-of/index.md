@@ -1,7 +1,7 @@
 ---
 name: "Pilot Study Of The Use Of"
 title: "Pilot study of the use of a computer agent to provide information and support to breastfeeding mothers"
-project: null
+project: "Breastfeeding Promotion"
 event: "American Public Health Association Annual Meeting (abstract)"
 authors:
 - name: "Edwards, R."

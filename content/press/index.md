@@ -109,6 +109,7 @@ press:
   date: "4/09"
   href: "http://www.healthleadersmedia.com/content/232224/topic/WS_HLM2_TEC/Virtual-Patient-Advocate-Could-Enhance-Health-Literacy.html##"
   description: "Virtual Patient Advocate Could Enhance Health Literacy"
+  project: "A RCT to Reduce Cardiopulmonary Re-hospitalizations"
 - title: "CARING (Nursing Informatics newsletter)"
   date: "12/08"
   href: "http://www.caringonline.org/mc/page.do?sitePageId=79673"

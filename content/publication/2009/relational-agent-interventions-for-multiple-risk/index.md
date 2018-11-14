@@ -1,7 +1,7 @@
 ---
 name: "Relational Agent Interventions for Multiple Risk Factors"
 title: "Relational Agent Interventions for Multiple Risk Factors: Demonstration and Initial Results"
-project: "Online Tailored Interventions & Relational Agents for Exercise and Sun Protection (Project RAISE)"
+project: ["Online Tailored Interventions & Relational Agents for Exercise and Sun Protection (Project RAISE)"]
 event: "Psychology & Health, 24, 403"
 authors:
 - name: "Velicer, W."

@@ -1,7 +1,7 @@
 ---
 name: "A Conversational Agent Based Clinical Trial Search"
 title: "A Conversational Agent-based Clinical Trial Search Engine"
-project: null
+project: ["Research Ethics and Safety Promoted by Embodied Conversational Technology (RESPECT)"]
 event: "7th annual Symposium on Human-Computer Interaction and Information Retrieval (HCIR)"
 authors:
 - name: "Utami, D."
