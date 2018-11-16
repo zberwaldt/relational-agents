@@ -12,7 +12,9 @@
                         data-name="{{ .Name }}"
                         data-bio="{{ .Params.bio }}"
                         data-role="{{ .Params.role }}"
-                        data-website="{{ .Params.website }}">
+                        data-website="{{ .Params.website }}"
+                        role="button"
+                        aria-label="more information about {{ .Name }}">
                     <img class="member-image" src="{{ $resize.RelPermalink }}" alt="{{ .Name }}" />
                     <div class="member-details flex f-column">
                         <h3 class="name">{{ .Name }}</h3>

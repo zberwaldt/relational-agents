@@ -1,4 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+layout: years/list
+articles: []
 ---

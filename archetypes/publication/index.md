@@ -1,5 +1,4 @@
 ---
-name: "{{ replace .Name "-" " " | title }}"
 title: "Put the full title of your paper here."
 project: "Put the name of the project that served as the basis for this publication (e.g. Atrial Fibulation)"
 event: "Which event or journal was this paper for?"
