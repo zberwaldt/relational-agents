@@ -2,6 +2,7 @@ baseURL = "https://relationalagents.com/"
 languageCode = "en-us"
 title = "Relational Agents Group"
 theme = "rag-theme"
+publishDir = "docs"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
