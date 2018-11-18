@@ -8,6 +8,12 @@ branches:
   only:
   - master
 
+after_success:
+  - cd public
+  - git add .
+  - git commit -m "build"
+  - git push origin build
+
 deploy:
   provider: pages
   local-dir: public
