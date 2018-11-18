@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
  noreferrerLinks = true
 
 [params]
-    description = "Relational Agents Group website"
+    description = "Relational Agents Group is a research team at Northeastern University in Boston, MA."
 
 [[menu.main]]
     url = "/project"
