@@ -8,13 +8,6 @@ branches:
   only:
   - master  
 
-after_success:
-  - git checkout build
-  - git reset --hard
-  - git checkout master public
-  - git add .
-  - git commit -m "new build"
-
 deploy:
   provider: pages
   target-branch: build
