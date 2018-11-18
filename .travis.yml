@@ -4,10 +4,6 @@ install:
 script:
 - hugo version
 - make build
-branches:
-  only:
-  - master
-  - build
 
 after_success:
   - git checkout build
