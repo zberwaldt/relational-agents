@@ -8,14 +8,6 @@ branches:
   only:
   - master
 
-after_success:
-  - git checkout --orphan build
-  - git reset --hard
-  - git commit --allow-empty -m "Init build branch"
-  - git push origin build
-  - git checkout master
-  - git worktree add -B build public origin/build
-
 deploy:
   provider: pages
   local-dir: public
