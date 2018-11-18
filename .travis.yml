@@ -9,10 +9,12 @@ branches:
   - master
 
 after_success:
-  - cd public
-  - git add .
-  - git commit -m "build"
+  - git checkout --orphan build
+  - git reset --hard
+  - git commit --allow-empty -m "Init build branch"
   - git push origin build
+  - git checkout master
+  - git worktree add -B build public origin/build
 
 deploy:
   provider: pages
