@@ -1,3 +1,3 @@
 build:
-  rm -rf public
-  hugo --minify
+	rm -rf public
+	hugo --minify
