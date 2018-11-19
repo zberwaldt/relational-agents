@@ -8,9 +8,9 @@ Relational Agents Website Source
 Commands: | Tags: | Description: | Example: | Additional Details:
 --------- | ----- | ------------ | -------- | ------------------- 
 `hugo`  | __additional tags:__ | Compile your source into a static site into the `\public` directory. |  `hugo` | _n/a_ 
- - | --minify | All built html code minified | `hugo --minify` | Minifying is a good way to optimize your site.
- - | --gc | Preform garbage cleaning | `hugo --gc` | Running the command will delete old cache files from previous builds.
- - | --baseURL | allows you to specify an alternative baseURL _default: `https://relationalagents.com/`_ | hugo --baseURL `http://some-other-url.com` | Just in case you want to deploy to some other URL
+^ | --minify | All built html code minified | `hugo --minify` | Minifying is a good way to optimize your site.
+^ | --gc | Preform garbage cleaning | `hugo --gc` | Running the command will delete old cache files from previous builds.
+^ | --baseURL | allows you to specify an alternative baseURL _default: `https://relationalagents.com/`_ | hugo --baseURL `http://some-other-url.com` | Just in case you want to deploy to some other URL
  `hugo server` | _n/a_ | Runs a development server on your local machine | `hugo server` | Handy for previewing your site before deployment.
 
 
