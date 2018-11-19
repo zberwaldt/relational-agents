@@ -2,8 +2,8 @@ baseURL = "https://relationalagents.com/"
 languageCode = "en-us"
 title = "Relational Agents Group"
 theme = "rag-theme"
-
 disableKinds = ["taxonomy", "taxonomyTerm"]
+relativeURLs = true
 
 [blackfriday]
  extensionsmask = ["autolink"]

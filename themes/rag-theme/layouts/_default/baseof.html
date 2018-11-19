@@ -4,8 +4,8 @@
     {{ partial "head.html" . }}
     {{ block "styles" . }}
     {{ end }}
-    <link rel="preload" href="{{.Site.BaseURL}}css/style.css" as="style" />
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
+    <link rel="preload" href="{{ "css/style.css" | relURL}}" as="style" />
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL}}" />
     <title>{{ .Title }} &ndash; {{ .Site.Title }}</title>
     </head>
     <body>

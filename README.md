@@ -3,7 +3,7 @@ Relational Agents Website Source
 
 [![Build Status](https://travis-ci.org/zberwaldt/relational-agents.svg?branch=master)](https://travis-ci.org/zberwaldt/relational-agents)
 
- Table Of Contents 
+## Table Of Contents 
 - [Commands You Need To Know](#commands-you-need-to-know)
 - [Commands That Are Nice To Know](#commands-that-are-nice-to-know)
 - [Kinds Of Content](#kinds-of-content)
@@ -33,17 +33,22 @@ Commands: | Tags: | Description: | Example: | Additional Details:
 Commands: | Tags: | Description: | Example: | Additional Details:
 --------- | ----- | ------------ | -------- | ------------------- 
 `hugo new` | additional tags: | For generating a new content files | `hugo new some-markdown-file.md` | _n/a_
-^       | --kind | Specify the type of content | `hugo new --kind publication publication/2019/better-listening-behavior` | 
+^       | --kind | Specify the type of content | `hugo new --kind publication publication/2019/better-listening-behavior` | See [kinds of content](#kinds-of-content) to see what types of content you can generate with the `cli`
 
 
 ### Kinds of Content
 _addtional reference for the `hugo new --kind` command_
 
-Kind: | Details: 
+Kind:       | Example:                                                   | Details: 
+-----       | --------                                                   | -------- 
+year        | hugo new --kind year publication/2019                      |
+publication | hugo new --kind publication/2019/better-listening-behavior |
+project     | hugo new --kind project project/listening-behavior         |
 
 ## Archtype Index File Formats:
 
 ### Year `_index.md`
+--------------------
 ```yaml
 ---
 title: ""
@@ -52,7 +57,6 @@ articles: []
 ---
 ```
 #### Year Breakdown:
-----------------
 field: |  description: 
 ------ |  ------------
 `title:` | The full title of your project
@@ -65,6 +69,7 @@ field: |  description:
 `draft:` | _default: false_. Set this to true if you don't want it to be included in the next build.
 
 ### Publication `index.md`
+--------------------------
 ```yaml
 ---
 title: "Put the full title of your paper here."
@@ -97,7 +102,7 @@ articles: [
 ---
 ```
 #### Publication Breakdown:
-----------------
+
 field: |  description: 
 ------ |  ------------
 `title:` | The full title of your project
@@ -110,6 +115,7 @@ field: |  description:
 `draft:` | _default: false_. Set this to true if you don't want it to be included in the next build.
 
 ### Project `index.md`
+---------------------------
 Below is what the typical frontmatter for a project will be.
 ```yaml
 ---
