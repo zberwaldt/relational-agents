@@ -3,6 +3,20 @@ Relational Agents Website Source
 
 [![Build Status](https://travis-ci.org/zberwaldt/relational-agents.svg?branch=master)](https://travis-ci.org/zberwaldt/relational-agents)
 
+ Table Of Contents 
+- [Commands You Need To Know](#commands-you-need-to-know)
+- [Commands That Are Nice To Know](#commands-that-are-nice-to-know)
+- [Kinds Of Content](#kinds-of-content)
+- [Archtype Index File Formats](#archtype-index-file-formats)
+    - [Year `_index.md`](#year-_indexmd)
+        - [Year Breakdown](#year-breakdown)
+    - [Publication `index.md`](#publication-indexmd)
+        - [Publication Breakdown](#publication-breakdown)
+    - [Project `index.md`](#project-indexmd)
+        - [Project Breakdown](#project-breakdown)
+- [Tasks](#tasks)
+
+
 ### Command(s) You Need To Know:
 
 Commands: | Tags: | Description: | Example: | Additional Details:
@@ -19,7 +33,7 @@ Commands: | Tags: | Description: | Example: | Additional Details:
 Commands: | Tags: | Description: | Example: | Additional Details:
 --------- | ----- | ------------ | -------- | ------------------- 
 `hugo new` | additional tags: | For generating a new content files | `hugo new some-markdown-file.md` | _n/a_
--        | --kind | Specify the type of content | `hugo new --kind publication publication/2019/better-listening-behavior` | 
+^       | --kind | Specify the type of content | `hugo new --kind publication publication/2019/better-listening-behavior` | 
 
 
 ### Kinds of Content
@@ -71,7 +85,7 @@ headless: true
 ```
 
 
-After you write up the frontmatter for a publication make sure you update the `articles: []` with the folder name. See _[Year _index.md](#year-index-md)_ for more details.
+After you write up the frontmatter for a publication make sure you update the `articles: []` with the folder name. See _[Year _index.md](#year-_indexmd)_ for more details.
 
 _example:_
 ```yaml
