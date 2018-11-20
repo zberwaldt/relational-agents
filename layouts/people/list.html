@@ -46,6 +46,6 @@
 
 {{ define "scripts" }}
     {{with .Resources.GetMatch "gallery script" }}
-    <script src="{{ .Permalink }}" async></script>
+    <script src="{{ .RelPermalink }}" async></script>
     {{ end }}
 {{ end }}

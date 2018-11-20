@@ -7,13 +7,12 @@ Relational Agents Website Source
 - [Commands You Need To Know](#commands-you-need-to-know)
 - [Commands That Are Nice To Know](#commands-that-are-nice-to-know)
 - [Kinds Of Content](#kinds-of-content)
-- [Archtype Index File Formats](#archtype-index-file-formats)
-    - [Year `_index.md`](#year-_indexmd)
-        - [Year Breakdown](#year-breakdown)
-    - [Publication `index.md`](#publication-indexmd)
-        - [Publication Breakdown](#publication-breakdown)
-    - [Project `index.md`](#project-indexmd)
-        - [Project Breakdown](#project-breakdown)
+- [Making Updates](#making-updates)
+    - [Updating Publcations](#updating-publications)
+    - [Updating Projects](#updating-projects)
+    - [Updating Press](#updating-press)
+    - [Updating News](#updating-news)
+    - [Updating Demoes](#updating-demoes)
 - [Tasks](#tasks)
 
 
@@ -23,17 +22,16 @@ Commands: | Tags: | Description: | Example: | Additional Details:
 --------- | ----- | ------------ | -------- | ------------------- 
 `hugo`  | __additional tags:__ | Compile your source into a static site into the `\public` directory. |  `hugo` | _n/a_ 
 ^ | --minify | All built html code minified | `hugo --minify` | Minifying is a good way to optimize your site.
-^ | --gc | Preform garbage cleaning | `hugo --gc` | Running the command will delete old cache files from previous builds.
 ^ | --baseURL | allows you to specify an alternative baseURL _default: `https://relationalagents.com/`_ | hugo --baseURL `http://some-other-url.com` | Just in case you want to deploy to some other URL
- `hugo server` | _n/a_ | Runs a development server on your local machine | `hugo server` | Handy for previewing your site before deployment.
+ `hugo server` | _n/a_ | Runs a development server on your local machine; Handy for previewing the site before deployment | `hugo server` | _n/a_
 
 
 ### Commands That Are Nice To Know:
 
 Commands: | Tags: | Description: | Example: | Additional Details:
 --------- | ----- | ------------ | -------- | ------------------- 
-`hugo new` | additional tags: | For generating a new content files | `hugo new some-markdown-file.md` | _n/a_
-^       | --kind | Specify the type of content | `hugo new --kind publication publication/2019/better-listening-behavior` | See [kinds of content](#kinds-of-content) to see what types of content you can generate with the `cli`
+`hugo new` | additional tags: | For generating a new content files | `hugo new some-markdown-file.md` | This example will create a generic page, should not use for this site
+^       | --kind | Specify the type of content, List of [kinds](#kinds-of-content) below. | `hugo new --kind publication publication/2019/better-listening-behavior` | See [kinds of content](#kinds-of-content) to see what types of content you can generate with the `cli`
 
 
 ### Kinds of Content
@@ -45,9 +43,32 @@ year        | hugo new --kind year publication/2019                      |
 publication | hugo new --kind publication/2019/better-listening-behavior |
 project     | hugo new --kind project project/listening-behavior         |
 
-## Archtype Index File Formats:
+There are a few other content sections that do not have predefined "archetypes": __Press, News, Demoes, and People__
+Click below to read how to make new content for each type.
+- [Press](#updating-press)
+- [News](#updating-news)
+- [Demoes](#updating-demoes)
+- [People](#updating-personnel)
 
-### Year `_index.md`
+## Making Updates
+
+Below are sections dedicated to teaching how to update every content type for the site. Every type of content must have an `index.md`, which contains the "frontmatter" or data that describes the content you want to put on your site. Refer to the sections below to learn the format for each type of content.
+
+__Jump To Section__
+
+- [Publications](#updating-publication)
+- [Projects](#updating-projects)
+- [Press](#updating-press)
+- [Personnel](#updating-personnel)
+- [News](#updating-news)
+- [Demoes](#updating-demoes)
+
+### Updating Publications
+
+Updating can be a two step process. For `ragwebv6` I've organized all publications by year. If you are adding a publication from 2019, you'll need to create a new year section, which is covered [below](#adding-years). Otherwise you can just add a [publication](#adding-publications)
+
+
+#### Adding Years 
 --------------------
 ```yaml
 ---
@@ -56,20 +77,24 @@ layout: years/list
 articles: []
 ---
 ```
-#### Year Breakdown:
+
 field: |  description: 
 ------ |  ------------
 `title:` | The full title of your project
-`description:` | A brief description of the project
-`resources:`| A list of resources that belong to the page __resources must be in the same directory.__
-`- name:` | _default: main image_. The name of the primary image for a project
-`   src:` | the name of the image _example:_ listening-behavior.jpg
-` date`| If you generate with the `cli` you don't have to worry about this. 
-`related_pubs:` | _default: false_. Set this to true so the generator knows to look for publications that have the matching project field.
-`draft:` | _default: false_. Set this to true if you don't want it to be included in the next build.
+`layout:` | 
+`articles:` |
 
-### Publication `index.md`
+#### Adding Publications
 --------------------------
+
+The fastest way to add a publication is with the `cli`:
+
+_example:_
+```shell
+>: hugo new --kind publication publication/2019/listening-behavior
+```
+You can manually do it, however whichever way you do it, as long as the frontmatter is formatted like below everything should work fine.
+
 ```yaml
 ---
 title: "Put the full title of your paper here."
@@ -101,7 +126,6 @@ articles: [
 ]
 ---
 ```
-#### Publication Breakdown:
 
 field: |  description: 
 ------ |  ------------
@@ -114,8 +138,22 @@ field: |  description:
 `related_pubs:` | _default: false_. Set this to true so the generator knows to look for publications that have the matching project field.
 `draft:` | _default: false_. Set this to true if you don't want it to be included in the next build.
 
-### Project `index.md`
----------------------------
+### Updating Projects
+-----------------
+[back to top](#table-of-contents)
+
+A project lives under the `content/project` directory. Each project has a dedicated directory.
+
+ _example:_
+```
+/content
+|_ /project
+   |_/listening-behavior
+   |_ index.md
+   |_ image.jpg
+```
+
+#### Project Frontmatter Breakdown
 Below is what the typical frontmatter for a project will be.
 ```yaml
 ---
@@ -129,8 +167,6 @@ related_pubs: false
 draft: false
 ---
 ```
-#### Project Breakdown:
-----------------
 field: |  description: 
 ------ |  ------------
 `title:` | The full title of your project
@@ -141,10 +177,29 @@ field: |  description:
 ` date`| If you generate with the `cli` you don't have to worry about this. 
 `related_pubs:` | _default: false_. Set this to true so the generator knows to look for publications that have the matching project field.
 `draft:` | _default: false_. Set this to true if you don't want it to be included in the next build.
+
+### Updating Press 
+-----------------
+[back to top](#table-of-contents)
+
+### Updating Personnel
+-----------------
+[back to top](#table-of-contents)
+
+### Updating News
+-----------------
+[back to top](#table-of-contents)
+
+### Updating Demoes
+-----------------
+[back to top](#table-of-contents)
+
+
 ### Tasks
 
 - [x] optimized web assets
 - [x] create build process
+- [ ] write better documentation
 - [ ] update content
 
 

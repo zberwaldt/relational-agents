@@ -2,9 +2,9 @@
     {{ $title := .Title }}
     <div class="container">
         {{ if eq .Parent.Title "Past Projects" }}
-        <a class="back-link" href="/project/archive"><i class="fas fa-chevron-left"></i>Go back</a>
+        <a class="back-link" href="/project/archive/index.html"><i class="fas fa-chevron-left"></i>Go back</a>
         {{ else }}
-        <a class="back-link" href="/project/"><i class="fas fa-chevron-left"></i>Go back</a>
+        <a class="back-link" href="/project/index.html"><i class="fas fa-chevron-left"></i>Go back</a>
         {{ end }}
         <article class="project-articles">
             <h1 class="page-title text-center">{{ $title }}</h1>
@@ -12,7 +12,7 @@
             {{ with .Resources.GetMatch "main image" }}
                 {{ $image := . }}
                 {{ $resize := $image.Resize "x250" }}
-                <img class="main-image" src="{{ $resize.Permalink }}" alt="{{ .Name }}"/>
+                <img class="main-image" src="{{ $resize.RelPermalink }}" alt="{{ .Name }}"/>
             {{ end }}
             {{ .Content }}
             </section>

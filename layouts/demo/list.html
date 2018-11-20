@@ -10,12 +10,12 @@
         <ul>
         {{ range .Sections }}
             <li>
-                <a href="{{ .RelPermalink }}">{{ .Title }} Open Source</a>
+                <a href="{{ .RelPermalink }}index.html">{{ .Title }} Open Source</a>
             
                 <ul>
                 {{ range .Pages }}
                     <li>
-                        <a href="{{ .RelPermalink }}">{{ .Params.short_title }}</a>
+                        <a href="{{ .RelPermalink }}index.html">{{ .Params.short_title }}</a>
                     </li>
                 {{ end }}
                 </ul>
@@ -23,7 +23,7 @@
         {{ end }}
         {{ range .Pages }}
             <li>
-                <a href="{{ .RelPermalink }}">{{ .Title | title }} Open Source</a>
+                <a href="{{ .RelPermalink }}index.html">{{ .Title | title }} Open Source</a>
             </li>
         {{ end }}
         </ul>

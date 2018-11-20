@@ -2,7 +2,7 @@
     {{ $current_page := . }}
     <div class="container flex f-row">
         <article class="demo-article" id="{{.Title | lower}}">
-            <a class="back-link" href="{{ .Parent.RelPermalink }}"><i class="fas fa-chevron-left"></i> Go Back</a>
+            <a class="back-link" href="{{ .Parent.RelPermalink }}index.html"><i class="fas fa-chevron-left"></i> Go Back</a>
             {{ .Content }}
         </article>
         <aside class="demoes aside-nav flex f-column">
@@ -11,12 +11,12 @@
             <ul>   
             {{ with .Site.GetPage "/demo/litebody"}}
                 <li>
-                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title }} Open Source</a>
+                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}index.html">{{ .Title }} Open Source</a>
                 
                     <ul>
                     {{ range .Pages }}  
                         <li>
-                            <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Params.short_title }}</a>
+                            <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}index.html">{{ .Params.short_title }}</a>
                         </li>
                     {{ end }}
                     </ul>
@@ -24,12 +24,12 @@
             {{ end }}
             {{ with .Site.GetPage "/demo/dtask"}}
                 <li>
-                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title | title }} Open Source</a>
+                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}index.html">{{ .Title | title }} Open Source</a>
                 </li>
             {{ end }}
             {{ with .Site.GetPage "/demo/hbco" }}
                 <li>
-                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}">{{ .Title | title }} Open Source</a>
+                    <a class="{{ if eq $current_page.Title .Title }}active{{end}}" href="{{ .RelPermalink }}index.html">{{ .Title | title }} Open Source</a>
                 </li>
             {{ end }}
             </ul>

@@ -1,7 +1,7 @@
 {{ define "main" }}
     <div class="container flex f-row">
         <div class="publication-list">
-        <a class="back-link" href="/publication/"><i class="fas fa-chevron-left"></i>Back to index</a> <label for="has-pdf"><input id="has-pdf" name="has-pdf" type="checkbox">PDFs Only</label>
+        <a class="back-link" href="/publication/index.html"><i class="fas fa-chevron-left"></i>Back to index</a> <label for="has-pdf"><input id="has-pdf" name="has-pdf" type="checkbox">PDFs Only</label>
         {{ $dictionary := (dict "page" . "articles" .Params.articles ) }}
         {{ range $dictionary.articles }}
             {{ $page_to_get := . }}
@@ -43,5 +43,5 @@
 {{ end }}
 
 {{ define "scripts" }}
-    <script src="{{ .Site.BaseURL }}js/showpdfs.js"></script>
+    <script src="{{ "js/showpdfs.js" | relURL }}"></script>
 {{ end }}
