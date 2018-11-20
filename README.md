@@ -122,7 +122,7 @@ _example:_
 ```shell
 >: hugo new --kind publication publication/2019/listening-behavior
 ```
-You can manually do it, however whichever way you do it, as long as the frontmatter is formatted like below everything should work fine.
+You can manually add it to it's corresponding content folder. But whichever way you do it, as long as the frontmatter is formatted like below everything should work fine.
 
 ```yaml
 ---
@@ -166,7 +166,7 @@ field: |  description:
 `year:` | The year of publication.
 `resources:` | If you have the pdf for a publication use this field, otherwise set it to `null`
 ` - name:` | The name of a given resource.
-`    src: ` | The file of a given resource: (_i.e. `IVA19.pdf`_). The pdf must be in the publication directory.
+`    src:` | The file of a given resource: (_i.e. `IVA19.pdf`_). The pdf must be in the publication directory.
 `external_url:` | If the publication is hosted elsewhere, for whatever reason, put the full url here.
 `date`| If you generate with the `cli` you don't have to worry about this. 
 `draft:` | _default: false_. Set this to true if you don't want it to be included in the next build.
@@ -223,6 +223,29 @@ field: |  description:
 ### Updating News
 -----------------
 [back to top](#table-of-contents)
+
+For updating the latest news for the site. Go to the `/data` directory and open the `news.json` file. Each news entry is a seperate object within the json `news` array. Each object should contain the following:
+Field:        | Description:
+------        | ------------
+`type:`       | Type of news. like: conference, grant award, project, etc.
+`title:`      | A short title. 
+`details:`| More in depth expansion on what's going on. You can write the text as Markdown if you want to include links.
+`date:`       | The date formated as: _mmm dd, yyyy_
+
+_example:_
+
+```json
+"news": [
+    ...,
+    {
+       "type": "conference",
+       "title": "Robotic Health Intervention at International Health Conference 2019",
+       "details":"Relational Agents Group showcases new robotic Health Intervention at [International Health Conference](https://IHC.org) 2019",
+       "date":"Jan 1, 2019"
+    }   
+]
+
+```
 
 ### Updating Demoes
 -----------------
