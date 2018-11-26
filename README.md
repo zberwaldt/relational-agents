@@ -220,6 +220,8 @@ field: |  description:
 -----------------
 [back to top](#table-of-contents)
 
+Like [Updating press](#updating-press), you do not have to generate new content files to manage the personnel of the team. All the details are housed in the `index.md` of the `people` directory.
+
 ### Updating News
 -----------------
 [back to top](#table-of-contents)
