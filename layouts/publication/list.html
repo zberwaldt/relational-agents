@@ -1,18 +1,51 @@
 {{ define "main" }}
-    <div class="container">
-        <h1 class="page-title text-center">{{ .Title }}</h1>
-        <div id="publications" class="pub_section grid">
-        {{ range .Sections.Reverse }}
-        <a href="{{ .RelPermalink }}index.html" class="pub-section flex f-row f-jc-between">
-            <div class="pub-sec-info">
-                <h2>{{ .Title }}</h2>
-                <p>Total papers:</p>
-            </div>
-            <div class="pub-sec-total flex f-jc-center">
-                <h3>{{(len .Params.articles)}}</h3>
-            </div>
-        </a>
-        {{ end }}
+    <div class="container flex">
+        <div id="publications" class="publication-list">
+            {{ range .Sections.Reverse }}
+                {{ $dictionary := (dict "page" . "articles" .Params.articles ) }}
+                <h2 class="section-title" id="{{.Title}}">{{ .Title }}</h2>
+                {{ range $dictionary.articles }}
+                    {{ $page_to_get := . }}
+                    {{$bundle := $dictionary.page.Site.GetPage $page_to_get }}  
+                    {{ if $bundle.Resources }}
+                    <div class="publication" data-haspdf="true">
+                    {{ else }}
+                    <div class="publication" data-haspdf="false">
+                    {{ end }}
+                    <h3>{{ $bundle.Title }}</h3>
+                    <ul class="authors flex f-row f-a-center f-jc-start"><strong>Authors:</strong>
+                        {{ range $bundle.Params.authors }}
+                        <li class="author">
+                            {{ .name }} {{ if .appearing }}(to appear){{ end }}
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <p>{{ $bundle.Params.year }}</p>
+                    {{ with $bundle.Resources }}
+                            {{ with $bundle.Resources.GetMatch "*" }}
+                                <a class="dl-link" href="{{ .RelPermalink }}" download >download <i class="far fa-download"></i><i class="far fa-file-pdf"></i></a>
+                            {{ end }}
+                    {{ end }}
+                    {{ if $bundle.Params.external_url }}
+                    <a class="view-link" rel="noopener noreferrer" href="{{ $bundle.Params.external_url }}" target="_blank">view <i class="far fa-external-link"></i></a>
+                    {{ end }}
+                    </div>
+                {{ end }}
+            {{ end }}
         </div>
+        <aside class="years aside-nav flex f-column">
+            <div class="nav-header flex">
+                <h4>Publications by year:</h4>
+                <label for="has-pdf"><input id="has-pdf" name="has-pdf" type="checkbox">PDFs Only</label>
+            </div>
+            <hr />
+            {{ range .Sections.Reverse }}
+                <a href="#{{.Title}}">{{ .Title }} - {{(len .Params.articles)}} Papers</a>
+            {{ end }}
+        </aside>
     </div>
+{{ end }}
+
+{{ define "scripts" }}
+    <script src="{{ "js/showpdfs.js" | relURL }}"></script>
 {{ end }}
