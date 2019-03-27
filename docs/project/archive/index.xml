@@ -2,162 +2,162 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Past Projects on Relational Agents Group</title>
-    <link>https://zberwaldt.github.io/relational-agents/project/archive/</link>
+    <link>https://zberwaldt.github.io/project/archive/</link>
     <description>Recent content in Past Projects on Relational Agents Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://zberwaldt.github.io/relational-agents/project/archive/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zberwaldt.github.io/project/archive/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An Always On Relational Agent for Social Support of Older Adults</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/eldercare-agent/</link>
+      <link>https://zberwaldt.github.io/project/archive/eldercare-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/eldercare-agent/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/eldercare-agent/</guid>
       <description>The purpose of this project is the creation of intelligent virtual and robotic agents capable of providing social, instrumental, and social network support to older adults living alone. The resulting agents are capable of continuous, always on, operation, with persistent social and relational goals, enabling them to proactively provide support. The agents will be evaluated in a series of longitudinal studies in which several virtual and robotic agents are installed in the homes of older adults.</description>
     </item>
     
     <item>
       <title>Breastfeeding Promotion</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/breastfeeding-promotion/</link>
+      <link>https://zberwaldt.github.io/project/archive/breastfeeding-promotion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/breastfeeding-promotion/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/breastfeeding-promotion/</guid>
       <description>Despite recommendations from the CDC and several professional health organizations that infants be exclusively breastfed for the first six months, only 14.8% of mothers in the U.S. adhere to these guidelines.
 The purpose of this project is to develop a relational agent that promotes breastfeeding among new mothers. The agent interacts with mothers during their third trimester to boost motivation, bedside in the hospital maternity ward to provide information on breastfeeding basics, and at home for six months to provide continued assistance.</description>
     </item>
     
     <item>
       <title>Just-in-Time Information for Exercise Adoption</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/mobile-agent/</link>
+      <link>https://zberwaldt.github.io/project/archive/mobile-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/mobile-agent/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/mobile-agent/</guid>
       <description>What happens if you put an exercise coach on a wearable computer? What if the coach could actually sense whether you were doing your exercise or not? And, what if the coach were designed to get to know you, your personal likes and dislikes, and something about your life plans?
 This project explores these questions through the development and evaluation of an innovative automated portable exercise advisor system. The system incorporates a PDA, a motion sensor (accelerometer), and a relational agent, and is designed to interact with people over extended periods of time to set and follow up on daily exercise goals.</description>
     </item>
     
     <item>
       <title>A RCT to Reduce Cardiopulmonary Re-hospitalizations</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/virtual-nurse/</link>
+      <link>https://zberwaldt.github.io/project/archive/virtual-nurse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/virtual-nurse/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/virtual-nurse/</guid>
       <description>This five-year, NIH/NHLBI-funded project, in collaboration with Boston Medical Center, has developed procedures and technologies for educating hospital patients about their conditions and post-discharge self-care, medications, and follow-up appointments, in an effort to reduce re-hospitalizations due to poor patient communication and patient non-compliance. We have developed a conversational virtual nurse agent that conducts a bedside dialogue with patients immediately prior to hospital discharge. This intervention was compared with a standard-of-care control condition in a randomized clinical trial involving 750 patients being discharged from Boston Medical Center.</description>
     </item>
     
     <item>
       <title>Computer Agents to Promote Walking in Older Adults with Low Health Literacy</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/senior-exercise-agent/</link>
+      <link>https://zberwaldt.github.io/project/archive/senior-exercise-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/senior-exercise-agent/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/senior-exercise-agent/</guid>
       <description>Relational Agents represent an especially effective modality for educating and motivating older adults and other individuals with low reading, health or computer literacy, given the agents&amp;rsquo; intuitive emulation of face-to-face conversation and the engagement and social bonding afforded by their use of relational behavior such as social dialog, empathy and humor.
 In a recently completed pilot study, participants recruited from the Geriatric Ambulatory Practice at Boston Medical Center who used a Relational Agent exercise coach daily for two months performed significantly more walking compared to a non-intervention control group drawn from the same practice.</description>
     </item>
     
     <item>
       <title>A Virtual Laboratory for Studying Long-Term Human-Computer Relationships</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/virtual-laboratory/</link>
+      <link>https://zberwaldt.github.io/project/archive/virtual-laboratory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/virtual-laboratory/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/virtual-laboratory/</guid>
       <description>The objective of this five-year project, funded through an NSF CAREER grant, is to study how social interface agents can conduct very long-term interactions with users spanning months or years of daily use and the impacts these interactions can have on user education, behavior change and overall well-being. A secondary objective is the development of a networked software architecture and experimental methodology to support very long-term human-computer interaction studies, in which new experiments and agent capabilities can be dynamically integrated into a running system serving a persistent group of human subjects.</description>
     </item>
     
     <item>
       <title>Computational Models of Health Behavior Change Dialog</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/ontology-driven-dialogue/</link>
+      <link>https://zberwaldt.github.io/project/archive/ontology-driven-dialogue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/ontology-driven-dialogue/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/ontology-driven-dialogue/</guid>
       <description>The development of ontologies for behavioral medicine is decades behind that for biomedical ontologies, even though behavioral factors such as smoking, diet and physical inactivity are the primary determinants of half of the Healthy People 2010 Leading Health Indicators. In this collaborative effort involving Prof. Timothy Bickmore, Prof. Kenneth Baclawski, Dr. Candace Sidner, Prof. Abby King (Stanford University), and clinical psychologists, we are developing an ontology of concepts and a task model that are relevant to health behavior change, and that can be used to directly drive a health counseling dialog planner.</description>
     </item>
     
     <item>
       <title>Drugs don&#39;t work in patients who don&#39;t take them C. Everett Koop, MD</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/medication-adherence/</link>
+      <link>https://zberwaldt.github.io/project/archive/medication-adherence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/medication-adherence/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/medication-adherence/</guid>
       <description>Patients only follow prescribed medication regimens about half of the time, leading to 125,000 deaths annually in the US. We have developed a home-based relational agent designed to promote antipsychotic medication adherence among patients with schizophrenia. The agent tracks each patient&amp;rsquo;s medication taking behavior for a single antipsychotic taken by mouth in pill or capsule form based on self-report, but she also reminds patients to take all of their other medications as prescribed.</description>
     </item>
     
     <item>
       <title>A Virtual Coach to Increase Physical Activity in Overweight Adults</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/weight-loss-agent/</link>
+      <link>https://zberwaldt.github.io/project/archive/weight-loss-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/weight-loss-agent/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/weight-loss-agent/</guid>
       <description>Over two-thirds of Americans are currently overweight or obese. Poor adherence to recommended levels of exercise is a major contributory factor. The goal of this study is to integrate a wearable activity monitor from FitSense with a home-computer-based relational agent to provide daily physical activity counseling for overweight adults.
 We conducted a randomized trial involving 70 overweight adults over a 12 week intervention period. All participants were asked to wear a FitSense ActiPed to track activity and were provided access to a website to view their personal step counts and activity level.</description>
     </item>
     
     <item>
       <title>Online Tailored Interventions &amp; Relational Agents for Exercise and Sun Protection (Project RAISE)</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/multi-behavior-agent/</link>
+      <link>https://zberwaldt.github.io/project/archive/multi-behavior-agent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/multi-behavior-agent/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/multi-behavior-agent/</guid>
       <description>The purpose of this project is to develop a relational agent that is used in conjunction with a year-long, web-based intervention for physical activity promotion and ultraviolet radiation avoidance for cancer prevention. The relational agent will act as a guide for the website and will be evaluated in a randomized clinical trial involving a national sample of 1,600 study participants.
 This five-year effort is being performed in collaboration with the University of Rhode Island Cancer Prevention Research Center and ProChange Behavior Systems, Inc.</description>
     </item>
     
     <item>
       <title>Tinker: A Relational Guide for the Boston Museum of Science</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/museum-guide/</link>
+      <link>https://zberwaldt.github.io/project/archive/museum-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/museum-guide/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/museum-guide/</guid>
       <description>People go to museums as much to be entertained and to socialize as they do to be educated. Contemporary museums use interactive exhibits, multimedia, games, automated mobile guides, and other mechanisms for entertaining individuals and groups of visitors. The incorporation of principles from the social psychology of human personal relationships represents a promising and important direction of research to further engage and entertain museum visitors.
 In this project, we have developed a virtual museum guide agent named &amp;ldquo;Tinker&amp;rdquo; that uses human relationship-building behaviors to engage museum visitors.</description>
     </item>
     
     <item>
       <title>Automated Comforting by Relational Agents</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/comforting-agents/</link>
+      <link>https://zberwaldt.github.io/project/archive/comforting-agents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/comforting-agents/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/comforting-agents/</guid>
       <description>Comforting is an important component of emotional and social support and the development of personal relationships, and can be important in its own right in healthcare applications. Social support has also been demonstrated in many studies to have a significant positive impact on health. We are conducting an on-going series of experiments to evaluate the ability of a relational agent to comfort users in stressful situations.</description>
     </item>
     
     <item>
       <title>Pre-Surgery Counseling by Relational Agent</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/surgery-preparation/</link>
+      <link>https://zberwaldt.github.io/project/archive/surgery-preparation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/surgery-preparation/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/surgery-preparation/</guid>
       <description>Patients are often poorly informed about their options for surgery, such as alternatives for anesthesia, and often arrive at the hospital improperly prepared for their procedure.
 In collaboration with the Dept. of Anesthesiology at Massachusetts General Hospital, we have developed a relational agent to counsel patients on their options for anesthesia, including the risks and benefits of each, what to expect before, during, and after surgery, and how to prepare before coming to the hospital.</description>
     </item>
     
     <item>
       <title>Research Ethics and Safety Promoted by Embodied Conversational Technology (RESPECT)</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/clinical-trial-explanation/</link>
+      <link>https://zberwaldt.github.io/project/archive/clinical-trial-explanation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/clinical-trial-explanation/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/clinical-trial-explanation/</guid>
       <description>Despite decades of advocacy to improve informed consent for human subjects, multiple studies have shown that research subjects often do not understand fundamental concepts required for participation. In this project we are advancing our research toward the development of a scalable, cost-effective, and sustainable patient-centered intervention to make it easier for people to search for research studies, improve the quality of informed consent, improve adherence to research protocols, and promote better reporting of adverse events.</description>
     </item>
     
     <item>
       <title>Health Document Explanation by Relational Agents</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/document-explanation/</link>
+      <link>https://zberwaldt.github.io/project/archive/document-explanation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/document-explanation/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/document-explanation/</guid>
       <description>Many professionals provide their lay clients with documents that are, to varying degrees, incomprehensible. Whether due to technical jargon, obscure concepts, or poor writing on the part of the professional, or low literacy, cultural barriers, or cognitive impairment on the part of the client, documents often fail to serve their intended communicative function. Perhaps nowhere is this problem more important and pervasive than in healthcare. The consequences of a patient failing to understand a prescription, hospital discharge instructions, or pre-surgery instructions can have serious, even fatal, consequences.</description>
     </item>
     
     <item>
       <title>Computer-Based Physical Activity Advice for Ethnic Minority Aging Adults</title>
-      <link>https://zberwaldt.github.io/relational-agents/project/archive/latino-exercise-promotion/</link>
+      <link>https://zberwaldt.github.io/project/archive/latino-exercise-promotion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zberwaldt.github.io/relational-agents/project/archive/latino-exercise-promotion/</guid>
+      <guid>https://zberwaldt.github.io/project/archive/latino-exercise-promotion/</guid>
       <description>The purpose of this project is to develop and evaluate a Spanish-speaking relational agent that plays the role of an exercise coach to promote physical activity among older English and Spanish-speaking Latino adults. The focus of the effort is on the linguistic and cultural adaptation required to develop an effective automated health counselor that is able to relate to, advise, and socialize with midlife and older Latino adults living in a low-income, under-served Eastside area of San Jose, CA.</description>
     </item>
     
