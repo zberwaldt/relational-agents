@@ -79,7 +79,7 @@ Creating or Editing Projects
 Because projects get their own page on the site, generating new projects is a 
 little different. In your terminal use this command:
 
-    `hugo new --kind project project/name-of-project`
+    \:> hugo new --kind project project/name-of-project
 
 This will scaffold a project directory that is prepopulated with the basic 
 components for generating a given project page.
@@ -103,14 +103,19 @@ command:
 
     hugo new --kind year publication/year-of-publication
 
-with `/year-of-publicaiton` as the actual year. For example: `/2019`.
+with `/year-of-publicaiton` as the actual year. For example:
+
+    /2019
+
 Within that directory will be a `_index.md`. This file is used to manage and track
 all your publications for that year. There is a technical reason for this, that will
 not be covered in this documenation.
 
 There is only one field you need to be concerned with in the `_index.md` file,
 the `articles` field. Every entry should reference a publication subdirectory
-like so: `/publication-subdirectory`
+like so:
+
+    "/pepper-a-robot"
 
 With `publication-subdirectory` being replace with the _exact_ subdirectory name.
 Additionally, you should list each directory in the order you want them to appear
@@ -125,7 +130,7 @@ please refer to [previous section](#scaffolding-publication-year)
 
 To scaffold a directory for a publication use this command:
 
-    hugo new --kind publication/year-of-publication/publication-folder
+    \:> hugo new --kind publication/year-of-publication/publication-folder
 
 With `year-of-publication` replaced with the year. Example: `2019`
 
@@ -134,7 +139,7 @@ Example: `pepper-a-robot`.
 
 The final command will look like this:
 
-    hugo new --kind publication/2019/pepper-a-robot
+    \:> hugo new --kind publication/2019/pepper-a-robot
 
 A new publication subdirectory will be scaffolded. It will contain two files
 
@@ -142,6 +147,7 @@ A new publication subdirectory will be scaffolded. It will contain two files
 - pdf.pdf
 
 `index.md` is responsible for managing the metadata for the given publication.
+
 You should refer to other publication `index.md` for reference.
 
 `pdf.pdf` should be removed if there is no pdf. If there is one associated with
@@ -209,7 +215,7 @@ Previewing The Site
 Hugo comes with a development server that will enable you to preview the site
 as close to how it will appear on the real web.
 
-    hugo server -D
+    \:> hugo server -D
 
 You can omit the `-D` flag. It just allows the server to auto refresh when you make
 changes to files.
@@ -232,13 +238,13 @@ you can still generate the site manually.
 To initiate a manual build of your site make sure you are in the top level of
 your project directory in your terminal. Then enter in the following command:
 
-    hugo --baseURL https://relationalagents.com
+    \:> hugo --baseURL https://relationalagents.com
 
 There is one additional tag that will generate an optimized site, meaning the code will
 be minified. However, it will not be human readable. the tag is `--minify` and
 is used like so:
 
-    hugo --minify --baseURL https://relationalagents.com
+    \:> hugo --minify --baseURL https://relationalagents.com
 
 I recommend using the latter version of the command. Regardless of which one used,
 the site will be compiled into the `\public` directory. The files there are the ones
