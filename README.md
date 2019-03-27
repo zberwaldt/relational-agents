@@ -130,7 +130,7 @@ please refer to [previous section](#scaffolding-publication-year)
 
 To scaffold a directory for a publication use this command:
 
-    \:> hugo new --kind publication/year-of-publication/publication-folder
+    \:> hugo new --kind publication publication/year-of-publication/publication-folder
 
 With `year-of-publication` replaced with the year. Example: `2019`
 
@@ -139,7 +139,7 @@ Example: `pepper-a-robot`.
 
 The final command will look like this:
 
-    \:> hugo new --kind publication/2019/pepper-a-robot
+    \:> hugo new --kind publication publication/2019/pepper-a-robot
 
 A new publication subdirectory will be scaffolded. It will contain two files
 
