@@ -1,264 +1,256 @@
 Relational Agents Website [![Build Status](https://travis-ci.org/zberwaldt/relational-agents.svg?branch=master)](https://travis-ci.org/zberwaldt/relational-agents)
 ===
 
-## Table Of Contents 
-- [Commands You Need To Know](#commands-you-need-to-know)
-- [Commands That Are Nice To Know](#commands-that-are-nice-to-know)
-- [Kinds Of Content](#kinds-of-content)
-- [Making Updates](#making-updates)
-    - [Updating Publcations](#updating-publications)
-    - [Updating Projects](#updating-projects)
-    - [Updating Press](#updating-press)
-    - [Updating News](#updating-news)
-    - [Updating Demoes](#updating-demoes)
-- [Tasks](#tasks)
-
-
-## Command(s) You Need To Know:
-
-Commands: | Tags: | Description: | Example: | Additional Details:
---------- | ----- | ------------ | -------- | ------------------- 
-`hugo` | __additional tags:__ | Compile your source into a static site into the `\public` directory. |  `hugo` | _n/a_ 
-^ | --minify | All built html code minified | `hugo --minify` | Minifying is a good way to optimize your site.
-^ | --baseURL | allows you to specify an alternative baseURL _default: `https://relationalagents.com/`_ | hugo --baseURL `http://some-other-url.com` | Just in case you want to deploy to some other URL
- `hugo server` | _n/a_ | Runs a development server on your local machine; Handy for previewing the site before deployment | `hugo server` | _n/a_
-
-
-## Commands That Are Nice To Know:
-
-Commands: | Tags: | Description: | Example: | Additional Details:
---------- | ----- | ------------ | -------- | ------------------- 
-`hugo new` | additional tags: | For generating a new content files | `hugo new some-markdown-file.md` | _n/a_
-^       | --kind | Specify the type of content, List of [kinds](#kinds-of-content) below. | `hugo new --kind publication publication/2019/better-listening-behavior` | See [kinds of content](#kinds-of-content) to see what types of content you can generate with the `cli`
-
-
-## Kinds of Content
-_addtional reference for the `hugo new --kind` command_
-
-Kind:       | Example:                                                   | Details: 
------       | --------                                                   | -------- 
-year        | `hugo new --kind year publication/2019`                      | See [Adding years](#adding-years) to learn more about this type of content.
-publication | `hugo new --kind publication/2019/better-listening-behavior` | See [Adding publications](#adding-publications) to learn more about this type of content.
-project     | `hugo new --kind project project/listening-behavior`         | See [Updating projects](#updating-projects) to learn more about this type of content
-
-There are a few other content sections that do not have predefined "archetypes": __Press, News, Demoes,__ and __People__
-Click below to read how to make new content for each type.
-- [Press](#updating-press)
-- [News](#updating-news)
-- [Demoes](#updating-demoes)
-- [People](#updating-personnel)
-
-## Making Updates
-
-Below are sections dedicated to teaching how to update every content type for the site. Every type of content must have an `index.md`, which contains the "frontmatter" or data that describes the content you want to put on your site. Refer to the sections below to learn the format for each type of content.
-
-__Jump To Section__
-
-- [Publications](#updating-publication)
-- [Projects](#updating-projects)
-- [Press](#updating-press)
-- [Personnel](#updating-personnel)
-- [News](#updating-news)
-- [Demoes](#updating-demoes)
-
-### Updating Publications
---------------------
-
-Updating publications can be a two step process. For `ragwebv6` I've organized all publications by year. If you are adding a publication from 2019, you'll need to create a new year section, which is covered [below](#adding-years). Otherwise you can just add a [publication](#adding-publications)
-
-
-#### Adding Years 
-The easiest way to generate a new year directory is with the hugo `cli`.
-example:
-```shell
-:> hugo new --kind year publication/2019
-```
-This will create a new folder in `content/publication` named `2019` with an `_index.md` inside:
-
-```yaml
+Table Of Contents
 ---
-title: ""
-layout: years/list
-articles: []
+
+- [Important Thing to Know](#important-things-to-know)
+- [Where is content located?](#where-is-the-content)
+  - [Creating or Editing Demoes](#creating-or-editing-demoes)
+  - [Creating or Editing People](#creating-or-editing-people)
+  - [Creating or Editing Press](#creating-or-editing-press)
+  - [Creating or Editing Projects](#creating-or-editing-projects)
+    - [Archiving Old Projects](#archiving-old-projects)
+  - [Creating or Editing Publications](#creating-or-editing-publications)
+    - [Scaffolding Publication Year](#scaffolding-publication-year)
+    - [Scaffolding Publications](#scaffolding-publications)
+- [Modifying Hero Images On The Homepage](#modifying-hero-images-on-the-homepage)
+- [Modifying Styles](#modifying-styles)
+- [Modifying Layouts](#modifying-layouts)
+- [How Do I Preview The Site?](#previewing-the-site)
+- [I have questions](#i-have-questions)
+
+Important Things to Know
+----
+
+The Hugo static site generator makes extensive use of Markdown as the basis for
+the content of the site. You will have to write it. Fortunately is very simple
+and easy to learn. Hugo uses a particular flavor called BlackFriday that has a
+few extra features that are listed [here](https://gohugo.io/content-management/formats#configure-blackfriday-markdown-rendering) in the documenatation.
+However, You shouldn't have to ever mess with the configuration.
+
+Resources for learning Markdown are [here](https://gohugo.io/content-management/formats/#learn-markdown).
+
+Where Is The Content
+----------
+
+All content files are located in the `content` directory. Each content type is 
+housed in their own dedicated directory. There are five content types:
+
+- demo
+- people
+- press
+- project
+- publication
+
+Creating or Editing Demoes
 ---
-```
 
+To create a new demo page, simple create a Markdown file in the `demo` directory.
+Name the file the same as the project or product it's for. Look to the other demoes
+for reference if you need more than a single page demo. 
 
+**If you need to add a demo video:**
 
-field: |  description: 
------- |  ------------
-`title:` | The full title of your project
-`layout:` | I've defined a special layout for lists of publications by year. This should always be set to `years/list`
-`articles:` | This is an array that holds the name of each directory for publications that belong to a given year. Each entry should unique and be formatted like so: `"/unique-directory-name"`. See the example below
+Add the embed code to the `_index.md` file in the `demo` directory. Format the 
+code as html, and also follow the other demoes on the page as reference.
 
-_excerpt from 2018 frontmatter:_
-
-```yaml
-articles: [
-    "/breath-sensitive-interactive-meditation-coach",
-    "/quester-a-speech-based-question-answering-support-system",
-    "/relational-agent-to-provide-alcohol-intervention",
-    "/embodied-conversational-agents-for-patients",
-    "/predicting-user-engagement-in-longitudinal-interventions",
-    "/collaborative-human-agent-oral-presentations",
-    "/managing-chronic-conditions-with-a-smartphone",
-    "/medical-shared-decision",
-    "/user-gaze-behavior-while-discussing-substance-use",
-    "/looking-the-part",
-    "/a-conversational-decision-aid-to-support",
-    "/creating-new-technologies-for-companionable-agents",
-    "/using-relational-agents-to-promote-exercise",
-    "/a-tablet-based-embodied-conversational-agent-to",
-    "/patient-and-consumer-safety-risks",
-]
-```
-Shorter is better, but ultimately it doesn't matter as long as the directory name is unique. They do not get built into pages or get published to the web. It's just a means to organize the content.
-
-#### Adding Publications
-
-The fastest way to add a publication is with the `cli`:
-
-_example:_
-```shell
->: hugo new --kind publication publication/2019/listening-behavior
-```
-You can manually add it to it's corresponding content folder. But whichever way you do it, as long as the frontmatter is formatted like below everything should work fine.
-
-```yaml
+Creating or Editing People
 ---
-title: "Put the full title of your paper here."
-project: ["(e.g. Atrial Fibulation)"]
-event: "Which event or journal was this paper for?"
-authors: 
-- name: "T. Bickmore"
-- name: "S. O. Guy"
-year: 2018
-resources: 
- - name: "short name of paper file"
-   src: "pdf.pdf"
-external_url: null
-date: {{ .Date }}
-draft: false
-headless: true
+
+To create or edit new personnel, open the `_index.md` file. In the `resources` 
+field you will see all listed employees and candidates. Using the other entries
+as reference, create a new employee or candidate. Or simply edit the content of
+the sub-fields of each entry. Lastly, add the image for that person to the 
+`people` directory.
+
+Creating or Editing Press
 ---
-```
 
+Creating or editing press is similar to editing personnel. Open the `index.md` 
+contained within the `press` directory and edit the entries in the press field 
+or create a new entry using the others as reference.
 
-After you write up the frontmatter for a publication make sure you update the `articles: []` with the folder name. See _[Year _index.md](#year-_indexmd)_ for more details.
-
-_example:_
-```yaml
+Creating or Editing Projects
 ---
-...
-articles: [
-    "/publication-directory-name",
-]
----
-```
-##### Breakdown: 
-field: |  description: 
------- |  ------------
-`title:` | The full title of your project
-`project:` | The name(s) of the project that the paper is linked to, in an array of strings. Must match exactly the title of a project on the website. This is how the generator knows to show a publication on a project page. It can belong to more than one project. 
-`event:`| A list of resources that belong to the page __resources must be in the same directory.__
-`authors:` | A list of the authors.
-` - name:` | each author is formatted as: `"Lastname, F."`
-`year:` | The year of publication.
-`resources:` | If you have the pdf for a publication use this field, otherwise set it to `null`
-` - name:` | The name of a given resource.
-`    src:` | The file of a given resource: (_i.e. `IVA19.pdf`_). The pdf must be in the publication directory.
-`external_url:` | If the publication is hosted elsewhere, for whatever reason, put the full url here.
-`date`| If you generate with the `cli` you don't have to worry about this. 
-`draft:` | _default: false_. Set this to true if you don't want it to be included in the next build.
-`headless:` | _default: true_ this insures that the content is not complied into html pages when you build.
 
-### Updating Projects
------------------
+**This section assumes you have the hugo generator installed on your machine.**
+
+Because projects get their own page on the site, generating new projects is a 
+little different. In your terminal use this command:
+
+    `hugo new --kind project project/name-of-project`
+
+This will scaffold a project directory that is prepopulated with the basic 
+components for generating a given project page.
+
+### Archiving Old Projects
+
+To archive a project, all you have to do is move the project folder you want to
+archive and place it in the `archive` subdirectory in the `project` directory. 
+On the next build, the project will now appear in the archive section.
+
+Creating or Editing Publications
+---
+
+**This section assumes you have the hugo generator installed on your machine.**
+
+### Scaffolding Publication year
+
+Publications are organized together by year. If the year of your publication doesn't
+exist you will need to scaffold a publication year directory with the following
+command:
+
+    hugo new --kind year publication/year-of-publication
+
+with `/year-of-publicaiton` as the actual year. For example: `/2019`.
+Within that directory will be a `_index.md`. This file is used to manage and track
+all your publications for that year. There is a technical reason for this, that will
+not be covered in this documenation.
+
+There is only one field you need to be concerned with in the `_index.md` file,
+the `articles` field. Every entry should reference a publication subdirectory
+like so: `/publication-subdirectory`
+
+With `publication-subdirectory` being replace with the _exact_ subdirectory name.
+Additionally, you should list each directory in the order you want them to appear
+on the site.
+
+Use the `_index.md` files from other publication years as reference.
+
+### Scaffolding Publications
+
+**IMPORTANT** If the year directory hasn't been scaffolded, you must do that first!
+please refer to [previous section](#scaffolding-publication-year)
+
+To scaffold a directory for a publication use this command:
+
+    hugo new --kind publication/year-of-publication/publication-folder
+
+With `year-of-publication` replaced with the year. Example: `2019`
+
+And, with `publication-folder` replaced with your desired name. **_IT MUST BE UNIQUE_**
+Example: `pepper-a-robot`. 
+
+The final command will look like this:
+
+    hugo new --kind publication/2019/pepper-a-robot
+
+A new publication subdirectory will be scaffolded. It will contain two files
+
+- index.md
+- pdf.pdf
+
+`index.md` is responsible for managing the metadata for the given publication.
+You should refer to other publication `index.md` for reference.
+
+`pdf.pdf` should be removed if there is no pdf. If there is one associated with
+the publication add that file to the subdirectory and reference it in the metadata
+in `index.md`. Again, use other publication `index.md` as reference.
+
 [back to top](#table-of-contents)
 
-A project lives under the `content/project` directory. Each project has a dedicated directory.
-
- _example:_
-```
-/content
-|_ /project
-   |_/listening-behavior
-   |_ index.md
-   |_ image.jpg
-```
-
-#### Project Frontmatter Breakdown
-Below is what the typical frontmatter for a project will be.
-```yaml
+Modifying Hero Images On The Homepage
 ---
-title: ""
-description: "Tell me about this project"
-resources:
-- name: main image
-  src: image.jpg
-date: {{ .Date }}
-related_pubs: false
-draft: false
+
+Managing the hero images seen on the home page is relatively straightforward.
+There are only three hero images you should be concerned with located in the below
+directory path.
+
+    project-directory
+    |_themes
+      |_rag-theme
+        |_static
+          |_img
+
+those images are, in order of appearance on the page:
+
+- jumbotron.png
+- explore.png
+- team-photo.jpg
+
+Name the replacement image the same as it's match and place it in the previously mentioned directory path.
+
+[back to top](#table-of-contents)
+
+Modifying Styles
 ---
-```
-field: |  description: 
------- |  ------------
-`title:` | The full title of your project
-`description:` | A brief description of the project
-`resources:`| A list of resources that belong to the page __resources must be in the same directory.__
-`- name:` | _default: main image_. The name of the primary image for a project
-`   src:` | the name of the image _example:_ listening-behavior.jpg
-` date`| If you generate with the `cli` you don't have to worry about this. 
-`related_pubs:` | _default: false_. Set this to true so the generator knows to look for publications that have the matching project field.
-`draft:` | _default: false_. Set this to true if you don't want it to be included in the next build.
 
-### Updating Press 
------------------
+If you want to make changes to the style of the website you can find the stylesheet
+In the following directory path:
+  
+    project-directory
+    |_themes
+      |_rag-theme
+        |_static
+          |_css
+            |_style.css
+
+I tried to write efficient and unified css, so if you don't like css editing this
+file isn't for the feint of heart. In hindsight, I 
+
 [back to top](#table-of-contents)
 
-### Updating Personnel
------------------
+Modifying Layouts
+---
+
+You can find the layouts in the `layouts` directory. They are organized by page
+or content type. Some knowledge of how hugo organizes [layouts](https://gohugo.io/categories/templates) for content in required
+Additionally, you will need to know the syntax for hugo layouts. It is very well
+documented on [gohugo.io](https://gohugo.io)
+
 [back to top](#table-of-contents)
 
-Like [Updating press](#updating-press), you do not have to generate new content files to manage the personnel of the team. All the details are housed in the `index.md` of the `people` directory.
+Previewing The Site
+---
 
-### Updating News
------------------
+**This section assumes you have the hugo generator installed on your machine.**
+
+Hugo comes with a development server that will enable you to preview the site
+as close to how it will appear on the real web.
+
+    hugo server -D
+
+You can omit the `-D` flag. It just allows the server to auto refresh when you make
+changes to files.
+
 [back to top](#table-of-contents)
 
-For updating the latest news for the site. Go to the `/data` directory and open the `news.json` file. Each news entry is a seperate object within the json `news` array. Each object should contain the following:
-Field:        | Description:
-------        | ------------
-`type:`       | Type of news. like: conference, grant award, project, etc.
-`title:`      | A short title. 
-`details:`| More in depth expansion on what's going on. You can write the text as Markdown if you want to include links.
-`date:`       | The date formated as: _mmm dd, yyyy_
+Building The Site
+---
 
-_example:_
+I have setup a build process that builds the site for you. However, you have to 
+use the version of the code base that is hosted on Github. Make your changes to
+the code base, then push, then after a few moments you can download the latest
+build from the `build` branch. However, if you choose to not use this functionality
+you can still generate the site manually.
 
-```json
-"news": [
-    ...,
-    {
-       "type": "conference",
-       "title": "Robotic Health Intervention at International Health Conference 2019",
-       "details":"Relational Agents Group showcases new robotic Health Intervention at [International Health Conference](https://IHC.org) 2019",
-       "date":"Jan 1, 2019"
-    }   
-]
+### Manually Building The Site.
 
-```
+**This section assumes you have the hugo generator installed on your machine.**
 
-### Updating Demoes
------------------
+To initiate a manual build of your site make sure you are in the top level of
+your project directory in your terminal. Then enter in the following command:
+
+    hugo --baseURL https://relationalagents.com
+
+There is one additional tag that will generate an optimized site, meaning the code will
+be minified. However, it will not be human readable. the tag is `--minify` and
+is used like so:
+
+    hugo --minify --baseURL https://relationalagents.com
+
+I recommend using the latter version of the command. Regardless of which one used,
+the site will be compiled into the `\public` directory. The files there are the ones
+you want to put on your hosting server.
+
 [back to top](#table-of-contents)
 
+I Have Questions
+---
 
-### Tasks
+Email me [here](mailto:zberwaldt@gmail.com?Subject=I%20Have%20Questions). I will
+do my best to get back to you as soon as possible.
 
-- [x] optimized web assets
-- [x] create build process
-- [ ] write better documentation
-- [ ] update content
-
+[back to top](#table-of-contents)
 
