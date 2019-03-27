@@ -10,12 +10,12 @@
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                     <li class="{{ if eq (lower $currentPage.Title) .Name }}active{{ end }}">
-                        <a href="{{ .URL }}/index.html">{{ .Name }}</a>
+                        <a href="{{ .URL | absURL}}/index.html">{{ .Name }}</a>
                         {{ if .HasChildren }}
                             <ul class="sub-menu flex f-column">
                             {{ range .Children }}
                                 <li>
-                                    <a href="{{ .URL }}/index.html">{{ .Name }}</a>
+                                    <a href="{{ .URL | absURL }}/index.html">{{ .Name }}</a>
                                 </li>
                             {{ end }}
                             </ul>
