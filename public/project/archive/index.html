@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Relational Agents Group is a research team at Northeastern University in Boston, MA.">
+    <style>
+     
+    :root {
+        --main-text-color: hsla(0, 0%, 0%, .8);
+        --inverse-text-color:  hsla(0, 0%, 100%, .8);
+        --primary-font: 'Roboto', sans-serif;
+    }
+
+     
+
+    html {
+        font-size: 16px;
+        font-family: var(--primary-font);
+    }
+
+    html, body {
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+    }
+
+    main {
+        flex-grow: 2;
+        background-color: hsl(0, 0%, 95%);
+    }
+
+    figure {
+        margin: 0 16px 0 0;
+    }
+
+    a {
+        display: inline-block;
+    }
+    
+     
+    .container {
+        box-sizing: border-box;
+        height: inherit;
+        margin: 0 auto;
+        max-width: 1100px;
+        min-width: 80%;
+        padding: 0 16px;
+        justify-content: space-between;
+    }
+
+    .grid {
+        display: grid;
+    }
+
+    #content .container h1.page-title {
+        margin-top: 32px;
+    }
+
+    .page-title {
+        margin-bottom: 32px; 
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .f-row {
+        flex-direction: row;
+    }
+
+    .f-column {
+        flex-direction: column;
+    }
+
+    .f-jc-between {
+        justify-content: space-between;
+    }
+
+    .f-jc-start {
+        justify-content: flex-start;
+    }
+
+    .f-jc-center {
+        justify-content: center;
+    }
+
+    .f-jc-end {
+        justify-content: flex-end;
+    }
+
+    .f-a-center {
+        align-items: center;
+    }
+
+    .full-width {
+        width: 100%;
+    }
+
+     
+    
+    .navbar {
+        flex-shrink: 0;
+        height: 64px;
+        border-bottom: 1px solid hsla(0, 0%, 0%, .1);
+    }
+    
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navbar ul li {
+        margin: 0 16px;
+    }
+    
+    .navbar .container {
+        flex-shrink: 0;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--main-text-color);
+        transform: scale(1);
+        transition: transform .2s ease-in-out, 
+                    color .2s ease-in-out;
+    }
+
+    .navbar a:hover {
+        color: blue;
+        transform: scale(.95);
+        transition: transform .2s ease-in-out, 
+                    color .2s ease-in-out;
+    }
+
+    .navbar .pages li {
+        position: relative;
+    }
+
+    .navbar .pages li:hover .sub-menu {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .sub-menu {
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        left:0;
+    }
+
+    .pages li .sub-menu li {
+        margin: 0;
+    }
+
+    .left {
+        float: left !important;
+    }
+
+    .right {
+        float: right !important;
+    }
+
+    .sub-menu li a {
+        display: block;
+        padding: 16px 24px;
+        font-size: .9em;
+        text-align: center;
+        background: hsla(0, 0%, 20%, 1);
+        color: hsla(0, 0%, 100%, .95);
+    }
+
+    .sub-menu li a:hover {
+        background: hsla(0, 0%, 35%, 1);
+        color: hsla(0, 0%, 100%, .8);
+    }
+
+    .active a{
+        color: blue;
+    }
+
+    .brand img {
+        width: 32px;
+        height: 32px;
+        margin: 8px 8px 8px 0;
+    }
+</style>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-POYwD7xcktv3gUeZO5s/9nUbRJG/WOmV6jfEGikMJu77LGYO8Rfs2X7URG822aum" crossorigin="anonymous">
+
+    
+
+    
+    
+    <link rel="preload" href="../../css/style.css" as="style" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title>Past Projects &ndash; Relational Agents Group</title>
+    </head>
+    <body>
+        <body class="flex f-column f-jc-between">
+    <nav class="navbar flex f-jc-center f-a-center full-width">
+        <div class="container flex f-a-center">
+            <a href="../../index.html" class="brand flex f-a-center">
+                <img src="../../rag-64.png" alt="relational agents logo" />
+                <span>Relational Agents Group</span>
+            </a>
+            <ul class="pages flex f-a-center">
+            
+                
+                
+                    <li class="">
+                        <a href="../../people/index.html">people</a>
+                        
+                    </li>
+                
+                    <li class="">
+                        <a href="../../project/index.html">projects</a>
+                        
+                            <ul class="sub-menu flex f-column">
+                            
+                                <li>
+                                    <a href="../../project/index.html">current</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../../project/archive/index.html">past</a>
+                                </li>
+                            
+                            </ul>
+                        
+                    </li>
+                
+                    <li class="">
+                        <a href="../../publication/index.html">publications</a>
+                        
+                    </li>
+                
+                    <li class="">
+                        <a href="../../demo/index.html">demos</a>
+                        
+                            <ul class="sub-menu flex f-column">
+                            
+                                <li>
+                                    <a href="../../demo/dtask/index.html">dtask</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../../demo/hbco/index.html">hbco</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../../demo/litebody/index.html">litebody</a>
+                                </li>
+                            
+                            </ul>
+                        
+                    </li>
+                
+                    <li class="">
+                        <a href="../../press/index.html">press</a>
+                        
+                    </li>
+                
+            
+            </ul>
+        </div>
+    </nav>
+
+        <main id="content">
+        
+    <div class="container">    
+        <h1 class="page-title text-center">Past Projects</h1>
+        <div id="projects" class="grid">
+        
+            <a href="../../project/archive/eldercare-agent/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/eldercare-agent/AlwaysOnSm_hu08d0b7c5bfbb7c96ff90394b8495567b_29078_64x64_fill_q75_box_smart1.jpg" />
+                
+                <div class="project-info">
+                    <h2>An Always On Relational Agent for Social Support of Older Adults</h2>
+                    <p>Intelligent virtual and robotic agents capable of providing social, instrumental, and social network support to older adults living alone.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/breastfeeding-promotion/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/breastfeeding-promotion/breastFeeding4_hu53d961a4df914f6aaf918f409dd5d091_86479_64x64_fill_q75_box_smart1.jpg" />
+                
+                <div class="project-info">
+                    <h2>Breastfeeding Promotion</h2>
+                    <p>A relational agent that promotes breastfeeding among new mothers.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/mobile-agent/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/mobile-agent/image001_hu624fa521912c051e0bbc21b9c63ee614_16491_64x64_fill_q75_box_smart1.jpg" />
+                
+                <div class="project-info">
+                    <h2>Just-in-Time Information for Exercise Adoption</h2>
+                    <p>An innovative automated portable exercise advisor system.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/virtual-nurse/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/virtual-nurse/image001_huc3abe88433e8e2f2470a8e42dded2a21_66027_64x64_fill_q75_box_smart1.jpg" />
+                
+                <div class="project-info">
+                    <h2>A RCT to Reduce Cardiopulmonary Re-hospitalizations</h2>
+                    <p>A conversational virtual nurse agent that conducts a bedside dialogue with patients immediately prior to hospital discharge.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/senior-exercise-agent/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/senior-exercise-agent/image001_huef04ff7006723d57a99f1512946e9172_39888_64x64_fill_box_smart1.gif" />
+                
+                <div class="project-info">
+                    <h2>Computer Agents to Promote Walking in Older Adults with Low Health Literacy</h2>
+                    <p>A Relational Agent for educating and motivating older adults and other individuals with low reading, health or computer literacy.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/virtual-laboratory/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/virtual-laboratory/image001_hu56f4eaa3eb0604dedc74a8c29f61dc98_61008_64x64_fill_box_smart1.gif" />
+                
+                <div class="project-info">
+                    <h2>A Virtual Laboratory for Studying Long-Term Human-Computer Relationships</h2>
+                    <p>A five-year project to study how social interface agents can conduct very long-term interactions</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/ontology-driven-dialogue/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/ontology-driven-dialogue/image001_huab23098614b9ab2ede54c03f11eac4d7_40365_64x64_fill_box_smart1.gif" />
+                
+                <div class="project-info">
+                    <h2>Computational Models of Health Behavior Change Dialog</h2>
+                    <p>An ontology of concepts and task model that can be used to directly dirve a health counseling dialog planner.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/medication-adherence/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/medication-adherence/image001_hud049890ca72fd79da7f09947e6e7bc5f_15037_64x64_fill_box_smart1.gif" />
+                
+                <div class="project-info">
+                    <h2>Drugs don&#39;t work in patients who don&#39;t take them C. Everett Koop, MD</h2>
+                    <p>A home-based relational agent designed to promote antipsychotic medication adherence among patients with schizophrenia.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/weight-loss-agent/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/weight-loss-agent/image001_hueb7a3a1143eca9e78885432120dec565_33028_64x64_fill_q75_box_smart1.jpg" />
+                
+                <div class="project-info">
+                    <h2>A Virtual Coach to Increase Physical Activity in Overweight Adults</h2>
+                    <p>A randomized trial to look into average step over a twelve week period using a FitSense ActiPed</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/multi-behavior-agent/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/multi-behavior-agent/image001_hu7d492755da2be8ec3b39f5fa7e335a40_36457_64x64_fill_box_smart1.gif" />
+                
+                <div class="project-info">
+                    <h2>Online Tailored Interventions &amp; Relational Agents for Exercise and Sun Protection (Project RAISE)</h2>
+                    <p>a relational agent that is used in conjunction with a year-long, web-based intervention for physical activity promotion and ultraviolet radiation avoidance for cancer prevention.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/museum-guide/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/museum-guide/image001_hu370c417db8ddb2354acbbc302a15280a_31721_64x64_fill_box_smart1.gif" />
+                
+                <div class="project-info">
+                    <h2>Tinker: A Relational Guide for the Boston Museum of Science</h2>
+                    <p>A virtual museum guide agent named &#34;Tinker&#34; that uses human relationship-building behaviors to engage museum visitors</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/comforting-agents/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/comforting-agents/image001_hu79a489d070929fd43b445db245f43ddf_30959_64x64_fill_box_smart1.gif" />
+                
+                <div class="project-info">
+                    <h2>Automated Comforting by Relational Agents</h2>
+                    <p>An series of experiements to evaluate the ability of a relational agent to comfort users in stressful situations.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/surgery-preparation/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/surgery-preparation/mgh_hu8a2952026bd2f27cd4f75d8e3e7dce91_42397_64x64_fill_q75_box_smart1.jpg" />
+                
+                <div class="project-info">
+                    <h2>Pre-Surgery Counseling by Relational Agent</h2>
+                    <p>A relational agent to counsel patients on their options for anesthesia, including the risks and benefits of each.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/clinical-trial-explanation/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/clinical-trial-explanation/RESPECT_hubb5a3a3ca544b7fa2f844b626ceee7dd_124630_64x64_fill_box_smart1_2.png" />
+                
+                <div class="project-info">
+                    <h2>Research Ethics and Safety Promoted by Embodied Conversational Technology (RESPECT)</h2>
+                    <p>A scalable, cost-effective, and sustainable patient-centered intervention to make it easier for people to search for research studies.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/document-explanation/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/document-explanation/image001_huf2a2c69db042f5d938eb29b2f7f5d19b_28706_64x64_fill_box_smart1.gif" />
+                
+                <div class="project-info">
+                    <h2>Health Document Explanation by Relational Agents</h2>
+                    <p>Developing models to allow a relational agent to effectively explain health documents to individuals with low health literacy.</p>
+                </div>
+            </a>
+        
+            <a href="../../project/archive/latino-exercise-promotion/index.html" class="project flex f-row f-jc-start f-a-center">         
+                
+                
+                
+                <img class="project-image" src="../../project/archive/latino-exercise-promotion/image001_huc1d976639f09917b7f7fa4d418589a7e_21935_64x64_fill_q75_box_smart1.jpg" />
+                
+                <div class="project-info">
+                    <h2>Computer-Based Physical Activity Advice for Ethnic Minority Aging Adults</h2>
+                    <p>a Spanish-speaking relational agent that plays the role of an exercise coach to promote physical activity among older English and Spanish-speaking Latino adults.</p>
+                </div>
+            </a>
+        
+        </div>
+    </div>
+
+        </main>
+                <footer class="flex" id="footer">
+
+            <p class="text-center">Relational Agents Group &copy; 2018</p>
+
+        </footer>
+    
+    </body>
+
+</html>
+        
+        
+    </body>
+</html>

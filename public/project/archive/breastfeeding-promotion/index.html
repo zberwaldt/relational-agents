@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Relational Agents Group is a research team at Northeastern University in Boston, MA.">
+    <style>
+     
+    :root {
+        --main-text-color: hsla(0, 0%, 0%, .8);
+        --inverse-text-color:  hsla(0, 0%, 100%, .8);
+        --primary-font: 'Roboto', sans-serif;
+    }
+
+     
+
+    html {
+        font-size: 16px;
+        font-family: var(--primary-font);
+    }
+
+    html, body {
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+    }
+
+    main {
+        flex-grow: 2;
+        background-color: hsl(0, 0%, 95%);
+    }
+
+    figure {
+        margin: 0 16px 0 0;
+    }
+
+    a {
+        display: inline-block;
+    }
+    
+     
+    .container {
+        box-sizing: border-box;
+        height: inherit;
+        margin: 0 auto;
+        max-width: 1100px;
+        min-width: 80%;
+        padding: 0 16px;
+        justify-content: space-between;
+    }
+
+    .grid {
+        display: grid;
+    }
+
+    #content .container h1.page-title {
+        margin-top: 32px;
+    }
+
+    .page-title {
+        margin-bottom: 32px; 
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .f-row {
+        flex-direction: row;
+    }
+
+    .f-column {
+        flex-direction: column;
+    }
+
+    .f-jc-between {
+        justify-content: space-between;
+    }
+
+    .f-jc-start {
+        justify-content: flex-start;
+    }
+
+    .f-jc-center {
+        justify-content: center;
+    }
+
+    .f-jc-end {
+        justify-content: flex-end;
+    }
+
+    .f-a-center {
+        align-items: center;
+    }
+
+    .full-width {
+        width: 100%;
+    }
+
+     
+    
+    .navbar {
+        flex-shrink: 0;
+        height: 64px;
+        border-bottom: 1px solid hsla(0, 0%, 0%, .1);
+    }
+    
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navbar ul li {
+        margin: 0 16px;
+    }
+    
+    .navbar .container {
+        flex-shrink: 0;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--main-text-color);
+        transform: scale(1);
+        transition: transform .2s ease-in-out, 
+                    color .2s ease-in-out;
+    }
+
+    .navbar a:hover {
+        color: blue;
+        transform: scale(.95);
+        transition: transform .2s ease-in-out, 
+                    color .2s ease-in-out;
+    }
+
+    .navbar .pages li {
+        position: relative;
+    }
+
+    .navbar .pages li:hover .sub-menu {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .sub-menu {
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        left:0;
+    }
+
+    .pages li .sub-menu li {
+        margin: 0;
+    }
+
+    .left {
+        float: left !important;
+    }
+
+    .right {
+        float: right !important;
+    }
+
+    .sub-menu li a {
+        display: block;
+        padding: 16px 24px;
+        font-size: .9em;
+        text-align: center;
+        background: hsla(0, 0%, 20%, 1);
+        color: hsla(0, 0%, 100%, .95);
+    }
+
+    .sub-menu li a:hover {
+        background: hsla(0, 0%, 35%, 1);
+        color: hsla(0, 0%, 100%, .8);
+    }
+
+    .active a{
+        color: blue;
+    }
+
+    .brand img {
+        width: 32px;
+        height: 32px;
+        margin: 8px 8px 8px 0;
+    }
+</style>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-POYwD7xcktv3gUeZO5s/9nUbRJG/WOmV6jfEGikMJu77LGYO8Rfs2X7URG822aum" crossorigin="anonymous">
+
+    
+
+    
+    
+    <link rel="preload" href="../../../css/style.css" as="style" />
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <title>Breastfeeding Promotion &ndash; Relational Agents Group</title>
+    </head>
+    <body>
+        <body class="flex f-column f-jc-between">
+    <nav class="navbar flex f-jc-center f-a-center full-width">
+        <div class="container flex f-a-center">
+            <a href="../../../index.html" class="brand flex f-a-center">
+                <img src="../../../rag-64.png" alt="relational agents logo" />
+                <span>Relational Agents Group</span>
+            </a>
+            <ul class="pages flex f-a-center">
+            
+                
+                
+                    <li class="">
+                        <a href="../../../people/index.html">people</a>
+                        
+                    </li>
+                
+                    <li class="">
+                        <a href="../../../project/index.html">projects</a>
+                        
+                            <ul class="sub-menu flex f-column">
+                            
+                                <li>
+                                    <a href="../../../project/index.html">current</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../../../project/archive/index.html">past</a>
+                                </li>
+                            
+                            </ul>
+                        
+                    </li>
+                
+                    <li class="">
+                        <a href="../../../publication/index.html">publications</a>
+                        
+                    </li>
+                
+                    <li class="">
+                        <a href="../../../demo/index.html">demos</a>
+                        
+                            <ul class="sub-menu flex f-column">
+                            
+                                <li>
+                                    <a href="../../../demo/dtask/index.html">dtask</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../../../demo/hbco/index.html">hbco</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../../../demo/litebody/index.html">litebody</a>
+                                </li>
+                            
+                            </ul>
+                        
+                    </li>
+                
+                    <li class="">
+                        <a href="../../../press/index.html">press</a>
+                        
+                    </li>
+                
+            
+            </ul>
+        </div>
+    </nav>
+
+        <main id="content">
+        
+    
+    <div class="container">
+        
+        <a class="back-link" href="../../../project/archive/index.html"><i class="fas fa-chevron-left"></i>Go back</a>
+        
+        <article class="project-articles">
+            <h1 class="page-title text-center">Breastfeeding Promotion</h1>
+            <section class="article-content">
+            
+                
+                
+                <img class="main-image" src="../../../project/archive/breastfeeding-promotion/breastFeeding4_hu53d961a4df914f6aaf918f409dd5d091_86479_0x250_resize_q75_box.jpg" alt="main image"/>
+            
+            <p>Despite recommendations from the CDC and several professional health organizations that infants be exclusively breastfed for the first six months, only 14.8% of mothers in the U.S. adhere to these guidelines.</p>
+
+<p>The purpose of this project is to develop a relational agent that promotes breastfeeding among new mothers. The agent interacts with mothers  during their third trimester to boost motivation,  bedside in the hospital maternity ward to provide information on breastfeeding basics, and at home for six months to provide continued assistance.</p>
+
+<p>This work is supported by the Hood Foundation.</p>
+
+            </section>
+            
+            <section class="related-publications">
+                <h2 class="text-center"> Publications </h2>
+                
+                <ul class="publication-list">
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                            <li class="publication">
+                                <h3>Use of an Interactive Computer Agent to Support Breastfeeding</h3>
+                                <p class="pub-journal">journal name</p>
+                                <ul class="authors flex f-row f-a-center f-jc-start"><strong>Authors:</strong>
+                                    
+                                    <li class="author">Edwards, R.</li>
+                                    
+                                    <li class="author">Bickmore, T.</li>
+                                    
+                                    <li class="author">Jenkins, L.</li>
+                                    
+                                    <li class="author">Foley, M.</li>
+                                    
+                                </ul>
+                                <p>2013</p>
+                                
+                                
+                            </li>
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                            <li class="publication">
+                                <h3>Pilot study of the use of a computer agent to provide information and support to breastfeeding mothers</h3>
+                                <p class="pub-journal">journal name</p>
+                                <ul class="authors flex f-row f-a-center f-jc-start"><strong>Authors:</strong>
+                                    
+                                    <li class="author">Edwards, R.</li>
+                                    
+                                    <li class="author">Bickmore, T.</li>
+                                    
+                                    <li class="author">Jenkins, L.</li>
+                                    
+                                    <li class="author">Foley, M.</li>
+                                    
+                                </ul>
+                                <p>2012</p>
+                                
+                                  
+                                <a class="dl-link" href="../../../publication/2012/pilot-study-of-the-use-of-computer-agents/apha12-bf.pdf" download >download <i class="far fa-download"></i><i class="far fa-file-pdf"></i></a>
+                                
+                            </li>
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                
+                </ul>
+            </section>
+            
+            
+        </article>
+    </div>
+
+        </main>
+                <footer class="flex" id="footer">
+
+            <p class="text-center">Relational Agents Group &copy; 2018</p>
+
+        </footer>
+    
+    </body>
+
+</html>
+        
+        
+    </body>
+</html>
