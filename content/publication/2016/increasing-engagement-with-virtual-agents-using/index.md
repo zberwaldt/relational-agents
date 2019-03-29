@@ -1,6 +1,7 @@
 ---
 name: "Increasing Engagement With Virtual Agents Using"
 title: "Increasing Engagement with Virtual Agents Using Automatic Camera Motion"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents (IVA)"
 authors:

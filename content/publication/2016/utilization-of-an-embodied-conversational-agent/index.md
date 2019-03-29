@@ -1,6 +1,7 @@
 ---
 name: "Utilization Of An Embodied Conversational"
 title: "Utilization of an Embodied Conversational Agent in an Integrative Medicine Group Visit for Patients  with Chronic Pain and Depression"
+journal: "journal name" 
 project: null
 event: "Connected Health Symposium, Boston"
 authors:

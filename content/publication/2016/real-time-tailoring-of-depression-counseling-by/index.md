@@ -1,6 +1,7 @@
 ---
 name: "Real Time Tailoring Of Depression Counseling By"
 title: "Real-time Tailoring of Depression Counseling by Conversational Agent"
+journal: "journal name" 
 project: "Cognitive Behavioral Therapy for Depression"
 event: "Connected Health Symposium, Boston"
 authors:

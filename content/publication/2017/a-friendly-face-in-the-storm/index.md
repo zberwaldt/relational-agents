@@ -1,6 +1,7 @@
 ---
 name: "A Friendly Face In The Storm"
 title: "A Friendly Face in the Storm: Self-care Support System Requirements for Individuals with Spinal Cord Injury"
+journal: "journal name" 
 project: "Spinal Cord Injury"
 event: "CHI'17 Workshop on Interactive Systems in Healthcare (WISH)"
 authors:

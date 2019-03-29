@@ -1,6 +1,7 @@
 ---
 name: "Issues In Designing Agents"
 title: "Issues in Designing Agents for Long Term Behavior Change"
+journal: "journal name" 
 project: "Computational Models of Health Behavior Change Dialog"
 event: "CHI'09 Workshop on Engagement by Design."
 authors:

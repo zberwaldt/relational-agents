@@ -28,7 +28,7 @@ relativeURLs = true
     weight = 3
 [[menu.main]]
     url = "/demo"
-    name = "demoes"
+    name = "demos"
     weight = 4
 [[menu.main]]
     url = "/press"
@@ -47,15 +47,15 @@ relativeURLs = true
 [[ menu.main ]]
     url = "/demo/litebody"
     name = "litebody"
-    parent = "demoes"
+    parent = "demos"
 [[ menu.main ]]
     url = "/demo/dtask"
     name = "dtask"
-    parent = "demoes"
+    parent = "demos"
 [[ menu.main ]]
     url = "/demo/hbco"
     name = "hbco"
-    parent = "demoes"
+    parent = "demos"
 
 [taxonomies]
 tag = "tags"

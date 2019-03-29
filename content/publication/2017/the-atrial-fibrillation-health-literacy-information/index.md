@@ -1,6 +1,7 @@
 ---
 name: "The Atrial Fibrillation Health Literacy Information"
 title: "The Atrial Fibrillation Health Literacy Information Technology System: Pilot Assessment"
+journal: "journal name" 
 project: "Atrial Fibrillation"
 event: "JMIR Cardio"
 authors:

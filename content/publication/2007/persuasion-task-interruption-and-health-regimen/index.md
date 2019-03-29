@@ -1,6 +1,7 @@
 ---
 name: "Persuasion Task Interruption And Health Regimen"
 title: "Persuasion, Task Interruption and Health Regimen Adherence"
+journal: "journal name" 
 project: "Just-in-Time Information for Exercise Adoption"
 event: "Persuasive Technology '07, Stanford, CA."
 authors:

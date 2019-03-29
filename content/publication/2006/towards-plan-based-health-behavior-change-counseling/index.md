@@ -1,6 +1,7 @@
 ---
 name: "Towards Plan Based Health Behavior Change Counseling"
 title: "Towards Plan-based Health Behavior Change Counseling Systems."
+journal: "journal name" 
 project: null
 event: "AAAI Spring Symposium on Argumentation for Consumers of Healthcare, Stanford, CA."
 authors:

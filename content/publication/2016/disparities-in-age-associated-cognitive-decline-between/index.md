@@ -1,6 +1,7 @@
 ---
 name: "Disparities In Age Associated Cognitive Decline Between"
 title: "Disparities in Age-Associated Cognitive Decline Between African-American and Caucasian Populations: The Roles of Health Literacy and Education"
+journal: "journal name" 
 project: null
 event: "Journal of the Amerian Geriatrics Society"
 authors:

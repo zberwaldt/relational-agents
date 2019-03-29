@@ -1,6 +1,7 @@
 ---
 name: "Supporting Longitudinal Change In Many Health"
 title: "Supporting Longitudinal Change in Many Health Behaviors"
+journal: "journal name" 
 project: null
 event: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)"
 authors:

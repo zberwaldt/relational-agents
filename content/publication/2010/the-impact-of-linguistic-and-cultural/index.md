@@ -1,6 +1,7 @@
 ---
 name: "The Impact Of Linguistic And Cultural"
 title: "The Impact of Linguistic and Cultural Congruity on Persuasion by Conversational Agents"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA), Philadelphia, PA"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Longitudinal Affective Computing Virtual Agents That"
 title: "Longitudinal Affective Computing: Virtual Agents that Respond to User Mood"
+journal: "journal name" 
 project: "An Always On Relational Agent for Social Support of Older Adults"
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

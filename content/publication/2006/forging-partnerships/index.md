@@ -1,6 +1,7 @@
 ---
 name: "Forging Partnerships"
 title: "Forging partnerships to develop and test relational agent technology to improve medication adherence in schizophrenia."
+journal: "journal name" 
 project: ["Drugs don't work in patients who don't take them C. Everett Koop, MD"]
 event: "Paper presented at the Eastern Nursing Research Society 18th Annual Scientific Sessions Cherry Hill, NJ"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Automated Explanation Of Research Informed Consent by Virtual Agents"
 title: "Automated Explanation of Research Informed Consent by Virtual Agents"
+journal: "journal name" 
 project: ["Research Ethics and Safety Promoted by Embodied Conversational Technology (RESPECT)"]
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

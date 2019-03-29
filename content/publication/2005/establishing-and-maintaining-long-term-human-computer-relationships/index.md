@@ -1,6 +1,7 @@
 ---
 name: "Establishing And Maintaining Long Term Human Computer Relationships"
 title: "Establishing and Maintaining Long-Term Human-Computer Relationships."
+journal: "journal name" 
 project: null
 event: "ACM Transactions on Computer Human Interaction (ToCHI) 12 (2) : 293-327"
 authors:

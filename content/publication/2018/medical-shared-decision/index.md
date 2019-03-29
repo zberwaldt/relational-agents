@@ -1,6 +1,7 @@
 ---
 name: "Medical Shared Decision Making With A"
 title: "Medical Shared Decision Making with a Virtual Agent"
+journal: "journal name" 
 project: null
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:

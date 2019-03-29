@@ -1,6 +1,7 @@
 ---
 name: "Context Awareness In A Persistent Hospital Companion"
 title: "Context-Awareness in a Persistent Hospital Companion Agent"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Wearable Relational Agents For Health"
 title: "Wearable Relational Agents for Health."
+journal: "journal name" 
 project: "Just-in-Time Information for Exercise Adoption"
 event: "Ann Behav Med 31 (Suppl) : S185"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Empathic Touch By Relational Agents"
 title: "Empathic Touch by Relational Agents"
+journal: "journal name" 
 project: "Automated Comforting by Relational Agents"
 event: "IEEE Transactions on Affective Computing 1(1), 60-71"
 authors:

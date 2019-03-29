@@ -1,6 +1,7 @@
 ---
 name: "Modeling Behavioral Manifestations Of Coordination And"
 title: "Modeling Behavioral Manifestations of Coordination and Rapport over Multiple Conversations: Speaking Rate as a Relational Indicator for a Virtual Agent"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA), Philadelphia, PA"
 authors:

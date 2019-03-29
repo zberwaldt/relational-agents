@@ -1,6 +1,7 @@
 ---
 name: "A Feminist Virtual Agent For Breastfeeding"
 title: "A Feminist Virtual Agent for Breastfeeding Promotion"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

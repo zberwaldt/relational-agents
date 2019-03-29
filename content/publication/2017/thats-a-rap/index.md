@@ -1,6 +1,7 @@
 ---
 name: "That'S A Rap  Increasing Engagement"
 title: "That's a Rap:  Increasing Engagement with Rap Music Performance by Virtual Agents"
+journal: "journal name" 
 project: null
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:

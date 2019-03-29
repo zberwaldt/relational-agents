@@ -1,6 +1,7 @@
 ---
 name: "What Would Jiminy Cricket Do Lessons"
 title: "What Would Jiminy Cricket Do? Lessons From the First Social Wearable."
+journal: "journal name" 
 project: "Just-in-Time Information for Exercise Adoption"
 event: "HCI International '07, Beijing, China."
 authors:

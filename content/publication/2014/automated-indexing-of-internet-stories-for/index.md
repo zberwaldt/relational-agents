@@ -1,6 +1,7 @@
 ---
 name: "Automated Indexing Of Internet Stories For"
 title: "Automated Indexing of Internet Stories for Health Behavior Change: Weight Loss Attitude Pilot Study"
+journal: "journal name" 
 project: null
 event: "Journal of Medical Internet Research, 16 (12)"
 authors:

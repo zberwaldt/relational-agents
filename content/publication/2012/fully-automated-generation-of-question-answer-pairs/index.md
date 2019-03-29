@@ -1,6 +1,7 @@
 ---
 name: "Fully Automated Generation Of Question Answer Pairs"
 title: "Fully Automated Generation of Question-Answer Pairs for Scripted Virtual Instruction"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

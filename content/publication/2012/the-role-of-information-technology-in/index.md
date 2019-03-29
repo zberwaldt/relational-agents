@@ -1,6 +1,7 @@
 ---
 name: "The Role Of Information Technology In"
 title: "The Role of Information Technology in Health Literacy Research"
+journal: "journal name" 
 project: null
 event: "Journal of Health Communication, v. 17, Supplement 3, pp 23-29"
 authors:

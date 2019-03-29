@@ -1,6 +1,7 @@
 ---
 name: "Reaching Women Through Health Information Technology"
 title: "Reaching Women Through Health Information Technology: The Gabby Preconception Care System"
+journal: "journal name" 
 project: "Preconception Care"
 event: "American Journal of Health Promotion, Vol. 27, No. sp3 (January/February 2013) pp. eS11-eS20"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Rationale And Design Of The Atrial"
 title: "Rationale and design of the Atrial Fibrillation health Literacy Information Technology Trial: (AF-LITT)"
+journal: "journal name" 
 project: "Atrial Fibrillation"
 event: "Contemporary Clinical Trials, 62, 153-158"
 authors:

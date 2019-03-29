@@ -1,6 +1,7 @@
 ---
 name: "Dynamicduo Co-Presenting With Virtual Agents"
 title: "DynamicDuo: Co-presenting with Virtual Agents"
+journal: "journal name" 
 project: "Co-presenter Agent"
 event: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)"
 authors:

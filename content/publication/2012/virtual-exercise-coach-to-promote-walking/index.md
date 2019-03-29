@@ -1,6 +1,7 @@
 ---
 name: "Virtual Exercise Coach to Promote Walking"
 title: "Feasibility of a Virtual Exercise Coach to Promote Walking in Community-Dwelling Persons with Parkinson's Disease"
+journal: "journal name" 
 project: null
 event: "International Congress on Parkinson's Disease and Movement Disorders (abstract)"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Adapting Research Tested Computerized Tailored Interventions For"
 title: "Adapting Research-tested Computerized Tailored Interventions for Broader Dissemination and Implementation"
+journal: "journal name" 
 project: null
 event: "Translational Behavioral Medicine, 1(1), 93-102"
 authors:

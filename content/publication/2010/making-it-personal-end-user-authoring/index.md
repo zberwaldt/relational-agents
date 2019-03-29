@@ -1,6 +1,7 @@
 ---
 name: "Making It Personal End User Authoring"
 title: "Making It Personal: End-User Authoring of Health Narratives Delivered by Virtual Agents"
+journal: "journal name" 
 project: "Preconception Care"
 event: "Intelligent Virtual Agents conference (IVA), Philadelphia, PA"
 authors:

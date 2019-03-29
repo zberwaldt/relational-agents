@@ -1,6 +1,7 @@
 ---
 name: "Designing Health Conversations With Relational Agents"
 title: "Designing Health Conversations with Relational Agents"
+journal: "journal name" 
 project: null
 event: "CHI'17 Workshop on Conversational UX Design"
 authors:

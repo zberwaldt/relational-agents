@@ -1,6 +1,7 @@
 ---
 name: "A Pilot Study Of A Computer Based"
 title: "A Pilot Study of a Computer-Based Relational Agent to Screen for Substance-Use Problems in Primary Care"
+journal: "journal name" 
 project: "Alcohol Treatment for Veterans"
 event: "Society for General Internal Medicine (SGIM) Annual Meeting (abstract)"
 authors:

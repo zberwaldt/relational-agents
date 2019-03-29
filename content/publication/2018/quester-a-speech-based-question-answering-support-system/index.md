@@ -1,6 +1,7 @@
 ---
 name: "Quester A Speech Based Question Answering Support System"
 title: "Quester: A Speech-based Question-Answering Support System for Oral Presentations"
+journal: "journal name" 
 project: null
 event: "Conference on Intelligent User Interfaces (IUI)"
 authors:

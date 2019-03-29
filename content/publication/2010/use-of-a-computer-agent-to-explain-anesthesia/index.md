@@ -1,6 +1,7 @@
 ---
 name: "Use Of A Computer Agent To Explain Anesthesia"
 title: "Use of a Computer Agent to Explain Anesthesia Concepts to Patients"
+journal: "journal name" 
 project: ["Pre-Surgery Counseling by Relational Agent"]
 event: "Annual Meeting of the American Society of Anesthesiologists"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Clinical Trial Search Engines"
 title: "Health Literacy and Usability of Clinical Trial Search Engines"
+journal: "journal name" 
 project: ["Research Ethics and Safety Promoted by Embodied Conversational Technology (RESPECT)"]
 event: "Journal of Health Communication, 19 Suppl 2:190-204"
 authors:

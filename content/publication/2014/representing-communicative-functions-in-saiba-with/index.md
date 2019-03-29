@@ -1,6 +1,7 @@
 ---
 name: "Representing Communicative Functions In Saiba With"
 title: "Representing Communicative Functions in SAIBA with a Unified Function Markup Language"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

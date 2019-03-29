@@ -1,6 +1,7 @@
 ---
 name: "Acceptance And Usability Of A Relational Agent Interface"
 title: "Acceptance and Usability of a Relational Agent Interface by Urban Older Adults."
+journal: "journal name" 
 project: "Computer Agents to Promote Walking in Older Adults with Low Health Literacy"
 event: "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) Portland, OR."
 authors:

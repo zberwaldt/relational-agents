@@ -1,6 +1,7 @@
 ---
 name: "Persuading Users Through Counseling Dialogue"
 title: "Persuading Users through Counseling Dialogue with a Conversational Agent"
+journal: "journal name" 
 project: "A Virtual Laboratory for Studying Long-Term Human-Computer Relationships"
 event: "Proceedings of Persuasive Technology 2009, Claremont, CA."
 authors:

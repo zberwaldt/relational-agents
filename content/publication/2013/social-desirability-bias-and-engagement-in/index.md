@@ -1,6 +1,7 @@
 ---
 name: "Social Desirability Bias And Engagement"
 title: "Social Desirability Bias and Engagement in Systems Designed for Long-Term Health Tracking"
+journal: "journal name" 
 project: null
 event: "Phd Dissertation, College of Computer and Information Science, Northeastern University"
 authors:

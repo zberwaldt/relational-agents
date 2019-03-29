@@ -1,6 +1,7 @@
 ---
 name: "Development Of A Spinal Cord Injury"
 title: "Development of a Spinal Cord Injury Virtual Coach to Improve Skin Care"
+journal: "journal name" 
 project: null
 event: "American Spinal Injury Association Conference"
 authors:

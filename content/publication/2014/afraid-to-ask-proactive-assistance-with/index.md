@@ -1,6 +1,7 @@
 ---
 name: "Afraid To Ask Proactive Assistance With"
 title: "Afraid to Ask: Proactive Assistance with Healthcare Documents Using Eye Tracking"
+journal: "journal name" 
 project: null
 event: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)"
 authors:

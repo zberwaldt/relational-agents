@@ -1,6 +1,7 @@
 ---
 name: "A Virtual Self Care Coach For Individuals"
 title: "A Virtual Self-care Coach for Individuals with Spinal Cord Injury"
+journal: "journal name" 
 project: "Spinal Cord Injury"
 event: "The 18th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)"
 authors:

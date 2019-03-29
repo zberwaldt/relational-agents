@@ -1,6 +1,7 @@
 ---
 name: "Increasing Engagement With Conversational Agents Using"
 title: "Increasing Engagement with Conversational Agents Using Co-Constructed Storytelling"
+journal: "journal name" 
 project: null
 event: "Eighth workshop on Intelligent Narrative Technologies (Int8)"
 authors:

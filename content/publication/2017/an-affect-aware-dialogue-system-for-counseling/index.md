@@ -1,6 +1,7 @@
 ---
 name: "An Affect Aware Dialogue System For Counseling"
 title: "An Affect-Aware Dialogue System for Counseling"
+journal: "journal name" 
 project: null
 event: "PhD Dissertation, Northeastern University College of Computer and Information Science"
 authors:

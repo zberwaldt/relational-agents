@@ -1,6 +1,7 @@
 ---
 name: "Talk About Death"
 title: "Talk About Death: End of Life Planning with a Virtual Agent"
+journal: "journal name" 
 project: "Palliative Care Agent"
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Intelliprompter Speech Based Dynamic Note Display Interface"
 title: "IntelliPrompter: Speech-based Dynamic Note Display Interface for Oral Presentations"
+journal: "journal name" 
 project: null
 event: "International Conference on Multimodal Interaction (ICMI)"
 authors:

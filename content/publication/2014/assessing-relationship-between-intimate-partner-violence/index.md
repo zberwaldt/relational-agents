@@ -1,6 +1,7 @@
 ---
 name: "Assessing Relationship Between Intimate Partner Violence"
 title: "Assessing Relationship between Intimate Partner Violence (IPV) & Preconception Care Risks in Young African-American Women (abstract)"
+journal: "journal name" 
 project: null
 event: "Academy on Violence and Abuse Meeting on Controversies and Challenges in Addressing Violence and Abuse Across the Lifespan"
 authors:

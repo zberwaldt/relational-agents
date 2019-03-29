@@ -1,6 +1,7 @@
 ---
 name: "Changes In Verbal And Nonverbal Conversational"
 title: "Changes in Verbal and Nonverbal Conversational Behavior in Long-Term Interaction"
+journal: "journal name" 
 project: null
 event: "International Conference on Multimodal Interaction (ICMI)"
 authors:

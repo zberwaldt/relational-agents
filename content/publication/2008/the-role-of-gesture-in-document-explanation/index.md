@@ -1,6 +1,7 @@
 ---
 name: "The Role Of Gesture In Document"
 title: "The Role of Gesture in Document Explanation by Embodied Conversational Agents"
+journal: "journal name" 
 project: ["Health Document Explanation by Relational Agents"]
 event: "International Journal of Semantic Computing, Vol. 2, No. 1, 47-70"
 authors:

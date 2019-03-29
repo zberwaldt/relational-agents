@@ -1,6 +1,7 @@
 ---
 name: "Blissful Agents Adjuncts To Group Medical"
 title: "Blissful Agents: Adjuncts to Group Medical Visits for Chronic Pain and Depression"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents (IVA)"
 authors:

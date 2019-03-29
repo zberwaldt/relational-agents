@@ -1,6 +1,7 @@
 ---
 name: "Adapting A Geriatrics Health Counseling Virtual"
 title: "Adapting a Geriatrics Health Counseling Virtual Agent for the Chinese Culture"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

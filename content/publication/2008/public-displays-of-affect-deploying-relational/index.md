@@ -1,6 +1,7 @@
 ---
 name: "Public Displays Of Affect Deploying Relational"
 title: "Public Displays of Affect: Deploying Relational Agents in Public Spaces"
+journal: "journal name" 
 project: "Tinker: A Relational Guide for the Boston Museum of Science"
 event: "CHI'08 Extended Abstracts."
 authors:

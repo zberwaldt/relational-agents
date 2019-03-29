@@ -1,6 +1,7 @@
 ---
 name: "Conversational Agents Enable Automated Health Interventions"
 title: "Conversational Agents Enable Automated Health Interventions for Individuals with Low Health Literacy"
+journal: "journal name" 
 project: null
 event: "Society for Behavioral Medicine (SBM) annual meeting, Symposium on Bridging the Digital Divide in Health and Healthcare: Can Behavioral Medicine Help? (abstract)"
 authors:

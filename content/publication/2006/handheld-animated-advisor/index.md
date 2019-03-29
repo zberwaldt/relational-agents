@@ -1,6 +1,7 @@
 ---
 name: "Handheld Animated Advisor"
 title: "A Handheld Animated Advisor for Physical Activity Promotion."
+journal: "journal name" 
 project: "Just-in-Time Information for Exercise Adoption"
 event: "American Medical Informatics Association Annual Symposium, Washington, DC."
 authors:

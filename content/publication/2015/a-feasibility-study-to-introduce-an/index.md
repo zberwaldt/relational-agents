@@ -1,6 +1,7 @@
 ---
 name: "A Feasibility Study To Introduce An"
 title: "A Feasibility Study to Introduce an Embodied Conversational Agent on a Tablet Computer into an Integrative Medicine Group Visit"
+journal: "journal name" 
 project: null
 event: "American Public Health Association (APHA) Annual Meeting"
 authors:

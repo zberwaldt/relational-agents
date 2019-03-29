@@ -1,6 +1,7 @@
 ---
 name: "Managing Chronic Conditions With A Smartphone Based"
 title: "Managing Chronic Conditions with a Smartphone-based Conversational Virtual Agent"
+journal: "journal name" 
 project: "Atrial Fibrillation"
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:

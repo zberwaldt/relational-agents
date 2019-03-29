@@ -1,6 +1,7 @@
 ---
 name: "Adapting A Persuasive Conversational Agent For"
 title: "Adapting a Persuasive Conversational Agent for the Chinese Culture"
+journal: "journal name" 
 project: null
 event: "International Conference on Culture and Computing"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Reaching Minority Populations With Relational Agents"
 title: "Reaching Minority Populations with Relational Agents"
+journal: "journal name" 
 project: null
 event: "Society of Behavioral Medicine 2013 Annual Meeting (abstract)"
 authors:

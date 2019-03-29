@@ -1,6 +1,7 @@
 ---
 name: "Breathe With Me A Virtual Meditation"
 title: "Breathe with Me: A Virtual Meditation Coach"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Using Relational Agents In Tailored Interventions"
 title: "Using Relational Agents in Tailored Interventions for Multiple Risk Factors: Preliminary 12 Month Results"
+journal: "journal name" 
 project: ["Online Tailored Interventions & Relational Agents for Exercise and Sun Protection (Project RAISE)"]
 event: "Society of Behavioral Medicine 2013 Annual Meeting (abstract)"
 authors:

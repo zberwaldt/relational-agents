@@ -1,6 +1,7 @@
 ---
 name: "Employing 'Virtual Advisors' To Promote Physical"
 title: "Employing 'Virtual Advisors' to Promote Physical Activity in Underserved Communities: Results from the COMPASS Study"
+journal: "journal name" 
 project: ["Computer-Based Physical Activity Advice for Ethnic Minority Aging Adults"]
 event: "Society for Behavioral Medicine (SBM) annual meeting (abstract)"
 authors:

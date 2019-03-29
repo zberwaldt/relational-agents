@@ -1,6 +1,7 @@
 ---
 name: "Predicting User Engagement In Longitudinal Interventions"
 title: "Predicting User Engagement in Longitudinal Interventions with Virtual Agents"
+journal: "journal name" 
 project: null
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:

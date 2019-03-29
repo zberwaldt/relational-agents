@@ -1,6 +1,7 @@
 ---
 name: "Maintaining Continuity In Longitudinal Multi Method Health"
 title: "Maintaining Continuity in Longitudinal, Multi-Method Health Interventions Using Virtual Agents: The Case of Breastfeeding Promotion"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

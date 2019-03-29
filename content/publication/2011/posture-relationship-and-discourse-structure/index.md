@@ -1,6 +1,7 @@
 ---
 name: "Posture Relationship And Discourse Structure"
 title: "Posture, Relationship, and Discourse Structure"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA), Reykjavik, Iceland"
 authors:

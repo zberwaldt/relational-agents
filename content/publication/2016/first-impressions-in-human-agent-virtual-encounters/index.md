@@ -1,6 +1,7 @@
 ---
 name: "First Impressions In Human Agent Virtual Encounters"
 title: "First Impressions in Human-Agent Virtual Encounters"
+journal: "journal name" 
 project: null
 event: "ACM Transactions on Computer-Human Interaction (ToCHI)"
 authors:

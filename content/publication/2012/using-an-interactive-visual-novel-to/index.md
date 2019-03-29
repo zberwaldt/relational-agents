@@ -1,6 +1,7 @@
 ---
 name: "Using An Interactive Visual Novel To"
 title: "Using an Interactive Visual Novel to Promote Patient Empowerment through Engagement"
+journal: "journal name" 
 project: null
 event: "Foundations of Digital Games"
 authors:

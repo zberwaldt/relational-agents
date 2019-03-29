@@ -1,6 +1,7 @@
 ---
 name: "Engaging Women With An Embodied Conversational"
 title: "Engaging Women with an Embodied Conversational Agent to Deliver Mindfulness and Lifestyle Recommendations: A Feasibility Randomized Control Trial"
+journal: "journal name" 
 project: null
 event: "Patient Education and Counseling"
 authors:

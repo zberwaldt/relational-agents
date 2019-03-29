@@ -1,6 +1,7 @@
 ---
 name: "Maintaining Reality Relational Agents For Antipsychotic"
 title: "Maintaining Reality: Relational Agents for Antipsychotic Medication Adherence"
+journal: "journal name" 
 project: "Drugs don't work in patients who don't take them C. Everett Koop, MD"
 event: "Interacting with Computers special issue on Mental Health 22(4) 276-288"
 authors:

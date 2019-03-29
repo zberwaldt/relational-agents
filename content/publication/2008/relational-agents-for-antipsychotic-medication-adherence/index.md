@@ -1,6 +1,7 @@
 ---
 name: "Relational Agents For Antipsychotic Medication Adherence"
 title: "Relational Agents for Antipsychotic Medication Adherence"
+journal: "journal name" 
 project: "Drugs don't work in patients who don't take them C. Everett Koop, MD"
 event: "CHI'08 workshop on Technology in Mental Health."
 authors:

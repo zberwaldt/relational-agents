@@ -1,6 +1,7 @@
 ---
 name: "First Impressions Users' Judgments Of Virtual"
 title: "First Impressions: users' judgments of Virtual Agents' Personality and Interpersonal Attitude in First Encounters"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

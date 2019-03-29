@@ -1,6 +1,7 @@
 ---
 name: "Automated Indexing Of Stories For Conversational"
 title: "Automated Indexing of Stories for Conversational Health Intervention"
+journal: "journal name" 
 project: null
 event: "MS Thesis, College of Computer and Information Science, Northeastern University"
 authors:

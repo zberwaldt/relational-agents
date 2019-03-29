@@ -1,6 +1,7 @@
 ---
 name: "Reducing Preconception Risks Among African American"
 title: "Reducing Preconception Risks among African American Women with Conversational Agent Technology"
+journal: "journal name" 
 project: null
 event: "Journal of the American Board of Family Medicine, 28(4):441-451"
 authors:

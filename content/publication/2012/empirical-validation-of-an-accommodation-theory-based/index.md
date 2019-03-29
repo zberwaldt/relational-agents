@@ -1,6 +1,7 @@
 ---
 name: "Empirical Validation Of An Accommodation Theory Based"
 title: "Empirical Validation of an Accommodation Theory-based Model of User-Agent Relationship"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

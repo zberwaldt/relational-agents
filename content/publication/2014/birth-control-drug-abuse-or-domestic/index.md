@@ -1,6 +1,7 @@
 ---
 name: "Birth Control Drug Abuse Or Domestic"
 title: "Birth Control, Drug Abuse, or Domestic Violence? What health risk topics are women willing to discuss with a virtual agent?"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

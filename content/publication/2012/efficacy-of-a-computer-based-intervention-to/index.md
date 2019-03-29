@@ -1,6 +1,7 @@
 ---
 name: "Efficacy Of A Computer Based Intervention To"
 title: "Efficacy of a Computer-based Intervention to Promote Walking in Older Adults"
+journal: "journal name" 
 project: null
 event: "Annual Meeting of the American Geriatrics Society (abstract)"
 authors:

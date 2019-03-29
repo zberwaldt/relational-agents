@@ -1,6 +1,7 @@
 ---
 name: "Indexing Stories For Conversational Health Interventions"
 title: "Indexing Stories for Conversational Health Interventions"
+journal: "journal name" 
 project: null
 event: "AAAI Spring Symposium on Data Driven Wellness: From Self-Tracking to Behavior Change"
 authors:

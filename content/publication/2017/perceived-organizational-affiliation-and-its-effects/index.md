@@ -1,6 +1,7 @@
 ---
 name: "Perceived Organizational Affiliation And Its Effects"
 title: "Perceived Organizational Affiliation and Its Effects on Patient Trust: Role Modeling with Embodied Conversational Agents"
+journal: "journal name" 
 project: null
 event: "Patient Education and Counseling 100(9):1730-37"
 authors:

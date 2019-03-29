@@ -1,6 +1,7 @@
 ---
 name: "Racial Disparities In Patient Activation Evaluating"
 title: "Racial Disparities in Patient Activation: Evaluating the Mediating Role of Health Literacy with Path Analyses"
+journal: "journal name" 
 project: null
 event: "Patient Education and Counseling"
 authors:

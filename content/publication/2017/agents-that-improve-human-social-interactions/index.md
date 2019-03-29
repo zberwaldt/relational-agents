@@ -1,6 +1,7 @@
 ---
 name: "Agents That Improve Human Social Interactions"
 title: "Agents that Improve Human Social Interactions: Towards a Robotic Couples Counselor"
+journal: "journal name" 
 project: null
 event: "International Conference on Virtual Social Interaction"
 authors:

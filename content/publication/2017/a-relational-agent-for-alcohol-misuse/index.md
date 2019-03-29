@@ -1,6 +1,7 @@
 ---
 name: "A Relational Agent For Alcohol Misuse"
 title: "A Relational Agent for Alcohol Misuse Screening and Intervention in Primary Care"
+journal: "journal name" 
 project: "Alcohol Treatment for Veterans"
 event: "CHI'17 Workshop on Interactive Systems in Healthcare (2017)"
 authors:

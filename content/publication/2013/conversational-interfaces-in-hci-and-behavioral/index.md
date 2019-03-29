@@ -1,6 +1,7 @@
 ---
 name: "Conversational Interfaces In HCI And Behavioral"
 title: "Conversational Interfaces in HCI and Behavioral Medicine"
+journal: "journal name" 
 project: null
 event: "Society of Behavioral Medicine 2013 Annual Meeting (abstract)"
 authors:

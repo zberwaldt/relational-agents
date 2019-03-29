@@ -1,6 +1,7 @@
 ---
 name: "Virtual Agents In The Classroom"
 title: "Virtual Agents in the Classroom: Experience Fielding a Co-Presenter Agent in University Courses"
+journal: "journal name" 
 project: "Co-presenter Agent"
 event: "Intelligent Virtual Agents (IVA)"
 authors:

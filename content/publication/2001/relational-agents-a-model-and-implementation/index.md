@@ -1,6 +1,7 @@
 ---
 name: "Relational Agents A Model And Implementation"
 title: "Relational Agents: A Model and Implementation of Building User Trust."
+journal: "journal name" 
 project: null
 event: "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI), pp. 396-403. March 31 - April 5. Seattle, Washington."
 authors:

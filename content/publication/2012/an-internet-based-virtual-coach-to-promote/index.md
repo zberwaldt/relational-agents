@@ -1,6 +1,7 @@
 ---
 name: "An Internet Based Virtual Coach To Promote"
 title: "An Internet-Based Virtual Coach to Promote Physical Activity Adherence in Overweight Adults: Randomized Controlled Trial"
+journal: "journal name" 
 project: null
 event: "Journal of Medical Internet Research, 14(1)"
 authors:

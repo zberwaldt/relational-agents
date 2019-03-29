@@ -1,6 +1,7 @@
 ---
 name: "Hospital Buddy A Persistent Emotional Support"
 title: "Hospital Buddy: A Persistent Emotional Support Companion Agent for Hospital Patients"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

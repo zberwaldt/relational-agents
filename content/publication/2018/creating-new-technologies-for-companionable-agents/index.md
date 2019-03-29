@@ -1,6 +1,7 @@
 ---
 name: "Creating New Technologies For Companionable Agents"
 title: "Creating New Technologies for Companionable Agents to Support Isolated Older Adults"
+journal: "journal name" 
 project: null
 event: "ACM Transactions on Interactive Intelligent Systems (TiiS) 8(3)"
 authors:

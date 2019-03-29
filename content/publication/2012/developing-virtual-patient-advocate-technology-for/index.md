@@ -1,6 +1,7 @@
 ---
 name: "Developing Virtual Patient Advocate Technology For"
 title: "Developing Virtual Patient Advocate Technology for Shared Decision Making"
+journal: "journal name" 
 project: "Preconception Care"
 event: "34th Annual Meeting of the Society for Medical Decision Making (SMDM, abstract)"
 authors:

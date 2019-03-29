@@ -1,6 +1,7 @@
 ---
 name: "Using Relational Agents To Promote Exercise"
 title: "Using Relational Agents to Promote Exercise and Sun Protection: Assessment of Participants' Experiences With Two Interventions"
+journal: "journal name" 
 project: null
 event: "Journal of Medical Internet Research, 20(2)"
 authors:

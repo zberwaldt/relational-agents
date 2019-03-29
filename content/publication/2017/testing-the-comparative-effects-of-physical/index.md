@@ -2,6 +2,7 @@
 name: "Testing The Comparative Effects Of Physical"
 title: "Testing the Comparative Effects of Physical Activity Advice by Humans vs. Computers in Underserved Populations:
 	           the COMPASS Trial Design, Methods, and Baseline Characteristics"
+journal: "journal name" 
 project: null
 event: "Contemporary Clinical Trials, 61, 115-125"
 authors:

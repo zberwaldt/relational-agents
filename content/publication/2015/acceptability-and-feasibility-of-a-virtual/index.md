@@ -1,6 +1,7 @@
 ---
 name: "Acceptability And Feasibility Of A Virtual"
 title: "Acceptability and feasibility of a virtual counselor (VICKY) to collect family health histories"
+journal: "journal name" 
 project: "Family Health History"
 event: "Genetics in Medicine, 17:822-830"
 authors:

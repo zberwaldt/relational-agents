@@ -1,6 +1,7 @@
 ---
 name: "Designing Embodied Conversational Agents To Conduct"
 title: "Designing Embodied Conversational Agents to Conduct Longitudinal Health Interviews"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA), Philadelphia, PA"
 authors:

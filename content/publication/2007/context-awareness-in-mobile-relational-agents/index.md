@@ -1,6 +1,7 @@
 ---
 name: "Context Awareness In Mobile Relational Agents"
 title: "Context Awareness in Mobile Relational Agents"
+journal: "journal name" 
 project: "Just-in-Time Information for Exercise Adoption"
 event: "Intelligent Virtual Agents '07, Paris."
 authors:

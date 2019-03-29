@@ -1,6 +1,7 @@
 ---
 name: "Incorporating Motivational Interviewing Into Virtual Contraceptive"
 title: "Incorporating motivational interviewing into virtual contraceptive counseling"
+journal: "journal name" 
 project: "Preconception Care"
 event: "American Public Health Association Annual Meeting (abstract)"
 authors:

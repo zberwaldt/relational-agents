@@ -1,6 +1,7 @@
 ---
 name: "Relational Agents In Clinical Psychiatry"
 title: "Relational Agents in Clinical Psychiatry"
+journal: "journal name" 
 project: null
 event: "Harvard Review of Psychiatry, special issue on Psychiatry and Cyberspace 18(2): 119-130"
 authors:

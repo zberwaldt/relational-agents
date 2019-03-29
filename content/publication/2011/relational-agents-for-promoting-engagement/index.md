@@ -1,6 +1,7 @@
 ---
 name: "Relational Agents For Promoting Engagement"
 title: "Relational Agents for Promoting Engagement with Underserved Populations"
+journal: "journal name" 
 project: null
 event: "Society for Behavioral Medicine (SBM) annual meeting (abstract)"
 authors:

@@ -1,6 +1,7 @@
 ---
 name: "Increasing Engagement In Web Based Interventions Using"
 title: "Increasing Engagement in Web-based Interventions using Relational Agents"
+journal: "journal name" 
 project: null
 event: "Society of Behavioral Medicine 2013 Annual Meeting (abstract)"
 authors:

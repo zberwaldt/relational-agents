@@ -1,6 +1,7 @@
 ---
 name: "Enabling Web Search For Low Health"
 title: "Enabling Web Search for Low Health Literacy Individuals Using Conversational Agents"
+journal: "journal name" 
 project: ["Research Ethics and Safety Promoted by Embodied Conversational Technology (RESPECT)"]
 event: "Health Literacy Annual Research Conference (HARC)"
 authors:

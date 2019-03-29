@@ -1,6 +1,7 @@
 ---
 name: "Breath Sensitive Interactive Meditation Coach"
 title: "Breathe Deep: A Breath-Sensitive Interactive Meditation Coach"
+journal: "journal name" 
 project: null
 event: "Pervasive Health Conference"
 authors:

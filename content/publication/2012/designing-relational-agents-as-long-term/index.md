@@ -1,6 +1,7 @@
 ---
 name: "Designing Relational Agents As Long Term"
 title: "Designing Relational Agents as Long Term Social Companions for Older Adults"
+journal: "journal name" 
 project: "An Always On Relational Agent for Social Support of Older Adults"
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

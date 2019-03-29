@@ -29,6 +29,7 @@
                             {{ if in .Params.project $title }}
                             <li class="publication">
                                 <h3>{{ .Title }}</h3>
+                                <p class="pub-journal">{{ .Params.journal }}</p>
                                 <ul class="authors flex f-row f-a-center f-jc-start"><strong>Authors:</strong>
                                     {{ range .Params.authors }}
                                     <li class="author">{{ .name }}</li>

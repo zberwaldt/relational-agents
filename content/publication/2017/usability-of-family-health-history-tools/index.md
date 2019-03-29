@@ -1,6 +1,7 @@
 ---
 name: "Usability Of Family Health History Tools"
 title: "Usability of family health history tools among underserved patients"
+journal: "journal name" 
 project: null
 event: "American Society of Human Genetics Annual Meeting"
 authors:

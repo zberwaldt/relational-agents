@@ -1,6 +1,7 @@
 ---
 name: "Design Of The Integrative Group Medicine"
 title: "Design of the Integrative Group Medicine Visits Randomized Control Trial for Underserved Patients with Chronic Pain and Depression"
+journal: "journal name" 
 project: null
 event: "Contemporary Clinical Trials, 54, 25-35"
 authors:

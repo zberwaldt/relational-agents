@@ -1,6 +1,7 @@
 ---
 name: "Speaker Hand Offs In Collaborative Human-Agent"
 title: "Speaker Hand-Offs in Collaborative Human-Agent Oral Presentations"
+journal: "journal name" 
 project: null
 event: "International Conference on Intelligent Virtual Agents (IVA)"
 authors:

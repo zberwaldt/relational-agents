@@ -1,6 +1,7 @@
 ---
 name: "Health Literacy As A Mediator Of"
 title: "Health literacy as a mediator of racial disparities in patient activation within an elderly patient cohort"
+journal: "journal name" 
 project: null
 event: "Journal of Health Care for the Poor and Underserved"
 authors:

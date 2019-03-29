@@ -1,6 +1,7 @@
 ---
 name: "Real Time Presentation Tracking"
 title: "Real-time Presentation Tracking Using Semantic Keyword Spotting"
+journal: "journal name" 
 project: "Co-presenter Agent"
 event: "Interspeech"
 authors:

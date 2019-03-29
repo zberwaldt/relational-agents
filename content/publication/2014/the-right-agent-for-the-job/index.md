@@ -1,6 +1,7 @@
 ---
 name: "The Right Agent For The Job"
 title: "The Right Agent for the Job? The effects of agent visual appearance on task domain"
+journal: "journal name" 
 project: null
 event: "Intelligent Virtual Agents conference (IVA)"
 authors:

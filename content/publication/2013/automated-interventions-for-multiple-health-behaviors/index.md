@@ -1,6 +1,7 @@
 ---
 name: "Automated Interventions For Multiple Health Behaviors"
 title: "Automated Interventions for Multiple Health Behaviors Using Conversational Agents"
+journal: "journal name" 
 project: ["Computational Models of Health Behavior Change Dialog"]
 event: "Patient Education and Counseling, 92 (2):142-148"
 authors:

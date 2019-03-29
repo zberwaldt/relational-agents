@@ -1,6 +1,7 @@
 ---
 name: "Increasing Access To Preconception Care"
 title: "Increasing Access to Preconception Care Using Health Information Technology"
+journal: "journal name" 
 project: null
 event: "Salud(i)Ciencia"
 authors:

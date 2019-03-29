@@ -1,6 +1,7 @@
 ---
 name: "An Affectively Aware Virtual Therapist For"
 title: "An Affectively Aware Virtual Therapist for Depression Counseling"
+journal: "journal name" 
 project: "Cognitive Behavioral Therapy for Depression"
 event: "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) workshop on Computing and Mental Health"
 authors:

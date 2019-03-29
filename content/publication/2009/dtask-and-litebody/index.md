@@ -1,6 +1,7 @@
 ---
 name: "Dtask and Litebody"
 title: "DTask & LiteBody: Open Source, Standards-based Tools for Building Web-deployed Embodied Conversational Agents"
+journal: "journal name" 
 project: "Computational Models of Health Behavior Change Dialog"
 event: "Proceedings of Intelligent Virtual Agents, Amsterdam."
 authors:

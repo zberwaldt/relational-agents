@@ -1,6 +1,7 @@
 ---
 name: "An On-Line Preconception Care Educational Program"
 title: "An On-line Preconception Care Educational Program for Young African American Women"
+journal: "journal name" 
 project: "Preconception Care"
 event: "139th American Public Health Association Annual Meeting (abstract)"
 authors:

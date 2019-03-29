@@ -1,6 +1,7 @@
 ---
 name: "An Interactive Narrative System For Narrative Based"
 title: "An Interactive Narrative System for Narrative-Based Games for Health"
+journal: "journal name" 
 project: null
 event: "Seventh workshop on Intelligent Narrative Technologies (int7)"
 authors:

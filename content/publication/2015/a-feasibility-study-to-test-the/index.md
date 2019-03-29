@@ -1,6 +1,7 @@
 ---
 name: "A Feasibility Study To Test The"
 title: "A Feasibility Study to Test the Effects of an Embodied Conversational Agent on Addressing Food Security, Access, and Nutrition Knowledge among Urban Women"
+journal: "journal name" 
 project: null
 event: "American Public Health Association (APHA) Annual Meeting"
 authors:

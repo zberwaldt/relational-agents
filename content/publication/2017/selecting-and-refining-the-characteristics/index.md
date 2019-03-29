@@ -1,6 +1,7 @@
 ---
 name: "Selecting And Refining The Characteristics Of"
 title: "Selecting and Refining the Characteristics of a Virtual Nurse for a Technology-Assisted Hospital-to-Home Care Transition Intervention in the Veterans Health Administration"
+journal: "journal name" 
 project: null
 event: "American Medical Informatics Association Annual Symposium (AMIA)"
 authors:

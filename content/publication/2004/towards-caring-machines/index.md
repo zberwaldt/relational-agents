@@ -1,6 +1,7 @@
 ---
 name: "Towards Caring Machines"
 title: "Towards Caring Machines."
+journal: "journal name" 
 project: null
 event: "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) Vienna."
 authors:

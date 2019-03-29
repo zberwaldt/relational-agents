@@ -1,6 +1,7 @@
 ---
 name: "Using Relational Agents To Increase Engagement"
 title: "Using Relational Agents to Increase Engagement in Computer-based Interventions: Preliminary Outcomes"
+journal: "journal name" 
 project: "Online Tailored Interventions & Relational Agents for Exercise and Sun Protection (Project RAISE)"
 event: "International Congress of Behavioral Medicine (abstract)"
 authors:
