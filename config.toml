@@ -44,19 +44,6 @@ relativeURLs = true
     name = "current"
     parent = "projects"
 
-[[ menu.main ]]
-    url = "/demo/litebody"
-    name = "litebody"
-    parent = "demos"
-[[ menu.main ]]
-    url = "/demo/dtask"
-    name = "dtask"
-    parent = "demos"
-[[ menu.main ]]
-    url = "/demo/hbco"
-    name = "hbco"
-    parent = "demos"
-
 [taxonomies]
 tag = "tags"
 category = "categories"
