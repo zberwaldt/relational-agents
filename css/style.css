@@ -4,6 +4,10 @@ i.fas, i.far {
     margin: 4px;
 }
 
+i.fa-times::before {
+    margin-right: 4px;
+}
+
 .back-link {
     clear: left;
     margin: 16px 0 16px;
@@ -212,6 +216,14 @@ label[for="has-pdf"] {
     content: '->'
 }
 
+.close-button {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+
+
 .aside-nav h4{
     color: white;
 }
@@ -298,6 +310,7 @@ label[for="has-pdf"] {
     background: hsla(0, 0%, 0%, 0.33);
     transition: transform 0.2s ease-in-out;
 }
+
 
 .detail-container button:hover,
 #news button:hover {
@@ -482,6 +495,10 @@ ul.publication-list {
     font-size: 1.3em;
     background: transparent;
     border: none;
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 5%;
 }
 
 .detail-container button:hover {
@@ -502,6 +519,11 @@ ul.publication-list {
     padding: 32px;
     border-radius: 2px;
     background: white;
+    position: relative;
+}
+
+.member-card .web-url {
+    font-size: 12px;
 }
 
 .demo-article {

@@ -1,4 +1,5 @@
 (function gallery(document) {
+    
     let gallery = document.querySelector('#gallery');
     
     gallery.addEventListener('click', (e) => {
@@ -24,17 +25,21 @@
         let cardElem = document.createElement('div');
         cardElem.classList.add('member-card');
         let imgElem = document.createElement('img');
-        let detailDiv = document.createElement('div');
         let nameElem = document.createElement('h3')
         let bioElem = document.createElement('p');
         let roleElem = document.createElement('p');
         let closeBtnElem = document.createElement('button');
         let faTag = document.createElement('i');
+
         let removeCard = function(e) {
             console.log(e);
             this.parentElement.parentElement.remove();
         };
+
         faTag.classList.add('fas', 'fa-times');
+        faTag.classList.add('close-button');
+        faTag.textContent = "close";
+
         closeBtnElem.appendChild(faTag);
         closeBtnElem.addEventListener('click', removeCard, false);
         
@@ -42,12 +47,9 @@
         let roleContent = target.dataset.role;
         let nameContent = target.dataset.name;
         let bioContent = target.dataset.bio;
+
         cardElem.dataset.name = nameContent;
-        if (target.dataset.website !== '') {
-            let website = document.createElement('p');
-            let websiteContent = target.dataset.website;
-            website.textContent = websiteContent;
-        }
+
         imgElem.src = target.querySelector('.member-image').src;
         roleElem.textContent = roleContent;
         nameElem.textContent = nameContent;
@@ -56,6 +58,19 @@
         cardElem.appendChild(imgElem);
         cardElem.appendChild(nameElem);
         cardElem.appendChild(roleElem);
+
+            
+        if (target.dataset.website !== '') {
+            
+            let website = document.createElement('p');
+            website.classList.add('web-url');
+            let websiteContent = target.dataset.website;
+            website.textContent = "Website: "  + websiteContent;
+
+            cardElem.appendChild(website);
+
+        }
+
         cardElem.appendChild(bioElem);
         cardElem.appendChild(closeBtnElem);
 
