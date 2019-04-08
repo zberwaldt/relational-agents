@@ -25,7 +25,7 @@
         let cardElem = document.createElement('div');
         cardElem.classList.add('member-card');
         let imgElem = document.createElement('img');
-        let nameElem = document.createElement('h3')
+        let nameElem = document.createElement('h3');
         let bioElem = document.createElement('p');
         let roleElem = document.createElement('p');
         let closeBtnElem = document.createElement('button');
@@ -63,9 +63,15 @@
         if (target.dataset.website !== '') {
             
             let website = document.createElement('p');
+            let webLink = document.createElement('a');
             website.classList.add('web-url');
             let websiteContent = target.dataset.website;
-            website.textContent = "Website: "  + websiteContent;
+            webLink.setAttribute('href', websiteContent);
+            webLink.setAttribute('target', '_blank');
+            webLink.setAttribute('rel', 'noreferrer nofollow');
+            webLink.textContent = websiteContent;
+            website.textContent = "Website: ";
+            website.appendChild(webLink);
 
             cardElem.appendChild(website);
 
